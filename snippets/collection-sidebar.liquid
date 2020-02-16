@@ -34,6 +34,8 @@
                 {%- endif -%}
               {%- endif -%}
             {%- endfor -%}
+            <li class="show-more">Show More</li>
+            <li class="show-less">Show Less</li>
           </ul>
         </div>
       {%- endfor -%}
@@ -61,6 +63,17 @@
             // go back to page 1
             .replace(/(&page=\d+)|(page=\d+&)|(\?page=\d+$)/, '');
         }
+      });
+
+      var showMore = $('.show-more');
+      var showLess = $('.show-less');
+      showMore.on('click', function(e) {
+        el = $(this);
+        el.parent().addClass('open');
+      });
+      showLess.on('click', function(e) {
+        el = $(this);
+        el.parent().removeClass('open');
       });
     });
     </script>
