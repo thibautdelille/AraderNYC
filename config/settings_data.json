@@ -1,0 +1,667 @@
+{
+  "current": {
+    "color_primary": "#809679",
+    "color_secondary": "#f3f3f3",
+    "color_accent": "#cd5a73",
+    "color_body_bg": "#ffffff",
+    "color_borders": "#dedede",
+    "product_reviews_star_color": "#efa392",
+    "color_header_background": "#f3f3f3",
+    "color_header_text": "#51646f",
+    "color_header_cart_search": "#eaeaea",
+    "color_nav_bg": "#f3f3f3",
+    "color_nav_text": "#1a535c",
+    "color_body_text": "#51646f",
+    "color_heading_text": "#2f2f2f",
+    "color_footer_bg": "#1a535c",
+    "color_footer_text": "#ffffff",
+    "color_footer_social_link": "#ffffff",
+    "type_base_font": "roboto_n4",
+    "type_base_size": "14px",
+    "type_header_font": "goudy_old_style_n4",
+    "type_header_transform": false,
+    "type_accent_font": "goudy_old_style_n7",
+    "type_navigation_size": "16px",
+    "type_navigation_transform": false,
+    "type_button_size": "14px",
+    "type_button_transform": true,
+    "favicon": "shopify:\/\/shop_images\/favicon.jpeg",
+    "cart_notes_enable": false,
+    "ajax_cart_method": "modal",
+    "share_image": "",
+    "social_twitter_link": "https:\/\/twitter.com\/aradergalleries",
+    "social_facebook_link": "https:\/\/www.facebook.com\/AraderGalleries\/",
+    "social_pinterest_link": "",
+    "social_google_plus_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/aradergalleriesnyc\/",
+    "social_snapchat_link": "",
+    "social_tumblr_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "social_fancy_link": "",
+    "social_sharing_style": "is-normal",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "superscript_decimals": true,
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/aradernyc-logo.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#197bbd",
+    "checkout_button_color": "#197bbd",
+    "checkout_error_color": "#e32c2b",
+    "collection_sidebar_filters": "tags",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "menu": "main-menu",
+          "logo": "shopify:\/\/shop_images\/aradernyc-logo.png",
+          "logo_max_width": "305",
+          "show_announcement": false,
+          "announcement_text": "Announce something here",
+          "announcement_link": ""
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "menu": {
+            "type": "menu",
+            "settings": {
+              "title": "Quick links",
+              "menu": "footer",
+              "width": "16%"
+            }
+          },
+          "text": {
+            "type": "text",
+            "settings": {
+              "title": "Get in touch",
+              "richtext": "<p><strong>1016 Madison Avenue, New York<\/strong><br>(between 78th and 79th Streets)<br><a href=\"tel:1-212-628-7625\" title=\"tel:1-212-628-7625\">(212) 628-7625<\/a><br>Open Everyday from 10am-6pm<br>All other times by appointment at <a href=\"mailto:josephine.arader@gmail.com\" title=\"mailto:josephine.arader@gmail.com\">josephine.arader@gmail.com<\/a><\/p>\n<p><br><strong>29 East 72nd Street<\/strong> <br>(northeast corner of 72nd Street and Madison Avenue)<br><a href=\"tel:1-212-628-3668\" title=\"tel:1-212-628-3668\">(212) 628-3668<\/a><br>Open Monday-Friday, 10am - 6pm<br>All other times by appointment at <a href=\"mailto:josephine.arader@gmail.com\" title=\"mailto:josephine.arader@gmail.com\">josephine.arader@gmail.com<\/a><\/p>",
+              "width": "50%"
+            }
+          },
+          "newsletter": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Newsletter",
+              "subtext": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
+              "width": "33%"
+            }
+          }
+        },
+        "block_order": [
+          "menu",
+          "text",
+          "newsletter"
+        ],
+        "settings": {
+          "social_enabled": true,
+          "show_payment_icons": true,
+          "legal_menu": ""
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "slide-0": {
+            "type": "image",
+            "settings": {
+              "slide": "shopify:\/\/shop_images\/3rd_floor.jpg",
+              "link": ""
+            }
+          },
+          "1573853377170": {
+            "type": "image",
+            "settings": {
+              "slide": "shopify:\/\/shop_images\/3rd_floor_hall.jpg",
+              "link": ""
+            }
+          },
+          "1573853382954": {
+            "type": "image",
+            "settings": {
+              "slide": "shopify:\/\/shop_images\/2nd_floor_dining.jpg",
+              "link": ""
+            }
+          },
+          "1573853388528": {
+            "type": "image",
+            "settings": {
+              "slide": "shopify:\/\/shop_images\/2nd_floor_dining_2.jpg",
+              "link": ""
+            }
+          },
+          "1573853393423": {
+            "type": "image",
+            "settings": {
+              "slide": "shopify:\/\/shop_images\/2nd_floor.jpg",
+              "link": ""
+            }
+          },
+          "1573853398147": {
+            "type": "image",
+            "settings": {
+              "slide": "shopify:\/\/shop_images\/2nd_floor_2.jpg",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "slide-0",
+          "1573853377170",
+          "1573853382954",
+          "1573853388528",
+          "1573853393423",
+          "1573853398147"
+        ],
+        "settings": {
+          "slider_home_auto": true,
+          "slider_home_rate": "5000"
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "blocks": {
+          "collection-list-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "john-james-audubon-havell-edition"
+            }
+          },
+          "collection-list-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "us-maps"
+            }
+          },
+          "1575371853782": {
+            "type": "collection",
+            "settings": {
+              "collection": "celestial"
+            }
+          },
+          "1575373563588": {
+            "type": "collection",
+            "settings": {
+              "collection": "ethnographic"
+            }
+          }
+        },
+        "block_order": [
+          "collection-list-0",
+          "collection-list-1",
+          "1575371853782",
+          "1575373563588"
+        ],
+        "settings": {}
+      },
+      "collection-row-1": {
+        "type": "collection-rows",
+        "settings": {
+          "title": "Featured collection",
+          "home_featured_row": "gulf-coast",
+          "grid": 4,
+          "rows": 1,
+          "product_show_saved_amount": true,
+          "product_show_compare_at_price": false
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "grid": "4",
+          "rows": "6",
+          "collection_sidebar_filters": "groups",
+          "product_show_compare_at_price": false,
+          "product_show_saved_amount": true,
+          "product_reviews_enable": false,
+          "enable_sidebar": true
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "product_image_zoom_enable": true,
+          "product_quantity_enable": false,
+          "product_quantity_message": false,
+          "product_incoming_message": false,
+          "product_vendor_enable": false,
+          "product_show_saved_amount": true,
+          "product_show_compare_at_price": false,
+          "related_products_enable": true,
+          "enable_payment_button": false,
+          "social_sharing_products": true,
+          "product_reviews_enable": false,
+          "add_to_cart_button_size": "small",
+          "show_inquiry": true,
+          "inquiry_link": "mailto:josephine.arader@gmail.com"
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "social_sharing_blog": true
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "layout": "grid",
+          "sort": "alphabetical",
+          "grid": "3"
+        }
+      },
+      "1573855747746": {
+        "type": "newsletter",
+        "settings": {
+          "heading": "Subscribe to our newsletter",
+          "subtext": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
+        }
+      },
+      "1573855783147": {
+        "type": "map",
+        "settings": {
+          "heading": "Our Gallery",
+          "address": "<p><strong>1016 Madison Avenue, New York<\/strong><br>(between 78th and 79th Streets)<\/p>\n<p>Open Monday-Saturday, 10am-6pm<\/p>",
+          "map_address": "1016 Madison Avenue, New York",
+          "button": "Directions",
+          "show_pin": true,
+          "api_key": "",
+          "image": "shopify:\/\/shop_images\/Screen_Shot_2019-11-15_at_5.13.36_PM.png",
+          "position": "center center"
+        }
+      },
+      "1578694261884": {
+        "type": "featured-product",
+        "settings": {
+          "featured_product": "the-birds-of-america-from-drawings-made-in-the-united-states-and-their-territories-audubon-john-james-1785-1851-published-by-j-j-audubon-london-1827-1838",
+          "product_quantity_enable": false,
+          "product_vendor_enable": false,
+          "product_image_zoom_enable": true,
+          "enable_payment_button": false,
+          "social_sharing_products": true
+        }
+      }
+    },
+    "content_for_index": [
+      "slideshow",
+      "1573855747746",
+      "1573855783147",
+      "1578694261884",
+      "collection-list",
+      "collection-row-1"
+    ]
+  },
+  "presets": {
+    "Blue": {
+      "ajax_cart_method": "modal",
+      "cart_notes_enable": false,
+      "collection_sidebar_filters": "tags",
+      "color_accent": "#dd2525",
+      "color_body_bg": "#fff",
+      "color_body_text": "#585858",
+      "color_borders": "#ececec",
+      "color_footer_bg": "#f2f2f2",
+      "color_footer_social_link": "#bbbbbb",
+      "color_footer_text": "#636363",
+      "color_header_background": "#182e49",
+      "color_header_cart_search": "#0f243d",
+      "color_header_text": "#fff",
+      "color_heading_text": "#000",
+      "color_nav_bg": "#182e49",
+      "color_nav_text": "#fff",
+      "color_primary": "#528ec1",
+      "color_secondary": "#dcdcdc",
+      "share_facebook": true,
+      "share_pinterest": true,
+      "share_twitter": true,
+      "social_facebook_link": "",
+      "social_fancy_link": "",
+      "social_google_plus_link": "",
+      "social_instagram_link": "",
+      "social_pinterest_link": "",
+      "social_sharing_style": "is-normal",
+      "social_snapchat_link": "",
+      "social_tumblr_link": "",
+      "social_twitter_link": "",
+      "social_vimeo_link": "",
+      "social_youtube_link": "",
+      "type_accent_font": "montserrat_n5",
+      "type_base_font": "montserrat_n5",
+      "type_base_size": "13px",
+      "type_button_size": "14px",
+      "type_button_transform": true,
+      "type_header_font": "montserrat_n7",
+      "type_header_transform": true,
+      "type_navigation_size": "14px",
+      "type_navigation_transform": true,
+      "superscript_decimals": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": "305"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "menu": {
+              "type": "menu",
+              "settings": {
+                "title": "Quick links",
+                "menu": "",
+                "width": "16%"
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "title": "Get in touch",
+                "richtext": "<p>Use this text to share information about your brand with your customers.<\/p>",
+                "width": "50%"
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "width": "33%"
+              }
+            }
+          },
+          "block_order": [
+            "menu",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "social_enabled": false,
+            "legal_menu": ""
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            },
+            "slide-2": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1",
+            "slide-2"
+          ],
+          "settings": {
+            "slider_home_auto": false,
+            "slider_home_rate": "5000"
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-list-0": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            },
+            "collection-list-1": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            }
+          },
+          "block_order": [
+            "collection-list-0",
+            "collection-list-1"
+          ],
+          "settings": {}
+        },
+        "collection-row-1": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        },
+        "collection-row-2": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        },
+        "collection-row-3": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "collection-list",
+        "collection-row-1",
+        "collection-row-2",
+        "collection-row-3"
+      ]
+    },
+    "Light": {
+      "ajax_cart_method": "modal",
+      "cart_notes_enable": false,
+      "collection_sidebar_filters": "tags",
+      "color_accent": "#545454",
+      "color_body_bg": "#f3f3f3",
+      "color_body_text": "#858585",
+      "color_borders": "#dedede",
+      "color_footer_bg": "#ffffff",
+      "color_footer_social_link": "#545454",
+      "color_footer_text": "#545454",
+      "color_header_background": "#ffffff",
+      "color_header_cart_search": "#f3f3f3",
+      "color_header_text": "#545454",
+      "color_heading_text": "#2f2f2f",
+      "color_nav_bg": "#9c756f",
+      "color_nav_text": "#ffffff",
+      "color_primary": "#9c756f",
+      "color_secondary": "#f3f3f3",
+      "share_facebook": true,
+      "share_pinterest": true,
+      "share_twitter": true,
+      "social_facebook_link": "",
+      "social_google_plus_link": "",
+      "social_instagram_link": "",
+      "social_sharing_style": "is-normal",
+      "social_twitter_link": "",
+      "type_accent_font": "lato_n7",
+      "type_base_font": "roboto_n4",
+      "type_base_size": "14px",
+      "type_button_size": "14px",
+      "type_button_transform": true,
+      "type_header_font": "times_new_roman_n7",
+      "type_header_transform": false,
+      "type_navigation_size": "14px",
+      "type_navigation_transform": true,
+      "superscript_decimals": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": "305"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "menu": {
+              "type": "menu",
+              "settings": {
+                "title": "Quick links",
+                "menu": "",
+                "width": "16%"
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "title": "Get in touch",
+                "richtext": "<p>Use this text to share information about your brand with your customers.<\/p>",
+                "width": "50%"
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "width": "33%"
+              }
+            }
+          },
+          "block_order": [
+            "menu",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "social_enabled": false,
+            "legal_menu": ""
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slide-0"
+          ],
+          "settings": {
+            "slider_home_auto": false,
+            "slider_home_rate": "5000"
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-list-0": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            },
+            "collection-list-1": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            }
+          },
+          "block_order": [
+            "collection-list-0",
+            "collection-list-1"
+          ],
+          "settings": {}
+        },
+        "collection-row-1": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        },
+        "collection-row-2": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        },
+        "collection-row-3": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        },
+        "featured-content": {
+          "type": "featured-content",
+          "settings": {}
+        },
+        "slideshow-2": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-2-0": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-2-0"
+          ],
+          "settings": {
+            "slider_home_auto": false,
+            "slider_home_rate": "5000"
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "collection-list",
+        "collection-row-1",
+        "collection-row-2",
+        "collection-row-3",
+        "slideshow-2",
+        "featured-content"
+      ]
+    }
+  }
+}
