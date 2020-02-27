@@ -2762,7 +2762,40 @@ theme.SlideshowSection.prototype = _.assignIn(
 
 theme.PopupSection = (function() {
   function PopupSection(container) {
-    console.log('PopupSection', container)
+    console.log('PopupSection', container);
+    var self = this;
+    var $container = (this.$container = $(container));
+
+    let time = parseInt($container.attr('data-time'));
+    console.log('time', time);
+
+    setTimeout(open, time*1000);
+
+
+    $closeAction = $container.find('[data-action="close"]');
+    $closeAction.each(function(index, element) {
+      $(element).on('click', function(event) {
+        if (event.target !== this) {
+          event.stopPropagation();
+          return;
+        }
+        close();
+      });
+    });
+
+    function open() {
+      $container.addClass('popup-displayed');
+      setTimeout(function() {
+        $container.addClass('popup-open');
+      }, 10);
+    }
+
+    function close() {
+      $container.removeClass('popup-open');
+      setTimeout(function() {
+        $container.addClass('popup-displayed');
+      }, 1000);
+    }
   };
 
   return PopupSection;
