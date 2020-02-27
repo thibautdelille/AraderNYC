@@ -59,6 +59,12 @@
 
   </main>
 
+  {% if settings.popup_enabled == true %}
+
+    {% section 'popup' %}
+
+  {% endif %}
+
   {% section 'footer' %}
 
   <script>

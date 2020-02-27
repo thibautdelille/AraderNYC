@@ -2431,5 +2431,60 @@
         }
       }
     ]
+  },
+  {
+    "name": "Popup",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Display Settings"
+      },
+      {
+        "type": "checkbox",
+        "id": "popup_enabled",
+        "label": "Enable Popup"
+      },
+      {
+        "type": "select",
+        "id": "popup_show_after",
+        "label": "Show the popup after",
+        "options": [
+          {
+            "value": "10s",
+            "label": "10 seconds"
+          },
+          {
+            "value": "15s",
+            "label": "15 seconds"
+          },
+          {
+            "value": "20s",
+            "label": "20 seconds"
+          },
+          {
+            "value": "30s",
+            "label": "30 seconds"
+          },
+          {
+            "value": "60s",
+            "label": "60 seconds"
+          }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Title and Description"
+      },
+      {
+        "type": "text",
+        "id": "popup_title",
+        "label": "Title"
+      },
+      {
+        "type": "textarea",
+        "id": "popup_description",
+        "label": "Description"
+      }
+    ]
   }
 ]
