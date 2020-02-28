@@ -209,7 +209,7 @@
         "type": "collection-rows",
         "settings": {
           "title": "Featured collection",
-          "home_featured_row": "gulf-coast",
+          "home_featured_row": "americas",
           "grid": 4,
           "rows": 1,
           "product_show_saved_amount": true,
@@ -273,7 +273,7 @@
         "type": "map",
         "settings": {
           "heading": "Our Gallery",
-          "address": "<p><strong>1016 Madison Avenue, New York<\/strong><br>(between 78th and 79th Streets)<\/p>\n<p>Open Monday-Saturday, 10am-6pm<\/p>",
+          "address": "<p><strong>1016 Madison Avenue, New York<\/strong><br>(between 78th and 79th Streets)<\/p>\n<p>Open Monday-Saturday, 10am-6pm<br>Sunday, 11am-5pm<\/p>",
           "map_address": "1016 Madison Avenue, New York",
           "button": "Directions",
           "show_pin": true,
