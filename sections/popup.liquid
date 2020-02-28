@@ -1,0 +1,17 @@
+<div id="main-popup" data-section-id="popup" data-section-type="popup-section" data-time="{{ settings.popup_show_after }}" data-pageviews="{{ settings.popup_pageviews }}">
+  <div class="popup" data-action="close">
+    <div class="popup-content">
+      <button class="icon icon-x"
+    data-action="close"
+    aria-expanded="false"
+    aria-label="Close">
+      </button>
+      <div class="popup-inner">
+        <h1>{{ settings.popup_title }}</h1>
+        <p>{{ settings.popup_description }}</p>
+
+        {% include 'newsletter-form' %}
+      </div>
+    </div>
+  </div>
+</div>

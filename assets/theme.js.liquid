@@ -2614,7 +2614,6 @@ theme.Product = (function() {
   }
 
   function productImageZoom() {
-    console.log('productImageZoom()');
     var $productImageWrapper = $('.product__image-wrapper');
     var $productPhotoContainer = $('.product-photo-container');
 
@@ -2758,6 +2757,61 @@ theme.SlideshowSection.prototype = _.assignIn(
   }
 );
 
+theme.PopupSection = (function() {
+  function PopupSection(container) {
+    var $container = (this.$container = $(container));
+    var pageViews = window.localStorage.getItem('pageViews');
+    var popupView = window.localStorage.getItem('popupView');
+    var time = parseInt($container.attr('data-time'));
+    var pageviews = parseInt($container.attr('data-pageviews'));
+
+    if(!pageViews) {
+      pageViews = 0;
+    } else {
+      pageViews = parseInt(pageViews);
+    }
+
+    if(pageViews >= pageviews && !popupView) {
+      setTimeout(open, time*1000);
+    };
+
+    window.localStorage.setItem('pageViews', pageViews+1);
+    $closeAction = $container.find('[data-action="close"]');
+
+    $form = $container.find('form');
+
+    $form.on('submit', function(e) {
+      close();
+    });
+
+    $closeAction.each(function(index, element) {
+      $(element).on('click', function(event) {
+        if (event.target !== this) {
+          event.stopPropagation();
+          return;
+        }
+        close();
+      });
+    });
+
+    function open() {
+      $container.addClass('popup-displayed');
+      setTimeout(function() {
+        $container.addClass('popup-open');
+      }, 10);
+    }
+
+    function close() {
+      window.localStorage.setItem('popupView', true);
+      $container.removeClass('popup-open');
+      setTimeout(function() {
+        $container.removeClass('popup-displayed');
+      }, 1000);
+    }
+  };
+
+  return PopupSection;
+})();
 
 $(document).ready(function() {
   var sections = new theme.Sections();
@@ -2769,4 +2823,20 @@ $(document).ready(function() {
   sections.register('map-section', theme.Maps);
   sections.register('product-template', theme.Product);
   sections.register('slideshow-section', theme.SlideshowSection);
+  sections.register('popup-section', theme.PopupSection);
 });
+
+
+function getCookie(key) {
+  var cookies = {};
+  var cookieStrings = document.cookie.split('; ');
+  _.each(cookieStrings, function (str) {
+    var item = str.split('=');
+    cookies[item[0]] = item[1];
+  })
+
+  return cookies[key];
+}
+function setCookie(key, value) {
+  document.cookie = key + '=' + value;
+}

@@ -2431,5 +2431,87 @@
         }
       }
     ]
+  },
+  {
+    "name": "Popup",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Display Settings"
+      },
+      {
+        "type": "checkbox",
+        "id": "popup_enabled",
+        "label": "Enable Popup"
+      },
+      {
+        "type": "select",
+        "id": "popup_show_after",
+        "label": "Show the popup after",
+        "options": [
+          {
+            "value": "10",
+            "label": "10 seconds"
+          },
+          {
+            "value": "15",
+            "label": "15 seconds"
+          },
+          {
+            "value": "20",
+            "label": "20 seconds"
+          },
+          {
+            "value": "30",
+            "label": "30 seconds"
+          },
+          {
+            "value": "60",
+            "label": "60 seconds"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "popup_pageviews",
+        "label": "Show the popup",
+        "options": [
+          {
+            "value": "0",
+            "label": "At first page load"
+          },
+          {
+            "value": "1",
+            "label": "After 1 page view"
+          },
+          {
+            "value": "2",
+            "label": "After 2 pages view"
+          },
+          {
+            "value": "3",
+            "label": "After 3 pages view"
+          },
+          {
+            "value": "4",
+            "label": "After 4 pages view"
+          }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Title and Description"
+      },
+      {
+        "type": "text",
+        "id": "popup_title",
+        "label": "Title"
+      },
+      {
+        "type": "textarea",
+        "id": "popup_description",
+        "label": "Description"
+      }
+    ]
   }
 ]

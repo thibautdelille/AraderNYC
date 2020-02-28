@@ -1604,6 +1604,7 @@ html, body {
   padding: 0;
   margin: 0;
   background-color: $colorBody;
+  overflow-x: hidden;
   &.js {
      .no-js {
        display: block;
@@ -6182,4 +6183,49 @@ $color-blankstate-background: rgba($colorTextBody, 0.1);
   background-image: url("//cdn.shopify.com/s/files/1/1156/7956/t/3/assets/arrow-down.svg?v=11834654022742548012");
   background-repeat: no-repeat;
   background-position: left;
+}
+
+.popup {
+  transition: opacity 1s;
+  opacity: 0;
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.popup .popup-content {
+  position: relative;
+  padding: 5px;
+  background-color: white;
+  display: inline-block;
+  max-width: 460px;
+  text-align: center;
+}
+.popup .popup-inner {
+  border: 3px double darken($colorBorder, 20%);
+  padding: 40px 40px 20px;
+}
+
+.popup .popup-content .icon-x {
+  border: none;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.popup-displayed {
+  .popup {
+    display: flex;
+  }
+}
+.popup-open {
+  .popup {
+    opacity: 1;
+  }
 }
