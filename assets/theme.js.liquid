@@ -2017,15 +2017,12 @@ theme.HeaderSection = (function() {
 window.theme = window.theme || {};
 
 theme.ListCollections = (function() {
-  console.log('ListCollections');
   function ListCollections(container) {
-    console.log('ListCollections', container);
     var $container = (this.$container = $(container));
     timber.cacheSelectors();
     timber.resizeElements($container);
 
     $(window).resize(function() {
-      console.log('ListCollections resize');
       timber.resizeElements($container);
     });
   }
