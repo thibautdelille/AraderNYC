@@ -2472,6 +2472,33 @@
         ]
       },
       {
+        "type": "select",
+        "id": "popup_pageviews",
+        "label": "Show the popup",
+        "options": [
+          {
+            "value": "0",
+            "label": "At first page load"
+          },
+          {
+            "value": "1",
+            "label": "After 1 page view"
+          },
+          {
+            "value": "2",
+            "label": "After 2 pages view"
+          },
+          {
+            "value": "3",
+            "label": "After 3 pages view"
+          },
+          {
+            "value": "4",
+            "label": "After 4 pages view"
+          }
+        ]
+      },
+      {
         "type": "header",
         "content": "Title and Description"
       },

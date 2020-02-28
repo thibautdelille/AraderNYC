@@ -6202,19 +6202,22 @@ $color-blankstate-background: rgba($colorTextBody, 0.1);
 
 .popup .popup-content {
   position: relative;
-  padding: 40px 40px 20px;
+  padding: 5px;
   background-color: white;
   display: inline-block;
-  max-width:400px;
+  max-width: 460px;
   text-align: center;
-  pointer-event: none;
+}
+.popup .popup-inner {
+  border: 3px double darken($colorBorder, 20%);
+  padding: 40px 40px 20px;
 }
 
-.popup .popup-content .icon-x{
+.popup .popup-content .icon-x {
   border: none;
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 15px;
+  right: 15px;
 }
 .popup-displayed {
   .popup {

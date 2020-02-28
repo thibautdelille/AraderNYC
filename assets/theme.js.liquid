@@ -2762,17 +2762,31 @@ theme.SlideshowSection.prototype = _.assignIn(
 
 theme.PopupSection = (function() {
   function PopupSection(container) {
-    console.log('PopupSection', container);
-    var self = this;
     var $container = (this.$container = $(container));
+    var pageViews = window.localStorage.getItem('pageViews');
+    var popupView = window.localStorage.getItem('popupView');
+    var time = parseInt($container.attr('data-time'));
+    var pageviews = parseInt($container.attr('data-pageviews'));
 
-    let time = parseInt($container.attr('data-time'));
-    console.log('time', time);
+    if(!pageViews) {
+      pageViews = 0;
+    } else {
+      pageViews = parseInt(pageViews);
+    }
 
-    setTimeout(open, time*1000);
+    if(pageViews >= pageviews && !popupView) {
+      setTimeout(open, time*1000);
+    };
 
-
+    window.localStorage.setItem('pageViews', pageViews+1);
     $closeAction = $container.find('[data-action="close"]');
+
+    $form = $container.find('form');
+
+    $form.on('submit', function(e) {
+      close();
+    });
+
     $closeAction.each(function(index, element) {
       $(element).on('click', function(event) {
         if (event.target !== this) {
@@ -2791,9 +2805,10 @@ theme.PopupSection = (function() {
     }
 
     function close() {
+      window.localStorage.setItem('popupView', true);
       $container.removeClass('popup-open');
       setTimeout(function() {
-        $container.addClass('popup-displayed');
+        $container.removeClass('popup-displayed');
       }, 1000);
     }
   };
@@ -2813,3 +2828,18 @@ $(document).ready(function() {
   sections.register('slideshow-section', theme.SlideshowSection);
   sections.register('popup-section', theme.PopupSection);
 });
+
+
+function getCookie(key) {
+  var cookies = {};
+  var cookieStrings = document.cookie.split('; ');
+  _.each(cookieStrings, function (str) {
+    var item = str.split('=');
+    cookies[item[0]] = item[1];
+  })
+
+  return cookies[key];
+}
+function setCookie(key, value) {
+  document.cookie = key + '=' + value;
+}
