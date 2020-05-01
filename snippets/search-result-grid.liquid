@@ -73,7 +73,6 @@
           {% else %}
             <span class="visually-hidden">{{ "products.general.regular_price" | t }}</span>
           {% endif %}
-          {% include 'price' with item.price %}
           {% if on_sale and section.settings.product_show_compare_at_price  %}
             <small>
               <s>
@@ -81,7 +80,9 @@
                 {% include 'price' with item.compare_at_price %}
               </s>
             </small>
+            <br />
           {% endif %}
+          {% include 'price' with item.price %}
         </span>
 
         {%- if item.first_available_variant.available and item.first_available_variant.unit_price_measurement -%}
