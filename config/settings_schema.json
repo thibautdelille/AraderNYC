@@ -2478,23 +2478,23 @@
         "options": [
           {
             "value": "0",
-            "label": "At first page load"
+            "label": "Every page load"
           },
           {
             "value": "1",
-            "label": "After 1 page view"
+            "label": "Every 2 page view"
           },
           {
             "value": "2",
-            "label": "After 2 pages view"
+            "label": "Every 3 pages view"
           },
           {
             "value": "3",
-            "label": "After 3 pages view"
+            "label": "Every 4 pages view"
           },
           {
             "value": "4",
-            "label": "After 4 pages view"
+            "label": "Every 5 pages view"
           }
         ]
       },

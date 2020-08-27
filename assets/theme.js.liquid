@@ -2771,7 +2771,7 @@ theme.PopupSection = (function() {
       pageViews = parseInt(pageViews);
     }
 
-    if(pageViews >= pageviews && !popupView) {
+    if(pageViews%(pageviews+1) === 0) {
       setTimeout(open, time*1000);
     };
 
