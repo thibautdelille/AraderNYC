@@ -217,8 +217,8 @@
           "home_featured_row": "americas",
           "grid": 4,
           "rows": 1,
-          "product_show_saved_amount": true,
-          "product_show_compare_at_price": false
+          "product_show_saved_amount": false,
+          "product_show_compare_at_price": true
         }
       },
       "collection-template": {
@@ -227,8 +227,8 @@
           "grid": "4",
           "rows": "6",
           "collection_sidebar_filters": "groups",
-          "product_show_compare_at_price": false,
-          "product_show_saved_amount": true,
+          "product_show_compare_at_price": true,
+          "product_show_saved_amount": false,
           "product_reviews_enable": false,
           "enable_sidebar": true
         }
@@ -241,8 +241,8 @@
           "product_quantity_message": false,
           "product_incoming_message": false,
           "product_vendor_enable": false,
-          "product_show_saved_amount": true,
-          "product_show_compare_at_price": false,
+          "product_show_saved_amount": false,
+          "product_show_compare_at_price": true,
           "related_products_enable": true,
           "enable_payment_button": false,
           "social_sharing_products": true,

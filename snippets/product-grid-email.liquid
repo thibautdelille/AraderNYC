@@ -96,6 +96,18 @@
                                                 {{ product.price | money }}<br>
                                             </td>
                                         </tr>
+                                        {% if product.compare_at_price_max > product.price %}   
+                                        <tr>
+                                            <td valign="top" className="mcnProductPrice" class="mcnProductPrice"
+                                                style="padding-top: 9px;padding-left: 18px;padding-right: 18px;font-family: Helvetica;font-size: 14px;font-style: normal;font-weight: normal;line-height: 100%;text-align: left;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                <s>
+                                                    <small>
+                                                        {{ product.compare_at_price | money }}
+                                                    </small>
+                                                </s>
+                                            </td>
+                                        </tr>
+                                        {% endif %}
 
                                         <tr>
                                             <td valign="top" className="mcnProductButton" class="mcnProductButton"
