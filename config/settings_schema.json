@@ -2509,8 +2509,8 @@
       },
       {
         "type": "textarea",
-        "id": "popup_description",
-        "label": "Description"
+        "id": "popup_thankyou",
+        "label": "Thank you message"
       }
     ]
   }

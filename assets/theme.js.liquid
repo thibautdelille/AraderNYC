@@ -2778,10 +2778,37 @@ theme.PopupSection = (function() {
     window.localStorage.setItem('pageViews', pageViews+1);
     $closeAction = $container.find('[data-action="close"]');
 
-    $form = $container.find('form');
+    $form = $container.find('#newsletter-form');
 
     $form.on('submit', function(e) {
-      close();
+      e.preventDefault();
+      jQuery.ajax({
+        type: 'POST',
+        async: true,
+        url: '/contact',
+        data: $form.serialize(),
+        beforeSend: function() {
+          $form.addClass('sending'); 
+        },
+        error: function(responseerror) {
+            console.log(responseerror);
+            if(responseerror.status == 429) {
+              var challengeUrl = window.location.origin +'/challenge#contact_form'
+              window.location = challengeUrl           
+            }
+            $form.addClass('error');
+        },
+        success: function(response) {
+       //your success message
+          $form.addClass('success'); 
+          ga('send', {
+            hitType: 'event',
+            eventCategory: 'Form',
+            eventAction: 'newletter',
+            eventLabel: 'popup'
+          });
+        }
+      }); 
     });
 
     $closeAction.each(function(index, element) {

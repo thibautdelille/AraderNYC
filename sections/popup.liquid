@@ -8,9 +8,29 @@
       </button>
       <div class="popup-inner">
         <h1>{{ settings.popup_title }}</h1>
-        <p>{{ settings.popup_description }}</p>
 
-        {% include 'newsletter-form' %}
+        <div class="form-vertical">
+          <form id="newsletter-form" class="newsletter-form">
+              <div class="error-message"> an error occur when submiting your form please try again</div>
+              <div class="success-message">
+                <p>{{ settings.popup_thankyou }}</p>
+                <button class="btn-secondary btn--small" data-action="close" >Close</button>
+              </div>
+              <div class="form-content">
+                <p>{{ settings.popup_description }}</p>
+                <input type="hidden" name="contact[tags]" value="newsletter">
+                <div class="input-group">
+                  <label for="Email" class="visually-hidden">{{ 'contact.form.email' | t }}</label>
+                  <input type="email" value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="{{ 'layout.footer.newsletter_email_placeholder' | t }}" name="contact[email]" id="Email" class="input-group-field" aria-label="{{ 'layout.footer.newsletter_email_placeholder' | t }}" autocorrect="off" autocapitalize="off">
+                  <span class="input-group-btn">
+                    <button type="submit" class="btn{% if button == 'secondary' %}-secondary{% endif %} btn--small" name="commit" id="subscribe">{{ 'layout.footer.newsletter_sign_up' | t }}</button>
+                  </span>
+                </div>
+              </div>
+          </form>
+        </div>
+
+        <!-- {% include 'newsletter-form' %} -->
       </div>
     </div>
   </div>
