@@ -2764,11 +2764,17 @@ theme.PopupSection = (function() {
     var popupView = window.localStorage.getItem('popupView');
     var time = parseInt($container.attr('data-time'));
     var pageviews = parseInt($container.attr('data-pageviews'));
+    var emailSubmitted = window.sessionStorage.getItem('emailSubmitted');
 
     if(!pageViews) {
       pageViews = 0;
     } else {
       pageViews = parseInt(pageViews);
+    }
+
+    if (emailSubmitted) {
+      console.log('email was already submitted');
+      return;
     }
 
     if(pageViews%(pageviews+1) === 0) {
@@ -2780,7 +2786,18 @@ theme.PopupSection = (function() {
 
     $form = $container.find('#newsletter-form');
 
-    $form.on('submit', function(e) {
+    $form.on('keypress', logKey);
+
+    function logKey(e) {
+      if(e.charCode === 13) { // ENTER
+        sumbitForm(e);
+      }
+      console.log(e);
+    }
+
+    $form.on('submit', sumbitForm);
+
+    function sumbitForm(e) {
       e.preventDefault();
       jQuery.ajax({
         type: 'POST',
@@ -2807,9 +2824,10 @@ theme.PopupSection = (function() {
             eventAction: 'Newletter',
             eventLabel: 'Popup'
           });
+          window.sessionStorage.setItem('emailSubmitted', true);
         }
       }); 
-    });
+    };
 
     $closeAction.each(function(index, element) {
       $(element).on('click', function(event) {
