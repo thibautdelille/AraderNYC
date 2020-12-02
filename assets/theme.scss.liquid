@@ -6227,3 +6227,34 @@ $color-blankstate-background: rgba($colorTextBody, 0.1);
     opacity: 1;
   }
 }
+
+
+/*==============================================================================
+  # Collection Template Print Only
+==============================================================================*/
+.template-collection {
+  @media print {
+    .grid .grid-item {
+    }
+    .btn--add-to-cart,
+    .pagination-border-top,
+    .section-header--right {
+      display: none;
+    }
+    .product-grid-image {
+      height: auto !important;
+    }
+    .lazyload__image-wrapper {
+      max-width: none !important;
+    }
+    .lazyload__image-wrapper img{
+      left: 50%;
+      transform: translateX(-50%);
+      page-break-inside: avoid;
+    }
+    .product-grid-item {
+      margin-top: 50px;
+      page-break-after: always;
+    }
+  }
+}
