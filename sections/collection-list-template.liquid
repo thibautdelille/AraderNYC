@@ -7,11 +7,11 @@
   {% assign has_sidebar = true %}
 {% endif %}
 
-<div class="grid grid-border text-center">
+<div class="grid grid-border">
 
   {% if has_sidebar %}
   <div class="grid-item large--one-fifth collection-filters" id="collectionFilters">
-    {% include 'collection-sidebar' %}
+    {% include 'collection-sidebar-group' %}
   </div>
   {% endif %}
 

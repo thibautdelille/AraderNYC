@@ -36,7 +36,7 @@
 
           {%- include 'image-logic' with width: max_width, height: max_height -%}
 
-          {%- assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+          {%- assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_1080x.' -%}
           <div class="lazyload__image-wrapper no-js" style="max-width: {{ max_width }}px">
             <div style="padding-top:{{ 1 | divided_by: image.aspect_ratio | times: 100}}%;">
               <img

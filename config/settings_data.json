@@ -90,7 +90,7 @@
             "type": "text",
             "settings": {
               "title": "Get in touch",
-              "richtext": "<p><strong>1016 Madison Avenue, New York<\/strong><br\/>(between 78th and 79th Streets)<br\/><a href=\"tel:1-212-628-7625\" title=\"tel:1-212-628-7625\">(212) 628-7625<\/a><br\/>Open Everyday from 10am-6pm<br\/>All other times by appointment at <a href=\"mailto:josephine.arader@gmail.com\" title=\"mailto:josephine.arader@gmail.com\">josephine.arader@gmail.com<\/a><\/p><p><br\/><strong>29 East 72nd Street<\/strong> <br\/>(northeast corner of 72nd Street and Madison Avenue)<br\/><a href=\"tel:1-212-628-3668\" title=\"tel:1-212-628-3668\">(212) 628-3668<\/a><br\/>Open Monday-Friday, 10am - 6pm<br\/>All other times by appointment at <a href=\"mailto:josephine.arader@gmail.com\" title=\"mailto:josephine.arader@gmail.com\">josephine.arader@gmail.com<\/a><\/p>",
+              "richtext": "<p><strong>1016 Madison Avenue, New York<\/strong><br\/>(between 78th and 79th Streets)<br\/>1-212-628-7625<br\/>Open Everyday from 10am-6pm<br\/>All other times by appointment at <a title=\"mailto:info@aradernyc.com\" href=\"mailto:info@aradernyc.com\" target=\"_blank\">info@aradernyc.com<\/a><\/p><p><br\/><strong>29 East 72nd Street<\/strong> <br\/>(northeast corner of 72nd Street and Madison Avenue)<br\/>1-212-628-7625<br\/>Open Monday-Friday, 10am - 6pm<br\/>All other times by appointment at <a title=\"mailto:info@aradernyc.com\" href=\"mailto:info@aradernyc.com\" target=\"_blank\">info@aradernyc.com<\/a><\/p>",
               "width": "50%"
             }
           },
@@ -223,7 +223,7 @@
           "product_show_compare_at_price": true,
           "product_show_saved_amount": false,
           "product_reviews_enable": false,
-          "enable_sidebar": false
+          "enable_sidebar": true
         }
       },
       "product-template": {

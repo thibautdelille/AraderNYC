@@ -6234,7 +6234,8 @@ $color-blankstate-background: rgba($colorTextBody, 0.1);
 ==============================================================================*/
 .template-collection {
   @media print {
-    .grid .grid-item {
+    .site-header {
+      margin-top: 300px;
     }
     .btn--add-to-cart,
     .pagination-border-top,
@@ -6254,6 +6255,9 @@ $color-blankstate-background: rgba($colorTextBody, 0.1);
     }
     .product-grid-item {
       margin-top: 50px;
+      page-break-after: always;
+    }
+    .section-header {
       page-break-after: always;
     }
   }
