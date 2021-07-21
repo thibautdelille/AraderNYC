@@ -44,7 +44,7 @@
     "share_twitter": true,
     "share_pinterest": true,
     "superscript_decimals": true,
-    "popup_enabled": true,
+    "popup_enabled": false,
     "popup_show_after": "20",
     "popup_pageviews": "4",
     "popup_title": "Welcome to Arader Galleries",
