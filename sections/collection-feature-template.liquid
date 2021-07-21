@@ -1,81 +1,152 @@
-{% paginate collection.products by section.settings.num_products %}
+{% assign limit = section.settings.grid | times: section.settings.rows %}
+
+{% paginate collection.products by limit %}
 
 {% include 'breadcrumb' %}
 
 {% assign has_sidebar = false %}
-{% if collection.all_tags.size > 0 %}
+{% if collection.all_tags.size > 0 and section.settings.enable_sidebar %}
   {% assign has_sidebar = true %}
 {% endif %}
 
-<div class="grid grid-border">
+<div id="CollectionSection" data-section-id="{{ section.id }}" data-section-type="collection-template">
+  <div class="grid grid-border">
 
-  {% if has_sidebar %}
-  <div class="grid-item large--one-fifth collection-filters" id="collectionFilters">
-    {% include 'collection-sidebar-group' %}
-  </div>
-  {% endif %}
+    {% if has_sidebar %}
+    <aside class="sidebar grid-item large--one-fifth collection-filters" id="collectionFilters">
+      {% include 'collection-sidebar' %}
+    </aside>
+    {% endif %}
 
-  <div class="grid-item{% if has_sidebar %} large--four-fifths grid-border--left{% endif %}">
+    <div class="grid-item{% if has_sidebar %} large--four-fifths grid-border--left{% endif %}">
 
-    {% comment %}
-      Different markup if description is set
-    {% endcomment %}
-    {% if collection.description != blank %}
-      <header class="section-header">
-        <h1 class="section-header--title">{{ collection.title }}</h1>
-        <div class="rte rte--header">
-          {{ collection.description }}
+      {% comment %}
+        Different markup if description is set
+      {% endcomment %}
+      {% if collection.description != blank %}
+        <header class="section-header">
+          <h1 class="section-header--title h1">{{ collection.title }}</h1>
+        </header>
+        <div class="grid-uniform">
+        {% case section.settings.grid %}
+          {% when '2' %}
+            {%- assign grid_item_width = 'medium--one-half large--one-half' -%}
+            {%- assign image_size = '540x600' -%}
+            {%- assign width = '540' -%}
+            {%- assign height = '600' -%}
+          {% when '3' %}
+            {%- assign grid_item_width = 'small--one-half medium--one-third large--one-third' -%}
+            {%- assign image_size = '345x550' -%}
+            {%- assign width = '345' -%}
+            {%- assign height = '550' -%}
+          {% when '4' %}
+            {%- assign grid_item_width = 'small--one-half medium--one-quarter large--one-quarter' -%}
+            {%- assign image_size = '250x' -%}
+            {%- assign width = '250' -%}
+            {%- assign height = '225' -%}
+          {% when '5' %}
+            {%- assign grid_item_width = 'small--one-half medium--one-fifth large--one-fifth' -%}
+            {%- assign image_size = '195x' -%}
+            {%- assign width = '195' -%}
+            {%- assign height = '125' -%}
+          {% endcase %}
+
+          {% for product in collection.products %}
+            {% comment %}
+            {% if has_sidebar %}
+              {% assign grid_item_width = 'large--one-quarter medium--one-third small--one-half' %}
+            {% else %}
+              {% assign grid_item_width = 'large--one-fifth medium--one-third small--one-half' %}
+            {% endif %}
+            {% endcomment %}
+            {% include 'product-grid-item' with grid_item_width %}
+
+          {% else %}
+
+            <div class="grid-item">
+              <p>{{ 'collections.general.no_matches' | t }}</p>
+            </div>
+
+          {% endfor %}
+
         </div>
-      </header>
-      <hr{% if has_sidebar %} class="hr--offset-left"{% endif %}>
-      <div class="section-header">
+
+        <header class="section-header">
+          <div class="rte rte--header">
+            {{ collection.description }}
+          </div>
+        </header>
+        <hr{% if has_sidebar %} class="hr--offset-left"{% endif %}>
+      {% else %}
+      <header class="section-header">
+        <h1 class="section-header--title section-header--left h1">{{ collection.title }}</h1>
         <div class="section-header--right">
           {% include 'collection-sorting' %}
           {% include 'collection-views' %}
           {% include 'toggle-filters' %}
         </div>
+      </header>
+      {% endif %}
+
+      <div class="grid-uniform">
+      {% case section.settings.grid %}
+        {% when '2' %}
+          {%- assign grid_item_width = 'medium--one-half large--one-half' -%}
+          {%- assign image_size = '540x600' -%}
+          {%- assign width = '540' -%}
+          {%- assign height = '600' -%}
+        {% when '3' %}
+          {%- assign grid_item_width = 'small--one-half medium--one-third large--one-third' -%}
+          {%- assign image_size = '345x550' -%}
+          {%- assign width = '345' -%}
+          {%- assign height = '550' -%}
+        {% when '4' %}
+          {%- assign grid_item_width = 'small--one-half medium--one-quarter large--one-quarter' -%}
+          {%- assign image_size = '250x' -%}
+          {%- assign width = '250' -%}
+          {%- assign height = '225' -%}
+        {% when '5' %}
+          {%- assign grid_item_width = 'small--one-half medium--one-fifth large--one-fifth' -%}
+          {%- assign image_size = '195x' -%}
+          {%- assign width = '195' -%}
+          {%- assign height = '125' -%}
+        {% endcase %}
+
+        {% for product in collection.products %}
+          {% comment %}
+          {% if has_sidebar %}
+            {% assign grid_item_width = 'large--one-quarter medium--one-third small--one-half' %}
+          {% else %}
+            {% assign grid_item_width = 'large--one-fifth medium--one-third small--one-half' %}
+          {% endif %}
+          {% endcomment %}
+          {% include 'product-grid-item' with grid_item_width %}
+
+        {% else %}
+
+          <div class="grid-item">
+            <p>{{ 'collections.general.no_matches' | t }}</p>
+          </div>
+
+        {% endfor %}
+
       </div>
-    {% else %}
-    <header class="section-header">
-      <h1 class="section-header--title section-header--left">{{ collection.title }}</h1>
-      <div class="section-header--right">
-        {% include 'collection-sorting' %}
-        {% include 'collection-views' %}
-        {% include 'toggle-filters' %}
+
+    </div>
+
+    {% if paginate.pages > 1 %}
+    <div class="grid-item pagination-border-top">
+      <div class="grid">
+        <div class="grid-item{% if has_sidebar %} large--four-fifths push--large--one-fifth{% endif %}">
+            <div class="text-center">
+              {% include 'pagination-custom' %}
+            </div>
+        </div>
       </div>
-    </header>
+    </div>
     {% endif %}
 
-    <div class="grid-uniform">
-
-      {% for product in collection.products %}
-
-        {% include 'product-list-item' %}
-
-      {% else %}
-
-        <div class="grid-item">
-          <p>{{ 'collections.general.no_matches' | t }}</p>
-        </div>
-
-      {% endfor %}
-
-    </div>
-
   </div>
-
-  {% if paginate.pages > 1 %}
-  <div class="grid-item pagination-border-top">
-    <div class="grid">
-      <div class="grid-item{% if has_sidebar %} large--four-fifths push--large--one-fifth{% endif %}">
-          <div class="text-center">
-            {% include 'pagination-custom' %}
-          </div>
-      </div>
-    </div>
-  </div>
-  {% endif %}
-
 </div>
 
 {% endpaginate %}
@@ -109,148 +180,296 @@
   "settings": [
     {
       "type": "select",
-      "id": "num_products",
+      "id": "grid",
       "label": {
-        "da": "Produkter pr. side",
-        "de": "Produkte pro Seite",
-        "en": "Products per page",
-        "es": "Productos por página",
-        "fi": "Tuotteita sivulla",
-        "fr": "Produits par page",
-        "hi": "प्रति पेज उत्पाद",
-        "it": "Prodotti per pagina",
-        "ja": "ページあたりの商品数",
-        "ko": "페이지 별 제품",
-        "ms": "Produk setiap halaman",
-        "nb": "Produkter per side",
-        "nl": "Producten per pagina",
-        "pt-BR": "Produtos por página",
-        "pt-PT": "Produtos por página",
+        "da": "Produkter pr. række",
+        "de": "Produkte per Reihe",
+        "en": "Products per row",
+        "es": "Productos por fila",
+        "fi": "Tuotteita per rivi",
+        "fr": "Produits par rangée",
+        "hi": "प्रति पंक्ति उत्पाद",
+        "it": "Prodotti per riga",
+        "ja": "行あたりの商品数",
+        "ko": "열 별 제품",
+        "ms": "Produk setiap baris",
+        "nb": "Produkter per rad",
+        "nl": "Producten per rij",
+        "pt-BR": "Produtos por linha",
+        "pt-PT": "Produtos por linha",
         "sv": "Produkter per rad",
-        "th": "สินค้าต่อหน้า",
-        "zh-CN": "每页产品数",
-        "zh-TW": "每頁產品數"
+        "th": "สินค้าต่อแถว",
+        "zh-CN": "每行产品数",
+        "zh-TW": "每列產品數"
       },
-      "default": "20",
+      "default": "4",
       "options": [
         {
-          "value": "10",
+          "value": "2",
           "label": {
-            "da": "10",
-            "de": "10",
-            "en": "10",
-            "es": "10",
-            "fi": "10",
-            "fr": "10",
-            "hi": "10",
-            "it": "10",
-            "ja": "10",
-            "ko": "10",
-            "ms": "10",
-            "nb": "10",
-            "nl": "10",
-            "pt-BR": "10",
-            "pt-PT": "10",
-            "sv": "10",
-            "th": "10",
-            "zh-CN": "10",
-            "zh-TW": "10"
+            "da": "2",
+            "de": "2",
+            "en": "2",
+            "es": "2",
+            "fi": "2",
+            "fr": "2",
+            "hi": "2",
+            "it": "2",
+            "ja": "2",
+            "ko": "2",
+            "ms": "2",
+            "nb": "2",
+            "nl": "2",
+            "pt-BR": "2",
+            "pt-PT": "2",
+            "sv": "2",
+            "th": "2",
+            "zh-CN": "2",
+            "zh-TW": "2"
           }
         },
         {
-          "value": "15",
+          "value": "3",
           "label": {
-            "da": "15",
-            "de": "15",
-            "en": "15",
-            "es": "15",
-            "fi": "15",
-            "fr": "15",
-            "hi": "15",
-            "it": "15",
-            "ja": "15",
-            "ko": "15",
-            "ms": "15",
-            "nb": "15",
-            "nl": "15",
-            "pt-BR": "15",
-            "pt-PT": "15",
-            "sv": "15",
-            "th": "15",
-            "zh-CN": "15",
-            "zh-TW": "15"
+            "da": "3",
+            "de": "3",
+            "en": "3",
+            "es": "3",
+            "fi": "3",
+            "fr": "3",
+            "hi": "3",
+            "it": "3",
+            "ja": "3",
+            "ko": "3",
+            "ms": "3",
+            "nb": "3",
+            "nl": "3",
+            "pt-BR": "3",
+            "pt-PT": "3",
+            "sv": "3",
+            "th": "3",
+            "zh-CN": "3",
+            "zh-TW": "3"
           }
         },
         {
-          "value": "20",
+          "value": "4",
           "label": {
-            "da": "20",
-            "de": "20",
-            "en": "20",
-            "es": "20",
-            "fi": "20",
-            "fr": "20",
-            "hi": "20",
-            "it": "20",
-            "ja": "20",
-            "ko": "20",
-            "ms": "20",
-            "nb": "20",
-            "nl": "20",
-            "pt-BR": "20",
-            "pt-PT": "20",
-            "sv": "20",
-            "th": "20",
-            "zh-CN": "20",
-            "zh-TW": "八折"
+            "da": "4",
+            "de": "4",
+            "en": "4",
+            "es": "4",
+            "fi": "4",
+            "fr": "4",
+            "hi": "4",
+            "it": "4",
+            "ja": "4",
+            "ko": "4",
+            "ms": "4",
+            "nb": "4",
+            "nl": "4",
+            "pt-BR": "4",
+            "pt-PT": "4",
+            "sv": "4",
+            "th": "4",
+            "zh-CN": "4",
+            "zh-TW": "4"
           }
         },
         {
-          "value": "25",
+          "value": "5",
           "label": {
-            "da": "25",
-            "de": "25",
-            "en": "25",
-            "es": "25",
-            "fi": "25",
-            "fr": "25",
-            "hi": "25",
-            "it": "25",
-            "ja": "25",
-            "ko": "25",
-            "ms": "25",
-            "nb": "25",
-            "nl": "25",
-            "pt-BR": "25",
-            "pt-PT": "25",
-            "sv": "25",
-            "th": "25",
-            "zh-CN": "25",
-            "zh-TW": "25"
+            "da": "5",
+            "de": "5",
+            "en": "5",
+            "es": "5",
+            "fi": "5",
+            "fr": "5",
+            "hi": "5",
+            "it": "5",
+            "ja": "5",
+            "ko": "5",
+            "ms": "5",
+            "nb": "5",
+            "nl": "5",
+            "pt-BR": "5",
+            "pt-PT": "5",
+            "sv": "5",
+            "th": "5",
+            "zh-CN": "5",
+            "zh-TW": "5"
+          }
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "rows",
+      "label": {
+        "da": "Rækker pr. side",
+        "de": "Zeilen pro Seite",
+        "en": "Rows per page",
+        "es": "Filas por página",
+        "fi": "Rivejä per sivu",
+        "fr": "Rangées par page",
+        "hi": "प्रति पृष्ठ पंक्तियां",
+        "it": "Righe per pagina",
+        "ja": "ページあたりの行数",
+        "ko": "페이지 별 열",
+        "ms": "Baris setiap halaman",
+        "nb": "Rader per side",
+        "nl": "Rijen per pagina",
+        "pt-BR": "Linhas por página",
+        "pt-PT": "Linhas por página",
+        "sv": "Rader per sida",
+        "th": "แถวต่อหน้า",
+        "zh-CN": "每页行数",
+        "zh-TW": "每頁列數"
+      },
+      "default": "6",
+      "options": [
+        {
+          "value": "3",
+          "label": {
+            "da": "3",
+            "de": "3",
+            "en": "3",
+            "es": "3",
+            "fi": "3",
+            "fr": "3",
+            "hi": "3",
+            "it": "3",
+            "ja": "3",
+            "ko": "3",
+            "ms": "3",
+            "nb": "3",
+            "nl": "3",
+            "pt-BR": "3",
+            "pt-PT": "3",
+            "sv": "3",
+            "th": "3",
+            "zh-CN": "3",
+            "zh-TW": "3"
           }
         },
         {
-          "value": "30",
+          "value": "4",
           "label": {
-            "da": "30",
-            "de": "30",
-            "en": "30",
-            "es": "30",
-            "fi": "30",
-            "fr": "30",
-            "hi": "30",
-            "it": "30",
-            "ja": "30",
-            "ko": "30",
-            "ms": "30",
-            "nb": "30",
-            "nl": "30",
-            "pt-BR": "30",
-            "pt-PT": "30",
-            "sv": "30",
-            "th": "30",
-            "zh-CN": "30",
-            "zh-TW": "30"
+            "da": "4",
+            "de": "4",
+            "en": "4",
+            "es": "4",
+            "fi": "4",
+            "fr": "4",
+            "hi": "4",
+            "it": "4",
+            "ja": "4",
+            "ko": "4",
+            "ms": "4",
+            "nb": "4",
+            "nl": "4",
+            "pt-BR": "4",
+            "pt-PT": "4",
+            "sv": "4",
+            "th": "4",
+            "zh-CN": "4",
+            "zh-TW": "4"
+          }
+        },
+        {
+          "value": "5",
+          "label": {
+            "da": "5",
+            "de": "5",
+            "en": "5",
+            "es": "5",
+            "fi": "5",
+            "fr": "5",
+            "hi": "5",
+            "it": "5",
+            "ja": "5",
+            "ko": "5",
+            "ms": "5",
+            "nb": "5",
+            "nl": "5",
+            "pt-BR": "5",
+            "pt-PT": "5",
+            "sv": "5",
+            "th": "5",
+            "zh-CN": "5",
+            "zh-TW": "5"
+          }
+        },
+        {
+          "value": "6",
+          "label": {
+            "da": "6",
+            "de": "6",
+            "en": "6",
+            "es": "6",
+            "fi": "6",
+            "fr": "6",
+            "hi": "6",
+            "it": "6",
+            "ja": "6",
+            "ko": "6",
+            "ms": "6",
+            "nb": "6",
+            "nl": "6",
+            "pt-BR": "6",
+            "pt-PT": "6",
+            "sv": "6",
+            "th": "6",
+            "zh-CN": "6",
+            "zh-TW": "6"
+          }
+        },
+        {
+          "value": "7",
+          "label": {
+            "da": "7",
+            "de": "7",
+            "en": "7",
+            "es": "7",
+            "fi": "7",
+            "fr": "7",
+            "hi": "7",
+            "it": "7",
+            "ja": "7",
+            "ko": "7",
+            "ms": "7",
+            "nb": "7",
+            "nl": "7",
+            "pt-BR": "7",
+            "pt-PT": "7",
+            "sv": "7",
+            "th": "7",
+            "zh-CN": "7",
+            "zh-TW": "7"
+          }
+        },
+        {
+          "value": "8",
+          "label": {
+            "da": "8",
+            "de": "8",
+            "en": "8",
+            "es": "8",
+            "fi": "8",
+            "fr": "8",
+            "hi": "8",
+            "it": "8",
+            "ja": "8",
+            "ko": "8",
+            "ms": "8",
+            "nb": "8",
+            "nl": "8",
+            "pt-BR": "8",
+            "pt-PT": "8",
+            "sv": "8",
+            "th": "8",
+            "zh-CN": "8",
+            "zh-TW": "8"
           }
         }
       ]
@@ -299,7 +518,7 @@
             "pt-BR": "Por tag",
             "pt-PT": "Por etiqueta",
             "sv": "Efter tagg",
-            "th": "ตามแถบป้าย",
+            "th": "ตามแท็ก",
             "zh-CN": "按标签",
             "zh-TW": "依標籤"
           }
@@ -361,7 +580,7 @@
         "es": "Mostrar precio de comparación",
         "fi": "Näytä hintavertailu",
         "fr": "Afficher le prix normal",
-        "hi": "मूल्य पर तुलना दिखाएं",
+        "hi": "मूल्य पर तुलना देखें",
         "it": "Mostra Prezzo di confronto",
         "ja": "価格比較を表示する",
         "ko": "비교가 표시",
@@ -420,7 +639,7 @@
         "ms": "Dayakan ulasan produk",
         "nb": "Aktiver produktanmeldelser",
         "nl": "Productbeoordelingen inschakelen",
-        "pt-BR": "Habilitar as avaliações de produtos",
+        "pt-BR": "Habilite as avaliações de produtos",
         "pt-PT": "Ativar as análises de produtos",
         "sv": "Aktivera produktrecensioner",
         "th": "เปิดรีวิวสินค้า",
@@ -448,6 +667,32 @@
         "zh-CN": "安装免费 Shopify [产品评论](https://apps.shopify.com/product-reviews) 应用以添加产品评论。",
         "zh-TW": "免費安裝 Shopify [Product Reviews](https://apps.shopify.com/product-reviews) app 以新增產品評論。"
       }
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_sidebar",
+      "label": {
+        "da": "Aktivér sidebjælke",
+        "de": "Seitenleiste aktivieren",
+        "en": "Enable sidebar",
+        "es": "Habilitar barra lateral",
+        "fi": "Ota sivupalkki käyttöön",
+        "fr": "Activer la barre latérale",
+        "hi": "साइडबार सक्षम करें",
+        "it": "Attiva sidebar",
+        "ja": "サイドバーを有効にする",
+        "ko": "사이드 바 사용",
+        "ms": "Dayakan bar sisi",
+        "nb": "Aktiver sidefelt",
+        "nl": "Zijbalk inschakelen",
+        "pt-BR": "Ativar barra lateral",
+        "pt-PT": "Ativar barra lateral",
+        "sv": "Aktivera sidofältet",
+        "th": "เปิดใช้งานแถบด้านข้าง",
+        "zh-CN": "启用侧边栏",
+        "zh-TW": "啟用側邊欄"
+      },
+      "default": true
     }
   ]
 }

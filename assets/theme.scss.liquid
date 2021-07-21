@@ -895,7 +895,7 @@ $errorRedBg: lighten($errorRed, 55%);
 $successGreen: #0a942a;
 
 // Width variables
-$siteWidth: 1060px;
+$siteWidth: 1440px;
 $gutter: 30px;
 $gridGutter: 30px;
 $maxWidthBp: $siteWidth + $gutter*2;
@@ -2114,7 +2114,6 @@ html input[disabled] {
   @include transition(background-color 0.2s ease-out);
 
   &.btn--add-to-cart {
-    min-height: 44px;
     white-space: normal;
   }
 
@@ -3562,7 +3561,7 @@ $shareBorderColor: #ececec;
   @include at-query ($max, $medium) {
     display: table;
     height: $mobileNavBarHeight;
-    z-index: 999999999; // one 9 higher than #ajaxifyModal
+    z-index: 998; // one 9 higher than #ajaxifyModal
 
     .show-nav & {
       position: fixed;
@@ -4075,7 +4074,6 @@ $innerFilterIconWidth: 6px;
 
 .shopify-inquiry-button {
   margin-top: 10px;
-  min-height: 44px;
 
   @include at-query($min, $large){
     margin-top: 13px;
@@ -6229,6 +6227,7 @@ $color-blankstate-background: rgba($colorTextBody, 0.1);
     opacity: 1;
   }
 }
+<<<<<<< HEAD
 .popup .newsletter-form .error-message {
   display:none
 }
@@ -6243,4 +6242,40 @@ $color-blankstate-background: rgba($colorTextBody, 0.1);
 }
 .popup .newsletter-form.success .form-content {
   display:none
+=======
+
+
+/*==============================================================================
+  # Collection Template Print Only
+==============================================================================*/
+.template-collection {
+  @media print {
+    .site-header {
+      margin-top: 300px;
+    }
+    .btn--add-to-cart,
+    .pagination-border-top,
+    .section-header--right {
+      display: none;
+    }
+    .product-grid-image {
+      height: auto !important;
+    }
+    .lazyload__image-wrapper {
+      max-width: none !important;
+    }
+    .lazyload__image-wrapper img{
+      left: 50%;
+      transform: translateX(-50%);
+      page-break-inside: avoid;
+    }
+    .product-grid-item {
+      margin-top: 50px;
+      page-break-after: always;
+    }
+    .section-header {
+      page-break-after: always;
+    }
+  }
+>>>>>>> master
 }

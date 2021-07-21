@@ -16,11 +16,11 @@
     "color_footer_bg": "#1a535c",
     "color_footer_text": "#ffffff",
     "color_footer_social_link": "#ffffff",
-    "type_base_font": "roboto_n4",
-    "type_base_size": "14px",
-    "type_header_font": "goudy_old_style_n4",
+    "type_base_font": "helvetica_n4",
+    "type_base_size": "16px",
+    "type_header_font": "news_705_n4",
     "type_header_transform": false,
-    "type_accent_font": "goudy_old_style_n7",
+    "type_accent_font": "futura_n4",
     "type_navigation_size": "16px",
     "type_navigation_transform": false,
     "type_button_size": "14px",
@@ -44,9 +44,9 @@
     "share_twitter": true,
     "share_pinterest": true,
     "superscript_decimals": true,
-    "popup_enabled": true,
-    "popup_show_after": "15",
-    "popup_pageviews": "1",
+    "popup_enabled": false,
+    "popup_show_after": "20",
+    "popup_pageviews": "4",
     "popup_title": "Welcome to Arader Galleries",
     "popup_description": "Join our mailing list to receive curated information about our collection, get invited to our events and be notified of our upcoming auctions.",
     "popup_thankyou": "Thank you for signing up, we look forward to being in touch with you.",
@@ -73,8 +73,7 @@
           "logo": "shopify:\/\/shop_images\/aradernyc-logo.png",
           "logo_max_width": "305",
           "show_announcement": false,
-          "announcement_text": "Announce something here",
-          "announcement_link": ""
+          "announcement_text": "Announce something here"
         }
       },
       "footer": {
@@ -92,7 +91,7 @@
             "type": "text",
             "settings": {
               "title": "Get in touch",
-              "richtext": "<p><strong>1016 Madison Avenue, New York<\/strong><br>(between 78th and 79th Streets)<br><a href=\"tel:1-212-628-7625\" title=\"tel:1-212-628-7625\">(212) 628-7625<\/a><br>Open Everyday from 10am-6pm<br>All other times by appointment at <a href=\"mailto:josephine.arader@gmail.com\" title=\"mailto:josephine.arader@gmail.com\">josephine.arader@gmail.com<\/a><\/p>\n<p><br><strong>29 East 72nd Street<\/strong> <br>(northeast corner of 72nd Street and Madison Avenue)<br><a href=\"tel:1-212-628-3668\" title=\"tel:1-212-628-3668\">(212) 628-3668<\/a><br>Open Monday-Friday, 10am - 6pm<br>All other times by appointment at <a href=\"mailto:josephine.arader@gmail.com\" title=\"mailto:josephine.arader@gmail.com\">josephine.arader@gmail.com<\/a><\/p>",
+              "richtext": "<p><strong>1016 Madison Avenue, New York<\/strong><br\/>(between 78th and 79th Streets)<br\/>1-212-628-7625<br\/>Open Everyday from 10am-6pm<br\/>All other times by appointment at <a title=\"mailto:info@aradernyc.com\" href=\"mailto:info@aradernyc.com\" target=\"_blank\">info@aradernyc.com<\/a><\/p><p><br\/><strong>29 East 72nd Street<\/strong> <br\/>(northeast corner of 72nd Street and Madison Avenue)<br\/>1-212-628-7625<br\/>Open Monday-Friday, 10am - 6pm<br\/>All other times by appointment at <a title=\"mailto:info@aradernyc.com\" href=\"mailto:info@aradernyc.com\" target=\"_blank\">info@aradernyc.com<\/a><\/p>",
               "width": "50%"
             }
           },
@@ -122,43 +121,37 @@
           "slide-0": {
             "type": "image",
             "settings": {
-              "slide": "shopify:\/\/shop_images\/3rd_floor.jpg",
-              "link": ""
+              "slide": "shopify:\/\/shop_images\/3rd_floor.jpg"
             }
           },
           "1573853377170": {
             "type": "image",
             "settings": {
-              "slide": "shopify:\/\/shop_images\/3rd_floor_hall.jpg",
-              "link": ""
+              "slide": "shopify:\/\/shop_images\/3rd_floor_hall.jpg"
             }
           },
           "1573853382954": {
             "type": "image",
             "settings": {
-              "slide": "shopify:\/\/shop_images\/2nd_floor_dining.jpg",
-              "link": ""
+              "slide": "shopify:\/\/shop_images\/2nd_floor_dining.jpg"
             }
           },
           "1573853388528": {
             "type": "image",
             "settings": {
-              "slide": "shopify:\/\/shop_images\/2nd_floor_dining_2.jpg",
-              "link": ""
+              "slide": "shopify:\/\/shop_images\/2nd_floor_dining_2.jpg"
             }
           },
           "1573853393423": {
             "type": "image",
             "settings": {
-              "slide": "shopify:\/\/shop_images\/2nd_floor.jpg",
-              "link": ""
+              "slide": "shopify:\/\/shop_images\/2nd_floor.jpg"
             }
           },
           "1573853398147": {
             "type": "image",
             "settings": {
-              "slide": "shopify:\/\/shop_images\/2nd_floor_2.jpg",
-              "link": ""
+              "slide": "shopify:\/\/shop_images\/2nd_floor_2.jpg"
             }
           }
         },
@@ -279,7 +272,7 @@
         "type": "map",
         "settings": {
           "heading": "Our Gallery",
-          "address": "<p><strong>1016 Madison Avenue, New York<\/strong><br>(between 78th and 79th Streets)<\/p>\n<p>Open Monday-Saturday, 10am-6pm<br>Sunday, 11am-5pm<\/p>",
+          "address": "<p><strong>1016 Madison Avenue, New York<\/strong><br\/>(between 78th and 79th Streets)<\/p><p>Open Monday-Saturday, 10am-6pm<br\/>Sunday, 11am-5pm<\/p>",
           "map_address": "1016 Madison Avenue, New York",
           "button": "Directions",
           "show_pin": true,
@@ -298,6 +291,10 @@
           "enable_payment_button": false,
           "social_sharing_products": true
         }
+      },
+      "popup": {
+        "type": "popup",
+        "settings": {}
       }
     },
     "content_for_index": [

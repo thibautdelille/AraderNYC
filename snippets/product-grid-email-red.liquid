@@ -1,0 +1,165 @@
+<table align="center" border="0" cellPadding="0" cellSpacing="0" width="100%"
+       className="mcnProductList mcnProductRec"
+       style="border-collapse: collapse;
+       mso-table-lspace: 0pt;
+       mso-table-rspace: 0pt;
+       -ms-text-size-adjust: 100%;
+       -webkit-text-size-adjust: 100%;">
+    <tbody>
+    <tr>
+        <td align="left" valign="top"
+            style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;
+        border-bottom: 4px solid #f2f2f2;
+        padding-top: 9px;">
+
+            <table border="0" cellPadding="0" cellSpacing="0" width="100%"
+                   style="max-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tbody>
+                <tr>
+                    <td align="left" valign="top"
+                        style="font-size: 0;padding-bottom: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        <!--[if mso]>
+                        <table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+                            <tr>
+                                <td align="left" valign="top" width="300" style="width:300px;">
+                        <![endif]-->
+                        <table align="left" border="0" cellPadding="0" cellSpacing="0" width="40%"
+                               className="mcnRecContentContainer"
+                               style="max-width: 300px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <tbody>
+                            <tr>
+                                <td align="left" valign="top" className="mcnImageContent" class="mcnImageContent"
+                                    style="padding-top: 9px;padding-right: 18px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                    <a
+                                            href="https://aradernyc.com{{ product.url }}"
+                                            title="Chon-Man-I-Case, An Otto Half Chief" target="_blank"
+                                            style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                    {% if product.featured_image %}
+                                        {%- assign image = product.featured_image -%}
+                                        {%- assign max_width = width | plus: 0 -%}
+                                        {%- assign max_height = height | plus: 0 -%}
+
+                                        {%- include 'image-logic' with width: max_width, height: max_height -%}
+
+                                        {%- assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                                        <img alt="{{ product.title }}"
+                                             src="{{ image | img_url: '580x' }}"
+                                             width="264"
+                                             style="max-width: 100%;border-radius: 0%;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;"
+                                             className="mcnImage">
+                                    {% else %}
+                                        {% capture current %}{% cycle 1, 2, 3, 4 %}{% endcapture %}
+                                        <div>
+                                            {{ 'product-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
+                                        </div>
+                                    {% endif %}
+                                    </a>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <!--[if mso]>
+                        </td>
+                        <td align="left" valign="top" width="300" style="width:300px;">
+                        <![endif]-->
+                        <table align="left" border="0" cellPadding="0" cellSpacing="0" width="60%"
+                               className="mcnRecContentContainer"
+                               style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <tbody>
+                            <tr>
+                                <td align="left" valign="top" className="mcnTextContent" class="mcnTextContent"
+                                    style="padding-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;">
+                                    <table border="0" cellPadding="0" cellSpacing="0" width="100%"
+                                           style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+
+                                        <tbody>
+                                        <tr>
+                                            <td valign="top" className="mcnProductTitle"
+                                                class="mcnProductTitle"
+                                                style="color:{{ settings.color_primary }};padding-top: 9px;padding-left: 18px;padding-right: 18px;font-family: Helvetica;font-size: 14px;font-style: normal;font-weight: regular;text-transform:uppercase;line-height: 100%;text-align: left;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                {% assign instructions = product.metafields.global %}
+
+                                                {{ instructions.description_tag }}<br>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top" className="mcnProductTitle"
+                                                class="mcnProductTitle"
+                                                style="padding-top: 9px;padding-left: 18px;padding-right: 18px;color: #202020;font-family: Helvetica;font-size: 16px;font-style: normal;font-weight: bold;line-height: 100%;text-align: left;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                {{ product.title }}<br>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td valign="top" className="mcnProductPrice" class="mcnProductPrice"
+                                                style="padding-top: 9px;padding-left: 18px;padding-right: 18px;font-family: Helvetica;font-size: 14px;font-style: normal;font-weight: normal;line-height: 100%;text-align: left;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                {{ product.price | money }}<br>
+                                            </td>
+                                        </tr>
+                                        {% if product.compare_at_price_max > product.price %}   
+                                        <tr>
+                                            <td valign="top" className="mcnProductPrice" class="mcnProductPrice"
+                                                style="padding-top: 9px;padding-left: 18px;padding-right: 18px;font-family: Helvetica;font-size: 14px;font-style: normal;font-weight: normal;line-height: 100%;text-align: left;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                <s>
+                                                    <small>
+                                                        {{ product.compare_at_price | money }}
+                                                    </small>
+                                                </s>
+                                            </td>
+                                        </tr>
+                                        {% endif %}
+
+                                        <tr>
+                                            <td valign="top" className="mcnProductButton" class="mcnProductButton"
+                                                style="padding-top: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                <table border="0" cellPadding="0" cellSpacing="0" width="100%"
+                                                       className="mcnButtonBlock"
+                                                       style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                    <tbody className="mcnButtonBlockOuter">
+                                                    <tr>
+                                                        <td
+                                                                style="padding-top: 0;padding-right: 18px;padding-bottom: 18px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"
+                                                                valign="top" align="right" className="mcnButtonBlockInner" class="mcnButtonBlockInner">
+                                                            <table border="0" cellPadding="0" cellSpacing="0"
+                                                                   className="mcnButtonContentContainer"
+                                                                   style="border-collapse: separate !important;border-radius: 0px;background-color: #809679;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td align="center" valign="middle" className="mcnButtonContent" class="mcnButtonContent"
+                                                                        style="font-family: Merriweather, Georgia, &quot;Times New Roman&quot;, serif;font-size: 16px;padding: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                                        <a className="mcnButton " title="View Details →"
+                                                                           href="https://aradernyc.com{{ product.url }}"
+                                                                           target="_blank"
+                                                                           style="font-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;display: block;">View
+                                                                            Details →</a>
+                                                                    </td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <!--[if mso]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+        </td>
+    </tr>
+    </tbody>
+</table>
