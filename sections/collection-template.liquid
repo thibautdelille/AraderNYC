@@ -11,6 +11,17 @@
 
 <div id="CollectionSection" data-section-id="{{ section.id }}" data-section-type="collection-template">
   <div class="grid grid-border">
+    {% if has_sidebar %}
+    <div class="grid-item large--one-fifth ">
+    </div>
+    {% endif %}
+    <div class="grid-item{% if has_sidebar %} large--four-fifths grid-border--left{% endif %}" style="background-color:#f2f2f2">
+      <h3>Experts working as your personal curators:</h3>
+      <p>Our website represents only a small fraction of our profound collections. We encourage you to get in touch with our team of expert curators who look forward to learning more about your specific collecting interests. </p>
+    </div>
+  </div>
+  
+  <div class="grid grid-border">
 
     {% if has_sidebar %}
     <aside class="sidebar grid-item large--one-fifth collection-filters" id="collectionFilters">
