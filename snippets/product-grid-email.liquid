@@ -30,10 +30,17 @@
                             <tr>
                                 <td align="left" valign="top" className="mcnImageContent" class="mcnImageContent"
                                     style="padding-top: 9px;padding-right: 18px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                    {% if page.content != blank %}
+                                    <a
+                                            href="https://aradernyc.com/collections/{{ page.handle }}/products/{{ product.handle }}"
+                                            title="Chon-Man-I-Case, An Otto Half Chief" target="_blank"
+                                            style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                    {% else %}
                                     <a
                                             href="https://aradernyc.com{{ product.url }}"
                                             title="Chon-Man-I-Case, An Otto Half Chief" target="_blank"
                                             style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                    {% endif %}
                                     {% if product.featured_image %}
                                         {%- assign image = product.featured_image -%}
                                         {%- assign max_width = width | plus: 0 -%}
@@ -127,11 +134,19 @@
                                                                 <tr>
                                                                     <td align="center" valign="middle" className="mcnButtonContent" class="mcnButtonContent"
                                                                         style="font-family: Merriweather, Georgia, &quot;Times New Roman&quot;, serif;font-size: 16px;padding: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                                        {% if page.content != blank %}
+                                                                        <a className="mcnButton " title="View Details →"
+                                                                           href="https://aradernyc.com/collections/{{ page.handle }}/products/{{ product.handle }}"
+                                                                           target="_blank"
+                                                                           style="font-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;display: block;">View
+                                                                            Details →</a>
+                                                                        {% else %}
                                                                         <a className="mcnButton " title="View Details →"
                                                                            href="https://aradernyc.com{{ product.url }}"
                                                                            target="_blank"
                                                                            style="font-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;display: block;">View
                                                                             Details →</a>
+                                                                        {% endif %}
                                                                     </td>
                                                                 </tr>
                                                                 </tbody>
