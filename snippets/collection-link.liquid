@@ -1,0 +1,33 @@
+<div style="display:flex; align-items:center">
+  {% if collection.image %}
+    {% assign collection_image = collection.image %}
+  {% else %}
+    {% assign collection_image = collection.products.first.featured_image %}
+  {% endif %}
+  {% if collection.image or collection.products.first.featured_image %}
+    {%- assign image = collection_image -%}
+    {%- assign max_width = width | plus: 0 -%}
+    {%- assign max_height = height | plus: 0 -%}
+
+    {%- include 'image-logic' with width: max_width, height: max_height -%}
+    {%- assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+    <div style="max-width:200px; margin-right:20px">
+      <a href="{{ collection.url }}" title="{{ 'collections.general.link_title' | t: title: collection_title }}">
+        <img class="no-js lazyload"
+          data-src="{{ img_url }}"
+          data-widths="[125, 180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+          data-aspectratio="{{ collection_image.aspect_ratio }}"
+          data-sizes="auto"
+          alt="{{ collection_image.alt | escape }}">
+        </a>
+      </div>
+  {% endif %}
+  <div>
+    <small style="margin: 0;text-transform: uppercase;">Featured in</small>
+    {% capture collection_title %}{{ collection.title | escape }}{% endcapture %}
+    <h3 style="margin: 0;">{% if collection_title != blank %}{{ collection_title }}{% else %}{{ 'homepage.featured_collection_rows.heading' | t }}{% endif %}</h3>
+    <a href="{{ collection.url }}" title="{{ 'collections.general.link_title' | t: title: collection_title }}">
+      See the collection
+    </a>
+  </div>
+</div>

@@ -213,6 +213,10 @@
       {{ product.description }}
     </div>
 
+    {% if collection %}
+      {% include 'collection-link' %}
+    {% endif %}
+
     {% if section.settings.social_sharing_products %}
       {% include 'social-sharing' %}
     {% endif %}
