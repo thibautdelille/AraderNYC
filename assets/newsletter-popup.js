@@ -14,15 +14,21 @@ class NewsletterPopup extends HTMLElement {
 
     this.closeButton = this.modal.querySelector('[id^="ModalClose-"]');
 
-    if (!this.modal.dataset.newsletterHideWrapped) {
-      this.modal.dataset.newsletterHideWrapped = 'true';
-      const originalHide = this.modal.hide.bind(this.modal);
-      this.modal.hide = () => {
-        if (!window.Shopify?.designMode) this.persistDismissal();
-        originalHide();
-      };
-      this._originalHide = originalHide;
-    }
+    // Prefer the class prototype hide so reconnects never nest wraps, and always
+    // set _originalHide even when a previous host already wrapped this modal.
+    const protoHide = Object.getPrototypeOf(this.modal).hide;
+    this._originalHide =
+      typeof protoHide === 'function'
+        ? protoHide.bind(this.modal)
+        : this.modal._newsletterOriginalHide || this.modal.hide.bind(this.modal);
+    this.modal._newsletterOriginalHide = this._originalHide;
+
+    // Re-wrap on every connect so persistDismissal closes over this instance.
+    this.modal.hide = () => {
+      if (!window.Shopify?.designMode) this.persistDismissal();
+      this._originalHide();
+    };
+    this.modal.dataset.newsletterHideWrapped = 'true';
 
     const openedFromSubmit = this.modal.querySelector(
       '[data-newsletter-popup-success], [data-newsletter-popup-error]'
