@@ -1,0 +1,155 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_DND3Mw": {
+      "type": "rich-text",
+      "blocks": {
+        "text_EjrpQJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Just as the greenhouses of the XVIIc and XVIIIc gave way to the great arboreta of the XIXc, so too did the collection of decorative items, initially from the ancient world, blossom into the wholesale integration of architectural elements within domestic space.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_EjrpQJ"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_KJrRGd": {
+      "type": "multirow",
+      "blocks": {
+        "row_7pDxEe": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Arader_Facade.jpg",
+            "caption": "",
+            "heading": "",
+            "text": "<p>We at Arader Galleries continue this great tradition in our 1903 Beaux-Arts townhouse at 1016 Madison. The eclectic styles of its own architecture — some Neoclassical, others more stridently French — invite dialogue with disparate genres and media.</p><p>Installed within the gallery are five XVIIIc British door-surrounds (some with original or early doors), which give context to our collection. An essential resource for displaced architectural elements is John Harris’s 2007 <em>Moving Rooms</em> (Mellon/Yale UP), in which three of our doorframes are included. He explores — not without disdain — the practice of removing elements from older structures — paneling, doors, ceilings, fixtures etc. — and either selling them individual or in groups for installation elsewhere. The Cloisters in New York is one of the standout exponents of this practice, going as far as the structures themselves, stitched together into a Frankenstein’s-monster homage to the European past.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_zTRRR3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-02-09_at_8.00.15_AM.png",
+            "caption": "",
+            "heading": "",
+            "text": "<p>Four of the doors were acquired from a single sale: Sotheby’s New York 18 October 1997, which included “Property Sold by the Order of the Board of Trustees of the Art Institute of Chicago.” Deaccessioning of this sort is strictly regulated (see <a href=\"https://icom.museum/wp-content/uploads/2019/08/20170503_ICOM_standards_deaccessioning_final_EN-v2.pdf\"><span style=\"text-decoration:underline\">ICOM’s guidelines for the practice</span></a>), and the funds realized “should be used solely for the benefit of the museum’s collection, that is, acquisitions to and care for that same museum’s collection” (pp. 3-4).</p><p>Often we — especially those lucky enough to spend a good deal of time in historical spaces — overlook simple architectural elements, whether out of distraction or desensitization. The descriptions below were written to provide the opportunity to look slowly at these works of domestic architectural art, and to appreciate their bringing the natural world and the distant past into built spaces.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_7pDxEe",
+        "row_zTRRR3"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "small",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collage_fRNPKE": {
+      "type": "collage",
+      "blocks": {
+        "image_qCYaHB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-02-09_at_8.00.44_AM.png"
+          }
+        },
+        "image_QMQ9id": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-02-09_at_8.01.06_AM.png"
+          }
+        },
+        "image_my7eQb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-02-09_at_8.00.26_AM.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_qCYaHB",
+        "image_QMQ9id",
+        "image_my7eQb"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_d9DxRj": {
+      "type": "rich-text",
+      "blocks": {
+        "text_At93dB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We welcome you to come see them the next time you stop in to the gallery. In the coming weeks I’ll be adding to this dossier with other historic material, including the spectacular figured marble fireplace surround in the front room of the first floor and some Tudor paneled doors recently installed on our fifth floor. Meanwhile, have a look at <a href=\"https://www.araderbooks.com/searchResults.php?category_id=289&action=browse&orderBy=mostrecent\"><span style=\"text-decoration:underline\">some of our books on architecture</span></a>!</p><p></p><p>J.L. Rosenberg (D.Phil, Oxon.)Head of Rare Books, Arader Galleries</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_At93dB"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_DND3Mw",
+    "multirow_KJrRGd",
+    "collage_fRNPKE",
+    "rich_text_d9DxRj"
+  ]
+}

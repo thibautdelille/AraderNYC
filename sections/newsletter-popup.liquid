@@ -1,0 +1,278 @@
+{{ 'component-newsletter.css' | asset_url | stylesheet_tag }}
+{{ 'newsletter-popup.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'newsletter-popup.js' | asset_url }}" defer="defer"></script>
+
+{%- if section.settings.enable -%}
+  <newsletter-popup
+    data-delay="{{ section.settings.delay }}"
+    data-expiry-days="{{ section.settings.expiry_days }}"
+  >
+    <modal-dialog id="NewsletterPopup-{{ section.id }}" class="newsletter-popup-modal">
+      <div
+        class="newsletter-popup-modal__dialog color-{{ section.settings.color_scheme }} gradient"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="NewsletterPopupHeading-{{ section.id }}"
+        tabindex="-1"
+      >
+        <button
+          id="ModalClose-NewsletterPopup-{{ section.id }}"
+          type="button"
+          class="newsletter-popup-modal__toggle"
+          aria-label="{{ 'accessibility.close' | t }}"
+        >
+          {% render 'icon-close' %}
+        </button>
+
+        {%- if section.settings.heading != blank -%}
+          <h2
+            id="NewsletterPopupHeading-{{ section.id }}"
+            class="newsletter-popup-modal__heading {{ section.settings.heading_size }}"
+          >
+            {{ section.settings.heading | escape }}
+          </h2>
+        {%- endif -%}
+
+        {%- if section.settings.text != blank -%}
+          <div class="newsletter-popup-modal__text rte">
+            {{ section.settings.text }}
+          </div>
+        {%- endif -%}
+
+        {%- form 'customer', id: 'ContactPopup', class: 'newsletter-form' -%}
+          <input type="hidden" name="contact[tags]" value="newsletter">
+
+          {%- if form.posted_successfully? -%}
+            <span class="visually-hidden" data-newsletter-popup-success></span>
+          {%- endif -%}
+          {%- if form.errors -%}
+            <span class="visually-hidden" data-newsletter-popup-error></span>
+          {%- endif -%}
+
+          <div class="newsletter-form__fields">
+            <div class="newsletter-form__field-wrapper">
+              <div class="field">
+                <input
+                  id="NewsletterPopup-FirstName-{{ section.id }}"
+                  type="text"
+                  name="contact[first_name]"
+                  class="field__input"
+                  autocomplete="given-name"
+                  placeholder="{{ section.settings.first_name_label | escape }}"
+                >
+                <label class="field__label" for="NewsletterPopup-FirstName-{{ section.id }}">
+                  {{ section.settings.first_name_label | escape }}
+                </label>
+              </div>
+            </div>
+
+            <div class="newsletter-form__field-wrapper">
+              <div class="field">
+                <input
+                  id="NewsletterPopup-LastName-{{ section.id }}"
+                  type="text"
+                  name="contact[last_name]"
+                  class="field__input"
+                  autocomplete="family-name"
+                  placeholder="{{ section.settings.last_name_label | escape }}"
+                >
+                <label class="field__label" for="NewsletterPopup-LastName-{{ section.id }}">
+                  {{ section.settings.last_name_label | escape }}
+                </label>
+              </div>
+            </div>
+
+            <div class="newsletter-form__field-wrapper">
+              <div class="field">
+                <input
+                  id="NewsletterPopup-Email-{{ section.id }}"
+                  type="email"
+                  name="contact[email]"
+                  class="field__input"
+                  value="{{ form.email }}"
+                  aria-required="true"
+                  autocorrect="off"
+                  autocapitalize="off"
+                  autocomplete="email"
+                  {% if form.errors %}
+                    autofocus
+                    aria-invalid="true"
+                    aria-describedby="NewsletterPopup-error-{{ section.id }}"
+                  {% elsif form.posted_successfully? %}
+                    aria-describedby="NewsletterPopup-success-{{ section.id }}"
+                  {% endif %}
+                  placeholder="{{ section.settings.email_label | escape }}"
+                  required
+                >
+                <label class="field__label" for="NewsletterPopup-Email-{{ section.id }}">
+                  {{ section.settings.email_label | escape }}
+                </label>
+              </div>
+
+              {%- if form.errors -%}
+                <small
+                  class="newsletter-form__message form__message"
+                  id="NewsletterPopup-error-{{ section.id }}"
+                >
+                  {%- render 'icon-error' -%}
+                  {{- form.errors.translated_fields.email | capitalize }}
+                  {{ form.errors.messages.email -}}
+                </small>
+              {%- endif -%}
+            </div>
+
+            <div class="newsletter-form__button-row">
+              <button
+                type="submit"
+                class="newsletter-form__submit button button--full-width"
+                name="commit"
+              >
+                {{ section.settings.button_label | escape }}
+              </button>
+            </div>
+          </div>
+
+          {%- if form.posted_successfully? -%}
+            <h3
+              class="newsletter-form__message newsletter-form__message--success form__message"
+              id="NewsletterPopup-success-{{ section.id }}"
+              tabindex="-1"
+              autofocus
+            >
+              {% render 'icon-success' -%}
+              {{- 'newsletter.success' | t }}
+            </h3>
+          {%- endif -%}
+        {%- endform -%}
+      </div>
+    </modal-dialog>
+  </newsletter-popup>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Newsletter popup",
+  "class": "section-newsletter-popup",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable",
+      "label": "Enable popup",
+      "default": true
+    },
+    {
+      "type": "paragraph",
+      "content": "Uses Shopify’s native customer signup form. Each submission creates a customer and opts them into email marketing."
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Welcome to Arader Galleries"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>Join our mailing list to receive curated information about our collection, get invited to our events and be notified of our upcoming auctions.</p>"
+    },
+    {
+      "type": "text",
+      "id": "first_name_label",
+      "label": "First name label",
+      "default": "First Name"
+    },
+    {
+      "type": "text",
+      "id": "last_name_label",
+      "label": "Last name label",
+      "default": "Last Name"
+    },
+    {
+      "type": "text",
+      "id": "email_label",
+      "label": "Email label",
+      "default": "Email"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label",
+      "default": "Subscribe"
+    },
+    {
+      "type": "range",
+      "id": "delay",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "unit": "s",
+      "label": "Delay before showing",
+      "default": 3
+    },
+    {
+      "type": "range",
+      "id": "expiry_days",
+      "min": 1,
+      "max": 90,
+      "step": 1,
+      "unit": "d",
+      "label": "Days before showing again after close",
+      "default": 30
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Newsletter popup"
+    }
+  ]
+}
+{% endschema %}

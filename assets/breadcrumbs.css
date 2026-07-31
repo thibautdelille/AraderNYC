@@ -1,0 +1,16 @@
+.breadcrumbs ol {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 4px;
+  
+}
+
+.breadcrumbs ol>li {
+  color: rgba(var(--color-foreground), 0.75) !important;
+  list-style: none;
+}
+
+.breacrumbs ol>li>a {
+  color: rgba(var(--color-foreground), 0.75) !important;
+}

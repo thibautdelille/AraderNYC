@@ -1,0 +1,71 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "collection_list_URAqtL": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_jLt7A6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "european-paintings"
+          }
+        },
+        "featured_collection_iEebXM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sertum-orchidaceum"
+          }
+        },
+        "featured_collection_6XMmAx": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "deborah-passmore-gillingham-lilies-and-magnolias"
+          }
+        },
+        "featured_collection_z9XWPw": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "poiteau-turpin-superb-botanical-drawings-including-varieties-from-the-west-indies"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_jLt7A6",
+        "featured_collection_iEebXM",
+        "featured_collection_6XMmAx",
+        "featured_collection_z9XWPw"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collection_list_URAqtL"
+  ]
+}

@@ -1,0 +1,103 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "collection_list_qRympE": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_9UqXmn": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "celestial-fall-andreas-cellarius"
+          }
+        },
+        "featured_collection_pbBBPC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "johann-bayer-1"
+          }
+        },
+        "featured_collection_dqERgx": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "johan-gabriel-doppelmayer"
+          }
+        },
+        "featured_collection_HNrX8p": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "nicholas-der-fer"
+          }
+        },
+        "featured_collection_FefLrf": {
+          "type": "featured_collection",
+          "name": "View All",
+          "settings": {
+            "collection": "celestial"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_9UqXmn",
+        "featured_collection_pbBBPC",
+        "featured_collection_dqERgx",
+        "featured_collection_HNrX8p",
+        "featured_collection_FefLrf"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "Celestial Views and Maps",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "products_per_page": 20,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "collection_list_qRympE",
+    "product-grid"
+  ]
+}

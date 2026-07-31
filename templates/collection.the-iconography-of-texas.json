@@ -1,0 +1,81 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 20,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 60
+      }
+    },
+    "54c99f50-68ae-42d2-87e1-df29863691b9": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15245816430636__54c99f50-68ae-42d2-87e1-df29863691b9-1678487003abd821f3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Iconography of Texas",
+            "heading_size": "h2"
+          }
+        },
+        "template--15245816430636__54c99f50-68ae-42d2-87e1-df29863691b9-1678487003abd821f3-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Return to the collection",
+            "button_link_1": "shopify://pages/maps-geopolitics-and-the-roots-of-texas",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15245816430636__54c99f50-68ae-42d2-87e1-df29863691b9-1678487003abd821f3-0",
+        "template--15245816430636__54c99f50-68ae-42d2-87e1-df29863691b9-1678487003abd821f3-2"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Screen_Shot_2023-03-10_at_2.36.42_PM.png",
+        "image_overlay_opacity": 30,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "54c99f50-68ae-42d2-87e1-df29863691b9"
+  ]
+}

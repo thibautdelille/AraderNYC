@@ -1,0 +1,489 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_hP76dU": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2024-11-17_at_2.07.49_PM.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "bottom-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-2",
+        "mobile_content_alignment": "right",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_ENe67w": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jWJr6y": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1>1260 County Line Road</h1><h2><strong>Wayne PA 19087</strong></h2><h1></h1>",
+            "heading_size": "h1"
+          }
+        },
+        "text_pbx6Aa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This beautiful 4 bedroom, 3 full bathroom,1 half bathroom, single-family home on the Main Line was originally constructed in 1930 and contains slightly over 5000 square feet of living space sitting on a 4.98 acre lot with a garage.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jWJr6y",
+        "text_pbx6Aa"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "multirow_Pwhfce": {
+      "type": "multirow",
+      "blocks": {
+        "row_83FYzx": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5567.heic",
+            "caption": "",
+            "heading": "<strong>INTERIORS</strong>",
+            "text": "<p>Paint colors are handpicked, period-appropriate FARROW AND BALL colors.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_wYWWzm": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5571.heic",
+            "caption": "",
+            "heading": "",
+            "text": "<p>The Cuban mahogany and walnut paneling in 1260 County Line Road’s sunroom, ballroom, library, and dining room is the paneling from the J P Morgan Library. </p><p>The sunroom has a hidden library</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_83FYzx",
+        "row_wYWWzm"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collage_PmaUEV": {
+      "type": "collage",
+      "blocks": {
+        "image_3rM4cU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/dinning.jpg"
+          }
+        },
+        "image_yHicx8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/dinning2.jpg"
+          }
+        },
+        "image_L3DAG3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/livingroom.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_3rM4cU",
+        "image_yHicx8",
+        "image_L3DAG3"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_aCjYc7": {
+      "type": "multirow",
+      "blocks": {
+        "row_jiF3U3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/kitchen2.jpg",
+            "caption": "",
+            "heading": "<strong>KITCHEN</strong>",
+            "text": "<p>Installation completed in 2023, includes all new cabinetry including a farmhouse sink.</p><p>New LG wall oven, LG convection microwave oven, LG gas cooktop, KitchenAid refrigerator</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_hBqmkk": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/mudroom1.png",
+            "caption": "",
+            "heading": "Mudroom",
+            "text": "<p>Paneling in the mudroom is from a 16th century English home, the Guildford Estate which was originally owned by the industrialist George W. Elkins. Later English Tudor architectural elements imported from Guildford, England and meticulously carried from England to Wyndmoor, Pennsylvania were reassembled by European craftsmen at the Estate.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_xf9Rxc": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5574.heic",
+            "caption": "",
+            "heading": "Stairwell",
+            "text": "<p>The Cuban mahogany and walnut paneling in the stairwell is the paneling from the J P Morgan Library.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_jiF3U3",
+        "row_hBqmkk",
+        "row_xf9Rxc"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_cxwGcR": {
+      "type": "rich-text",
+      "blocks": {
+        "text_4XnEDK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Many beautiful 19th century doors/doorways throughout the home. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_4XnEDK"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "collage_mKrgmJ": {
+      "type": "collage",
+      "blocks": {
+        "image_hVEwze": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/door2.jpg"
+          }
+        },
+        "image_3ciRnC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5578_2.heic"
+          }
+        },
+        "image_4LUkdP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/door.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_hVEwze",
+        "image_3ciRnC",
+        "image_4LUkdP"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_P3WpPJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_c7V4Dr": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>The Master Bedroom</p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_TB93mP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Cuban mahogany and walnut paneling in the master bedroom is the paneling from the J P Morgan Library.</p><p>Paneling in the master bedroom’s dressing room is from a 16th century English home, the Guildford Estate which was originally owned by the industrialist George W. Elkins. Later English Tudor architectural elements imported from Guildford, England and meticulously carried from England to Wyndmoor, Pennsylvania were reassembled by European craftsmen at the Estate. This home took nearly a decade to complete.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_c7V4Dr",
+        "text_TB93mP"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "collage_WA3Bt3": {
+      "type": "collage",
+      "blocks": {
+        "image_THCbJ6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/master.jpg"
+          }
+        },
+        "image_acLkN6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bathroom.jpg"
+          }
+        },
+        "image_kNtwpP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/master2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_THCbJ6",
+        "image_acLkN6",
+        "image_kNtwpP"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 20
+      }
+    },
+    "collage_MJPdQH": {
+      "type": "collage",
+      "blocks": {
+        "image_w3KKJh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/dressing2.jpg"
+          }
+        },
+        "image_73cFk8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/closet.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_w3KKJh",
+        "image_73cFk8"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_7HYWMj": {
+      "type": "multirow",
+      "blocks": {
+        "row_3JqhCf": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/gargolle.jpg",
+            "caption": "",
+            "heading": "<strong>Hardscaping</strong>",
+            "text": "<p>Newly installed carport and patio</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_gMJwMR": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/trees1.jpg",
+            "caption": "",
+            "heading": "Trees",
+            "text": "<p>finest collection of conifers in private hands on East Coast<br/>Emerald Green, Arborvitae, Butterfly, Cryptomeria, Maple Palmatum, Eastern Red Cedar, Maple Full Moon, Chamaecyparis obtusa, Chamaecyparis magnifica, Maple Rhode Island, Taxus Baccata, Photinia Green Giant, Beech Purple Fountain, Pine Goldilocks, Spruce Serbian Bruns, Norway Cobra, Norway Weeping, Baby BluePine, Weeping Cypress, Crippsii Pine Thunderhead, Spruce Norway Weeping </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_3JqhCf",
+        "row_gMJwMR"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 20
+      }
+    },
+    "collage_AxagfD": {
+      "type": "collage",
+      "blocks": {
+        "image_FrgAq6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/trees6.jpg"
+          }
+        },
+        "image_3ejbhC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/trees2.jpg"
+          }
+        },
+        "image_G3mFqB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/trees3.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_FrgAq6",
+        "image_3ejbhC",
+        "image_G3mFqB"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_i6BCDK": {
+      "type": "rich-text",
+      "blocks": {
+        "text_FwJHQU": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>PLUMBING </strong></p><p>Haller Enterprises for heating, cooling & plumbing upgrades</p><p>New septic tank</p><p>New 50 gallon water heater</p><p><strong>HEATING</strong></p><p>New HVAC systems with programmable thermostats</p><p><strong>APPLIANCES</strong></p><p>New LG washer and LG dryer installed in 2022</p><p><strong>FULL BASEMENT & attached GARAGE</strong></p><p><strong>ROOF </strong></p><p>New roof and gutters installed October 2022</p><p><br/></p><p><strong>Please contact Graham Arader at </strong><a href=\"mailto:grahamarader@gmail.com\"><span style=\"text-decoration:underline\"><strong>grahamarader@gmail.com</strong></span></a><strong> to schedule a viewing of this stunning $5,900,000 house in a desirable neighborhood on the Main Line.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_FwJHQU"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "image_banner_hP76dU",
+    "rich_text_ENe67w",
+    "main",
+    "multirow_Pwhfce",
+    "collage_PmaUEV",
+    "multirow_aCjYc7",
+    "rich_text_cxwGcR",
+    "collage_mKrgmJ",
+    "rich_text_P3WpPJ",
+    "collage_WA3Bt3",
+    "collage_MJPdQH",
+    "multirow_7HYWMj",
+    "collage_AxagfD",
+    "rich_text_i6BCDK"
+  ]
+}

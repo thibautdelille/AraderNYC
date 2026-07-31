@@ -1,0 +1,8 @@
+# Shopify CLI theme environments
+# Docs: https://shopify.dev/docs/storefronts/themes/tools/cli/environments
+#
+# [environments.default] is used automatically (no -e flag needed).
+# Override with: shopify theme <cmd> -e <name>
+
+[environments.default]
+store = "arader-galleries-2.myshopify.com"

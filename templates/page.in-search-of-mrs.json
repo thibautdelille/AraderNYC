@@ -1,0 +1,635 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_BkAnAJ": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_pgftzw": {
+          "type": "heading",
+          "settings": {
+            "heading": "In Search of Mrs.",
+            "heading_size": "h1"
+          }
+        },
+        "text_LFPCXE": {
+          "type": "text",
+          "settings": {
+            "text": "Women & the Radical Art of Science",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pgftzw",
+        "text_LFPCXE"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2024-02-29_at_3.12.06_PM.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_Mcb69i": {
+      "type": "rich-text",
+      "blocks": {
+        "text_kJjGLa": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Arader Galleries is pleased to announce our new exhibition, <em>In Search of Mrs.: Women and the Radical Art of Science</em>, on view now at 1016 Madison Avenue. The presentation features works by female painters of natural history subjects and explores their overlooked engagement with science.</h3>"
+          }
+        }
+      },
+      "block_order": [
+        "text_kJjGLa"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_MDAHAB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_J3QPdC": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>About the Exhibition:</p>",
+            "heading_size": "h2"
+          }
+        },
+        "text_ixHwAN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Through the Renaissance, art, science, and religion were intimately connected. Women participated in these complementary spheres, but in an increasingly secular world, the paths of art and science separate from religion and diverge into independent fields of study. When they barred women, it did not stop them from being active in both disciplines; they just stopped receiving acknowledgment. A new assessment of these artists bridges the divide between the reputation they earned in their lifetime and the skewed discussion of their work in modern history to provide a more accurate reflection of their contributions as equally engaging in the ever-evolving understanding of nature. </p><p>Highlights include works by Giovanna Garzoni, Maria Sibylla Merian, Madame Knip, Ann Lee, Barbara Regina Dietzsch, Priscilla Bury, and Sarah Stone, among many others, some of whom were formerly only known to us as “Mrs.” </p><p>A complete catalogue is available on request through the link below, and curator-led tours are possible at our New York City location. Please reach out with any questions.</p><p>Curated by:<br/>Alison Petretti<br/>Curator, Drawings & Watercolors<br/><a href=\"mailto:alisonpetretti@gmail.com\" title=\"mailto:alisonpetretti@gmail.com\">alisonpetretti@gmail.com</a><br/>+1(646)673-4505</p>"
+          }
+        },
+        "button_U9WxaD": {
+          "type": "button",
+          "settings": {
+            "button_label": "Download Catalog",
+            "button_link": "https://forms.gle/NZprQSbdRrUtfvbi9",
+            "button_style_secondary": false,
+            "button_label_2": "Reserve Tour",
+            "button_link_2": "https://forms.gle/aLjmvXJNgn2eUBGP9",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_J3QPdC",
+        "text_ixHwAN",
+        "button_U9WxaD"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_xHH6qW": {
+      "type": "image-banner",
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/Knip_White-naped_Woodpecker.jpg",
+        "image_2": "shopify://shop_images/Bury_Amaryllis_Superba.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "bottom-right",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "custom_liquid_BT7kdk": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width small-hide\" style=\"width:100%; display:flex; justify-content:space-between\">\n<h6 style=\"max-width:50%\">MADAME KNIP (PAULINE RIFER DE COURCELLES) (FRENCH,&nbsp;1781&#8209;1851)<br/>\n<i>White-naped Woodpecker</i></h6>\n<h6 style=\"text-align:right;max-width:50%\">PRISCILLA SUSAN FALKNER BURY (BRITISH,&nbsp;1799&#8209;1872)<br/><i>Amaryllis Superba. Brazil (imported bulb) at Mrs. Arnold Harrison’s 21st April, 1828.</i></h6>\n</div>\n\n<div class=\"page-width medium-hide large-up-hide\">\n<h6>Top: MADAME KNIP (PAULINE RIFER DE COURCELLES) (FRENCH,&nbsp;1781&#8209;1851)<br/>\n<i>White-naped Woodpecker</i></h6>\n<h6>Bottom: PRISCILLA SUSAN FALKNER BURY (BRITISH,&nbsp;1799&#8209;1872)<br/><i>Amaryllis Superba. Brazil (imported bulb) at Mrs. Arnold Harrison’s 21st April, 1828.</i></h6>\n</div>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_RwEnmJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_AX7Dhk": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>MARIA SIBYLLA MERIAN (GERMAN, 1647-1717)<br/><em>Study of a tulip, two crocus and two insects</em></h6><h2>Pioneers of Science:</h2><p>Maria Sibylla Merian was driven to create out of genuine scientific curiosity. Her works combined budding scientific investigation with contemporary collecting of exotics. She is the most well-known female artist of this genre due to her remarkable foresight in self-publishing, ensuring her pioneering work influenced science for centuries. We explore the many facets of her extraordinary oeuvre and expand upon her contributions to art and science.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_AX7Dhk"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {h6 {display: none !important; }}",
+        "@media screen and (max-width: 749px) {.image-with-text__content {padding-top: 0 !important; } h6 {padding-bottom: 36px !important; margin-left: -40px !important; margin-right: -40px !important; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Merian_Study_of_a_tulip_two_crocus_and_two_insects.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_whhXJz": {
+      "type": "rich-text",
+      "blocks": {
+        "text_rT4FPR": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>MARIA SIBYLLA MERIAN (GERMAN, 1647-1717)<br/><em>Study of a tulip, two crocus and two insects</em></h6>"
+          }
+        }
+      },
+      "block_order": [
+        "text_rT4FPR"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {h6 {display: none !important; }}"
+      ],
+      "settings": {
+        "desktop_content_position": "right",
+        "content_alignment": "right",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_zizdWA": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_iacYQG": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>GIOVANNA GARZONI (ITALIAN, 1600-1670)<br/><em>A Plate of Figs</em></h6><h2>Exploring Giovanna Garzoni's Legacy:</h2><p>Giovanna Garzoni was an innovative artist of the Italian Renaissance renowned for her intricate still-life paintings.  But she was also closely tied to influential scientific communities, and her works were used as a health aid. Explore these understudied connections, which add to the captivating beauty and technical mastery that had an enduring influence on the art world.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_iacYQG"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {h6 {display: none !important; }}",
+        "@media screen and (max-width: 749px) {.image-with-text__content {padding-top: 0 !important; } h6 {padding-bottom: 36px !important; margin-left: -40px !important; margin-right: -40px !important; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Garzoni_A_Plate_of_Figs.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_wnY98d": {
+      "type": "rich-text",
+      "blocks": {
+        "text_CgJ7DJ": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>GIOVANNA GARZONI (ITALIAN, 1600-1670)<br/><em>A Plate of Figs</em></h6>"
+          }
+        }
+      },
+      "block_order": [
+        "text_CgJ7DJ"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {h6 {display: none !important; }}"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_M6U4Yg": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_Mi34U3": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>BARBARA REGINA DIETZSCH (GERMAN, 1706-1783)<br/><em>Tulip Study</em></h6><h2>Reconnecting Artists to their Accomplishments:</h2><p>In her lifetime, Barbara Regina Dietzsch was described as “Our countrywoman, Miss Barbara Regina  Dietzsch, now quite famous everywhere.” She had patrons throughout Europe and was in demand as an artist and teacher. But, by the twentieth century, Dietzsch’s story was nearly invisible in art history texts. Discover the story behind the dramatic flora and fauna of this beloved artist.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_Mi34U3"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {h6 {display: none !important; }}",
+        "@media screen and (max-width: 749px) {.image-with-text__content {padding-top: 0 !important; } h6 {padding-bottom: 36px !important; margin-left: -40px !important; margin-right: -40px !important; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Dietzsch_Agricola.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_DhFKKm": {
+      "type": "rich-text",
+      "blocks": {
+        "text_WUHqEe": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>BARBARA REGINA DIETZSCH (GERMAN, 1706-1783)<br/><em>Tulip Study</em></h6>"
+          }
+        }
+      },
+      "block_order": [
+        "text_WUHqEe"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {h6 {display: none !important; }}"
+      ],
+      "settings": {
+        "desktop_content_position": "right",
+        "content_alignment": "right",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "collage_RxbHzc": {
+      "type": "collage",
+      "blocks": {
+        "image_i6Vidk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/dietzsch_Finch_or_Brambling.jpg"
+          }
+        },
+        "image_ETAhDY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Stone_Quetzal_Pharomachrus_Mocino_also_known_as_the_Resplendent_Quetzal.jpg"
+          }
+        },
+        "image_ffz6Qq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Herolt_A_Crown_Imperial_a_Hyacinth_and_Bluebell_with_a_Chrysalis_a_Caterpillar_and_an_Insect_6fc3e098-c757-4115-a63d-3a9c98a5231e.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_i6Vidk",
+        "image_ETAhDY",
+        "image_ffz6Qq"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_JVTQT3": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width small-hide\" style=\"width:100%; display:flex; justify-content:space-between\">\n<div style=\"max-width:50%\">\n<h6>Top left: BARBARA REGINA DIETZSCH (GERMAN,&nbsp;1706&#8209;1783)<br/>\n<i>Finch or Brambling</i></h6>\n<h6>Bottom left: SARAH STONE (BRITISH,&nbsp;1760&#8209;1844)<br/><i>Quetzal (Pharomachrus Mocino)</i></h6>\n</div>\n<h6 style=\"text-align:right;max-width:50%\">Right: JOHANNA HELENA HEROLT (GERMAN,&nbsp;1668&#8209;1723)<br/>\n<i>A Crown Imperial, a Hyacinth and Bluebell with a Chrysalis, a Caterpillar and an Insect</i></h6>\n</div>\n\n<div class=\"page-width medium-hide large-up-hide\">\n<h6>Top: BARBARA REGINA DIETZSCH (GERMAN,&nbsp;1706&#8209;1783)<br/>\n<i>Finch or Brambling</i></h6>\n<h6>Middle: SARAH STONE (BRITISH,&nbsp;1760&#8209;1844)<br/><i>Quetzal (Pharomachrus Mocino)</i></h6>\n<h6>Bottom: JOHANNA HELENA HEROLT (GERMAN,&nbsp;1668&#8209;1723)<br/>\n<i>A Crown Imperial, a Hyacinth and Bluebell with a Chrysalis, a Caterpillar and an Insect</i></h6>\n</div>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_978g6R": {
+      "type": "rich-text",
+      "blocks": {
+        "text_dK4gVA": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Uncovering Forgotten Artists:</h2><p>Join us as we spotlight female artists who have long been relegated to the margins of history, often known only by the title \"Mrs.\" Despite their significant contributions, many of these artists have remained obscured until now. Through meticulous research and exploration, we aim to reclaim their rightful place in the annals of art history. Their paintings delight the eye, and the story of their lives will inspire you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_dK4gVA"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_Myt3KU": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/crabtree_tobacco_plant_daf19473-6745-4996-b86a-349f78e3ee0b.jpg",
+        "image_2": "shopify://shop_images/Mee_Guzmania_monostachia_39526bbf-a917-47c4-9d15-9bfc912a8c4c.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "custom_liquid_cKPtWr": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width small-hide\" style=\"width:100%; display:flex; justify-content:space-between\">\n<h6 style=\"max-width:50%\">PHILIPPA CRABTREE (BRITISH,&nbsp;B.&nbsp;1764)</br>\n<i>Tobacco Plant</i></h6>\n<h6 style=\"text-align:right;max-width:50%\">MARGARET MEE (BRITISH, 1909-1988)<br/>\n<i>Guzmania monostachia</i></h6>\n</div>\n\n<div class=\"page-width medium-hide large-up-hide\">\n<h6>Top: PHILIPPA CRABTREE (BRITISH, B. 1764)</br>\n<i>Tobacco Plant</i></h6>\n<h6>Bottom: MARGARET MEE (BRITISH, 1909-1988)<br/>\n<i>Guzmania monostachia</i></h6>\n</div>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_iaCKBf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UdNcLz": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Exhibition Catalogue:</p>",
+            "heading_size": "h2"
+          }
+        },
+        "text_tzwzAh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our comprehensive catalogue provides in-depth insights into the lives and works of these extraordinary women. Delve into the pages of history and gain a deeper understanding of the pivotal role played by female artists in shaping our understanding of the natural world.</p>"
+          }
+        },
+        "button_bqTwa7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Downlaod Catalog",
+            "button_link": "https://cdn.shopify.com/s/files/1/1156/7956/files/In_Search_Of_Mrs_Women_The_Radical_Art_Of_Science_catalogV6.pdf?v=1748720204",
+            "button_style_secondary": false,
+            "button_label_2": "Reserve Tour",
+            "button_link_2": "https://forms.gle/aLjmvXJNgn2eUBGP9",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_UdNcLz",
+        "text_tzwzAh",
+        "button_bqTwa7"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_t6xPiC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ExqPMw": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Visit Us:</p>",
+            "heading_size": "h2"
+          }
+        },
+        "text_P8TXKK": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Location:</strong> 1016 Madison Avenue, New York, NY 10075</p><p><strong>Gallery Hours:</strong> Monday-Saturday 10 am-6 pm</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ExqPMw",
+        "text_P8TXKK"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_QWVQBr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3xfqpD": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Join the Conversation:</p>",
+            "heading_size": "h2"
+          }
+        },
+        "text_4dAj76": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Follow us on social media @AraderGalleriesNYC for updates and ongoing discussions about the intersection of art, science, and gender in our exhibition.</p>"
+          }
+        },
+        "button_KdVywm": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_3xfqpD",
+        "text_4dAj76",
+        "button_KdVywm"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_f8C7ep": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_D3eeiB": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>About Arader Galleries:</p>",
+            "heading_size": "h2"
+          }
+        },
+        "text_AG6wDY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Arader Galleries is a renowned destination for works relating to the connection between art, history, and science. We are experts working as your personal curators.</p>"
+          }
+        },
+        "button_J9XQmD": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_D3eeiB",
+        "text_AG6wDY",
+        "button_J9XQmD"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_9aGi9g": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NjTjAx": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Don't Miss Out!</p>",
+            "heading_size": "h2"
+          }
+        },
+        "text_KBfkAp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Experience the beauty, brilliance, and significance of \"In Search of Mrs.: Women & the Radical Art of Science.\" Please reserve your spot for a curator-led tour and join us on a journey through history, art, and the wonders of the natural world.</p>"
+          }
+        },
+        "button_WmDzDH": {
+          "type": "button",
+          "settings": {
+            "button_label": "Dowload Catalog",
+            "button_link": "https://forms.gle/NZprQSbdRrUtfvbi9",
+            "button_style_secondary": false,
+            "button_label_2": "Reserve Tour",
+            "button_link_2": "https://forms.gle/aLjmvXJNgn2eUBGP9",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_NjTjAx",
+        "text_KBfkAp",
+        "button_WmDzDH"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_BkAnAJ",
+    "rich_text_Mcb69i",
+    "rich_text_MDAHAB",
+    "image_banner_xHH6qW",
+    "custom_liquid_BT7kdk",
+    "image_with_text_RwEnmJ",
+    "rich_text_whhXJz",
+    "image_with_text_zizdWA",
+    "rich_text_wnY98d",
+    "image_with_text_M6U4Yg",
+    "rich_text_DhFKKm",
+    "collage_RxbHzc",
+    "custom_liquid_JVTQT3",
+    "rich_text_978g6R",
+    "image_banner_Myt3KU",
+    "custom_liquid_cKPtWr",
+    "rich_text_iaCKBf",
+    "rich_text_t6xPiC",
+    "rich_text_QWVQBr",
+    "rich_text_f8C7ep",
+    "rich_text_9aGi9g"
+  ]
+}

@@ -1,0 +1,287 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "custom_css": [
+        "h1 {text-align: center;}"
+      ],
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "213c949c-db3d-41ae-8ca1-894f6c2db826": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15246235369516__213c949c-db3d-41ae-8ca1-894f6c2db826-16786361375fd821ee-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>On Exhibit Now</h2><p>Three of the world's greatest ornithological books are now assembled at Arader Galleries in New York City. This gathering spans the seventeenth to the nineteenth centuries telling the story of European and American obsession with finding and illustrating new and exotic species as colonial supremacy.</p>"
+          }
+        },
+        "template--15246235369516__213c949c-db3d-41ae-8ca1-894f6c2db826-16786361375fd821ee-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Request a private viewing",
+            "button_link": "mailto:josephine.arader@gmail.com",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15246235369516__213c949c-db3d-41ae-8ca1-894f6c2db826-16786361375fd821ee-1",
+        "template--15246235369516__213c949c-db3d-41ae-8ca1-894f6c2db826-16786361375fd821ee-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "a9d6c3d5-7343-4956-9a03-fe3664e2a7bb": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15246235369516__a9d6c3d5-7343-4956-9a03-fe3664e2a7bb-167863627546d7436a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Pieter Holsteyn's <em>Aves aquatiles advivum eleganter</em></h2><p>The collection's timeline begins in the seventeenth century in the Netherlands during the hieght of the Dutch East India Company withPieter Holsteyn's<em>Aves aquatiles advivum eleganter</em>which is thefirst compilation of ornithological drawing depicting bird species from all six continents.</p><p>The 168 paintings depict 81 species and another 30 hybrids and avicultural varieties. The wild birds include many native to the Netherlands and a wide range of species from other hemispheres where the Dutch had established colonies and trading posts.  The portraits of avicultural varieties reveal an interest in experimentation in hybridizing different wild birds, especially ducks, and selecting unusual features in parrots and barnyard fowl. </p>",
+            "text_style": "body"
+          }
+        },
+        "template--15246235369516__a9d6c3d5-7343-4956-9a03-fe3664e2a7bb-167863627546d7436a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "View Book",
+            "button_link": "shopify://products/pieter-holsteyn-the-younger-dutch-1614-1687-aves-aquatiles-advivum-eleganter-depictae-a-petro-holsteyn-aves-ad-vivum-depictae-a-petro-holsteyn-celeberrimo-pictore-amsterdam-ca-1638"
+          }
+        }
+      },
+      "block_order": [
+        "template--15246235369516__a9d6c3d5-7343-4956-9a03-fe3664e2a7bb-167863627546d7436a-1",
+        "template--15246235369516__a9d6c3d5-7343-4956-9a03-fe3664e2a7bb-167863627546d7436a-2"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/holsteyn_avesalbum_480x480_858c2146-f8e2-4a75-8f10-5a742cec39c5.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "2b36e211-5f28-423a-bbf0-8e10fc7d007b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15246235369516__2b36e211-5f28-423a-bbf0-8e10fc7d007b-167863627546d7436a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Mark Catesby's <em>extra-illustrated Natural History and portfolio of original watercolors</em></h2><p></p>",
+            "text_style": "body"
+          }
+        },
+        "43ae0968-3105-43a1-bb39-ce0c181c4ec0": {
+          "type": "button",
+          "settings": {
+            "button_label": "View Book",
+            "button_link": "shopify://products/extra-illustrated-mark-catesbys-the-natural-history-of-carolina-florida-and-the-bahama-islands-and-the-volume-of-individual-watercolors-and-prints-assembled-by-peter-collinson-from-the-early-1740s-through-1767"
+          }
+        }
+      },
+      "block_order": [
+        "template--15246235369516__2b36e211-5f28-423a-bbf0-8e10fc7d007b-167863627546d7436a-1",
+        "43ae0968-3105-43a1-bb39-ce0c181c4ec0"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/catesby.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "786807b2-8245-4d14-9a57-adcf11ec84e8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15246235369516__786807b2-8245-4d14-9a57-adcf11ec84e8-16786361375fd821ee-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In the eighteenth-century,  America became the most exotic destination in the world. Mark Catesby and William Bartram were progenitors of this nation's earliest natural history imagery. Arriving in the states this week is the Peter Collinson collection of Mark Catesby's extra-illustrated<em>Natural History</em>and portfolio of original watercolors by Catesby, William Bartram, George Edwards, and Georg Ehret.  It is an extraordinary grouping that has been in the hands of the Earls of Derby at Knowsley since the mid-nineteenth century. Included are eleven Mark Catesby watercolors, none have been available since the eighteenth century, fifty-one William Bartram watercolors, no original work by this artist has been offered since 1842, and significant watercolors grouping by Georg Ehret and George Edwards. </p><p>Together it is widely considered one of the most important archives relating to this circle of collectors, natural historians, artists, and garden owners in London during the first half of the 18th-century. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15246235369516__786807b2-8245-4d14-9a57-adcf11ec84e8-16786361375fd821ee-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "d36e055d-82bc-427d-8320-b908b488e16c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15246235369516__d36e055d-82bc-427d-8320-b908b488e16c-167863627546d7436a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>John Abbot <em>Drawings in Natural History - Birds</em></h2><p>The first signed and dated ‘J. Abbot ad vivum delin. Nov. 1815’ in red ink in the lower margin, the majority titled in pencil in the lower margins, the sheets numbered from 1 to 221 (upper right),several inscribed (or with cropped inscriptions) on the upper edge on the reverses (‘Its note in March, is like the creacking of a sign board in Windy weather’ [Lanius Excubitor Carolinensis, GreyShrike]), Knowsley library location recorded on the front free endpaper (‘Knowsley / ... Library /East Division / North Bookcase B / Shelf 2 No 6’)</p><p></p>",
+            "text_style": "body"
+          }
+        },
+        "59497a18-7656-47cc-9fc5-8589cbc6a018": {
+          "type": "button",
+          "settings": {
+            "button_label": "View Book",
+            "button_link": "shopify://products/john-abbot-british-1751-1840-drawings-in-natural-history-birds"
+          }
+        }
+      },
+      "block_order": [
+        "template--15246235369516__d36e055d-82bc-427d-8320-b908b488e16c-167863627546d7436a-1",
+        "59497a18-7656-47cc-9fc5-8589cbc6a018"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/AbbotCover.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "a0595771-e221-4ea5-8b0a-2b0a79cec778": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15246235369516__a0595771-e221-4ea5-8b0a-2b0a79cec778-167863627546d7436a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Johannes Gerard Keulemans <em>A Monograph of the Meropidae</em></h2><p> While America rose to prominence in learned naturalists' circles, the lure of brightly colored and yet to be described exotics in Africa also reigned supreme. Johannes Gerard Keulemans was one of the foremost ornithological illustrators of the nineteenth-century.  Dutch by origin, he was part of a select band of continental European bird and animal artists attracted to England during the middle and latter half of the nineteenth century.</p><p>This is a superb set of 34 watercolors representing the familty of Bea Eaters by one of the finest artists of ornithology, John Gerard Keulemans.</p>",
+            "text_style": "body"
+          }
+        },
+        "f7032dbb-57a8-476c-a175-cfa7c3092138": {
+          "type": "button",
+          "settings": {
+            "button_label": "View Book",
+            "button_link": "shopify://products/a-monograph-of-the-meropidae-or-family-of-the-bee-eaters-keulemans-j-g-1842-1912-henry-eeles-dresser-1838-1915-published-by-1884-1886-1886"
+          }
+        }
+      },
+      "block_order": [
+        "template--15246235369516__a0595771-e221-4ea5-8b0a-2b0a79cec778-167863627546d7436a-1",
+        "f7032dbb-57a8-476c-a175-cfa7c3092138"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_1143_1024x1024_2x_2c0fe868-1b12-48dd-a0a0-d9fa8906eac3.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "fdd55056-2fcb-4514-9839-4e02b651124e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15246235369516__fdd55056-2fcb-4514-9839-4e02b651124e-16786361375fd821ee-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You can review these masterpieces of ornithology here on our website,  however, the luminosity of each feather and gloss of every eye can never be captured in pixels. The true majesty of these works is revealed by seeing them in person.  We are excited to invite you to view these masterpieces by appointment at our townhouse at 1016 Madison Avenue at any time that may be convenient for you. Please contact us to make a time to come by; we look forward to seeing you. </p>"
+          }
+        },
+        "b55ec912-306f-4b70-887a-b81404082639": {
+          "type": "button",
+          "settings": {
+            "button_label": "Request a private viewing",
+            "button_link": "mailto:josephine.arader@gmail.com",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15246235369516__fdd55056-2fcb-4514-9839-4e02b651124e-16786361375fd821ee-1",
+        "b55ec912-306f-4b70-887a-b81404082639"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 20,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "213c949c-db3d-41ae-8ca1-894f6c2db826",
+    "a9d6c3d5-7343-4956-9a03-fe3664e2a7bb",
+    "2b36e211-5f28-423a-bbf0-8e10fc7d007b",
+    "786807b2-8245-4d14-9a57-adcf11ec84e8",
+    "d36e055d-82bc-427d-8320-b908b488e16c",
+    "a0595771-e221-4ea5-8b0a-2b0a79cec778",
+    "fdd55056-2fcb-4514-9839-4e02b651124e",
+    "product-grid"
+  ]
+}

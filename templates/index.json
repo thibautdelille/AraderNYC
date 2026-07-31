@@ -1,0 +1,484 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1016_Google_3.jpg",
+            "heading": "",
+            "heading_size": "medium",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/3rd_floor_hall.jpg",
+            "heading": "",
+            "heading_size": "medium",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1016_Google_8.jpg",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide-0",
+        "slide-1",
+        "slide-2"
+      ],
+      "custom_css": [],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "show_text_below": false,
+        "accessibility_info": "Images of our New York Gallery"
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Discover our other Galleries</p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 32
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/napa.jpg",
+            "title": "Napa Valley, CA",
+            "text": "<p>1380 Main street<br/>Saint Helena, CA 94574<br/>(707) 225-4571</p>",
+            "link_label": "VISIT STORE",
+            "link": "https://araderca.com/"
+          }
+        },
+        "994bc56a-ff3a-45ef-8dd5-78768a369aba": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/philly.jpg",
+            "title": "Philadelphia",
+            "text": "<p>1308 Walnut St<br/>Philadelphia, PA 19107<br/>(215) 735-8811</p>",
+            "link_label": "VISIT STORE",
+            "link": "https://aradergalleries.com/"
+          }
+        }
+      },
+      "block_order": [
+        "column",
+        "994bc56a-ff3a-45ef-8dd5-78768a369aba"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "newslettter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join our email list to learn about exclusive showings and new collections.</p>"
+          }
+        },
+        "form": {
+          "type": "email_form",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "form"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 0
+      }
+    },
+    "e7dc6012-4f7e-44c9-9307-8133c9fca3e7": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "#mc_embed_signup {text-align: center; margin: auto; background-color: transparent;}",
+        ".helper_text {display: none;}"
+      ],
+      "settings": {
+        "custom_liquid": "<!-- Begin Mailchimp Signup Form -->\n<link href=\"//cdn-images.mailchimp.com/embedcode/classic-071822.css\" rel=\"stylesheet\" type=\"text/css\">\n<style type=\"text/css\">\n\t#mc_embed_signup{  width:600px;}\n\t/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.\n\t   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */\n</style>\n<div id=\"mc_embed_signup\">\n    <form action=\"https://aradernyc.us12.list-manage.com/subscribe/post?u=0098fcf11934aa29d7f758cf7&amp;id=401b13e740&amp;f_id=006f99e0f0\" method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\" class=\"validate\" target=\"_blank\" novalidate>\n        <div id=\"mc_embed_signup_scroll\">\n        \n        <div class=\"indicates-required\"><span class=\"asterisk\">*</span> indicates required</div>\n<div class=\"mc-field-group\">\n\t<label for=\"mce-MMERGE1\">Last Name </label>\n\t<input type=\"text\" value=\"\" name=\"MMERGE1\" class=\"\" id=\"mce-MMERGE1\">\n\t<span id=\"mce-MMERGE1-HELPERTEXT\" class=\"helper_text\"></span>\n</div>\n<div class=\"mc-field-group\">\n\t<label for=\"mce-MMERGE2\">First Name </label>\n\t<input type=\"text\" value=\"\" name=\"MMERGE2\" class=\"\" id=\"mce-MMERGE2\">\n\t<span id=\"mce-MMERGE2-HELPERTEXT\" class=\"helper_text\"></span>\n</div>\n<div class=\"mc-field-group\">\n\t<label for=\"mce-EMAIL\">Email Address  <span class=\"asterisk\">*</span>\n</label>\n\t<input type=\"email\" value=\"\" name=\"EMAIL\" class=\"required email\" id=\"mce-EMAIL\" required>\n\t<span id=\"mce-EMAIL-HELPERTEXT\" class=\"helper_text\"></span>\n</div>\n\t<div id=\"mce-responses\" class=\"clear\">\n\t\t<div class=\"response\" id=\"mce-error-response\" style=\"display:none\"></div>\n\t\t<div class=\"response\" id=\"mce-success-response\" style=\"display:none\"></div>\n\t</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->\n    <div style=\"position: absolute; left: -5000px;\" aria-hidden=\"true\"><input type=\"text\" name=\"b_0098fcf11934aa29d7f758cf7_401b13e740\" tabindex=\"-1\" value=\"\"></div>\n    <div class=\"clear\"><input type=\"submit\" value=\"Subscribe\" name=\"subscribe\" id=\"mc-embedded-subscribe\" class=\"button\"></div>\n    </div>\n</form>\n</div>\n<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='MMERGE1';ftypes[1]='text';fnames[2]='MMERGE2';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>",
+        "color_scheme": "background-2",
+        "padding_top": 20,
+        "padding_bottom": 52
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Gallery",
+            "heading_size": "h2"
+          }
+        },
+        "beeb5821-02d1-4343-be95-ed8b7aa72f83": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>1016 Madison Avenue, New York</strong><br/>(between 78th and 79th Streets)</p><p>Open Monday-Saturday, 10am-6pm<br/>Sunday, 11am-5pm</p>",
+            "text_style": "body"
+          }
+        },
+        "ed47a3f7-f430-4a33-9a6f-b8bf9ee3a0d7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Directions",
+            "button_link": "https://maps.google.com?daddr=1016 Madison Avenue, New York"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "beeb5821-02d1-4343-be95-ed8b7aa72f83",
+        "ed47a3f7-f430-4a33-9a6f-b8bf9ee3a0d7"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Screen_Shot_2019-11-15_at_5.13.36_PM.png",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 56
+      }
+    },
+    "16465266521bf008aa": {
+      "type": "featured-product",
+      "blocks": {
+        "16465266526d689337-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "16465266526d689337-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "16465266526d689337-3": {
+          "type": "price",
+          "settings": {}
+        },
+        "16465266526d689337-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "16465266526d689337-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "16465266526d689337-1",
+        "16465266526d689337-2",
+        "16465266526d689337-3",
+        "16465266526d689337-6",
+        "16465266526d689337-7"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "extra-illustrated-mark-catesbys-the-natural-history-of-carolina-florida-and-the-bahama-islands-and-the-volume-of-individual-watercolors-and-prints-assembled-by-peter-collinson-from-the-early-1740s-through-1767",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich-text-2": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Maps of America</p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 12
+      }
+    },
+    "featured-collection-1": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "maps-of-america-2",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 12,
+        "padding_bottom": 32
+      }
+    },
+    "rich-text-3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Explore our Curated Collections</p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "john-james-audubon-havell-edition"
+          }
+        },
+        "collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "americas"
+          }
+        },
+        "collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "botanical"
+          }
+        },
+        "collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "john-gould-hummingbirds"
+          }
+        }
+      },
+      "block_order": [
+        "collection-0",
+        "collection-1",
+        "collection-2",
+        "collection-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "accent-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 68
+      }
+    },
+    "1646529348d493a355": {
+      "type": "image-with-text",
+      "blocks": {
+        "164652934810a4f56e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Meet our Curators",
+            "heading_size": "h2"
+          }
+        },
+        "164652934810a4f56e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Josephine Arader is passionate about the tradition of Natural Historians throughout European and American History. She believes that there is a strong correlation between the Natural Historians of the past and our current understanding of and relationship with the Natural World. The watercolors, color plate books and cartographic works that were produced by natural historians from the 16th-19th Centuries can give us a poignant understanding of the times from which they originate as they bring the past into the present with vivid power.</p>",
+            "text_style": "body"
+          }
+        },
+        "164652934810a4f56e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "MEET OUR CURATORS",
+            "button_link": "shopify://pages/inquiry"
+          }
+        }
+      },
+      "block_order": [
+        "164652934810a4f56e-0",
+        "164652934810a4f56e-1",
+        "164652934810a4f56e-2"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Josephine.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "rich-text",
+    "multicolumn",
+    "newslettter",
+    "e7dc6012-4f7e-44c9-9307-8133c9fca3e7",
+    "image-with-text",
+    "16465266521bf008aa",
+    "rich-text-2",
+    "featured-collection-1",
+    "rich-text-3",
+    "collection-list",
+    "1646529348d493a355"
+  ]
+}

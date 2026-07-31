@@ -1,0 +1,19 @@
+# Shopify Theme Access / CLI credentials (never commit)
+config.yml
+.shopify
+shopify.theme.toml.bak
+
+# OS / editors
+.DS_Store
+.idea
+.vscode
+*.swp
+*~
+
+# Cursor local config
+.cursor
+
+# Node (if added later)
+node_modules/
+npm-debug.log*
+yarn-error.log*

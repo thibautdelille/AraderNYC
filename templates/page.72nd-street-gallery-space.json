@@ -1,0 +1,648 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_QtxTFP": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_LcB8R8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Premium Gallery Space",
+            "heading_size": "h1"
+          }
+        },
+        "text_7hx9ty": {
+          "type": "text",
+          "settings": {
+            "text": "29 East 72nd Street — Just two blocks from Sotheby's. Gallery spaces from $9,000/month.",
+            "text_style": "body"
+          }
+        },
+        "buttons_aMXRdq": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Inquire Now",
+            "button_link_1": "mailto:josephine.arader@gmail.com",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_LcB8R8",
+        "text_7hx9ty",
+        "buttons_aMXRdq"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/8060614290804322064.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_AetBwe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_K4XrjD": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>An Unrivaled Location</p><h2><em>\"Everyone on the planet walks by 72nd and Madison once a year.\"</em></h2>",
+            "heading_size": "h1"
+          }
+        },
+        "text_AE6Vzm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Located at 29 East 72nd Street, three blocks from Sotheby’s Madison Avenue Location and across the street from Ralph Lauren's flagship stores, this second-floor gallery offers exceptional visibility for your business.</p><p>This is a unique opportunity to establish a salon-style presence in one of the world’s premier retail corners. We are offering a selection of beautiful spaces from $9,000 to $17,000 per month</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_K4XrjD",
+        "text_AE6Vzm"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 32
+      }
+    },
+    "multicolumn_zgn7fA": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_QUdrWH": {
+          "type": "column",
+          "settings": {
+            "title": "2 Blocks",
+            "text": "<p><em>Sotheby's at the Breuer Building</em></p><p><em>$1.6 Billion in sales since Dec 8th</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9qm7VF": {
+          "type": "column",
+          "settings": {
+            "title": "10 Windows",
+            "text": "<p><em>6 on Madison Avenue & 4 on 72nd Street</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rDUkbL": {
+          "type": "column",
+          "settings": {
+            "title": "2 Blocks",
+            "text": "<p><em>from Apple Store</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6hDDHE": {
+          "type": "column",
+          "settings": {
+            "title": "Half a block",
+            "text": "<p><em>from </em><em><strong>Come Prima</strong></em><em>, NYC's finest Italian dining</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GYdHBi": {
+          "type": "column",
+          "settings": {
+            "title": "3 Blocks",
+            "text": "<p><em>The Carlyle Hotel<br/>& Bloomberg Philanthropies</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9qGUVp": {
+          "type": "column",
+          "settings": {
+            "title": "4 Blocks",
+            "text": "<p><em>The Frick Collection</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JXJj7f": {
+          "type": "column",
+          "settings": {
+            "title": "5 Blocks",
+            "text": "<p><em>The Mark Hotel</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_L6B8jy": {
+          "type": "column",
+          "settings": {
+            "title": "9 Blocks",
+            "text": "<p><em>The Metropolitan Museum of Art</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FHcnt7": {
+          "type": "column",
+          "settings": {
+            "title": "Across",
+            "text": "<p><em>Ralph Lauren World Headquarters<br/>Flagship Stores</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_QUdrWH",
+        "column_9qm7VF",
+        "column_rDUkbL",
+        "column_6hDDHE",
+        "column_GYdHBi",
+        "column_9qGUVp",
+        "column_JXJj7f",
+        "column_L6B8jy",
+        "column_FHcnt7"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_mfbVdU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RcyQTQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Available Gallery Spaces</p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_JgyjJf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fully renovated second-floor galleries offering exceptional visibility for your business. Select from intimate salons to grand exhibition halls, each with premium finishes and professional-grade amenities.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RcyQTQ",
+        "text_JgyjJf"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_7cn9eC": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_w9NYEa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-02-02_at_2.23.56_PM.png",
+            "title": "",
+            "text": "<p></p><p></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_w9NYEa"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_jagVFW": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n    :root {\n      --gold: #C9A961;\n      --dark: #1a1a1a;\n      --cream: #F8F6F1;\n      --text: #333333;\n    }\n/* Pricing Table */\n    .pricing-table {\n      flex: 1 1 auto;\n      max-width: 800px;\n      margin: 0 auto;\n      border-collapse: collapse;\n      width: 100%;\n    }\n\n    .pricing-table th,\n    .pricing-table td {\n      padding: 1rem 1.5rem;\n      text-align: left;\n      border-bottom: 1px solid #e5e5e5;\n    }\n\n    .pricing-table th {\n      background: var(--dark);\n      color: white;\n      font-weight: 400;\n      letter-spacing: 1px;\n    }\n\n    .pricing-table tr:hover {\n      background: var(--cream);\n    }\n\n    .pricing-table .price-cell {\n      color: var(--gold);\n      font-size: 1.2rem;\n      font-weight: 500;\n    }\n</style>\n<section class=\"spaces-section\">\n<table class=\"pricing-table\">\n      <thead>\n        <tr>\n          <th>Gallery Space</th>\n          <th>Dimensions</th>\n          <th>Monthly Rate</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td><strong>Front Gallery</strong></td>\n          <td>18'6\" × 27'</td>\n          <td class=\"price-cell\">$17,000</td>\n        </tr>\n        <tr>\n          <td><strong>Northwest Gallery</strong></td>\n          <td>16'6\" × 20'6\"</td>\n          <td class=\"price-cell\">$15,000</td>\n        </tr>\n        <tr>\n          <td><strong>Hall Gallery</strong></td>\n          <td>14'6\" × 31'</td>\n          <td class=\"price-cell\">$14,000</td>\n        </tr>\n        <tr>\n          <td><strong>Southeast Gallery</strong></td>\n          <td>13'10\" × 19'</td>\n          <td class=\"price-cell\">$14,000</td>\n        </tr>\n        <tr>\n          <td><strong>Southwest Gallery</strong></td>\n          <td>16' × 18'6\"</td>\n          <td class=\"price-cell\">$13,000</td>\n        </tr>\n        <tr>\n          <td><strong>South Gallery</strong></td>\n          <td>21'4\" × 22'</td>\n          <td class=\"price-cell\">$12,000</td>\n        </tr>\n        <tr>\n          <td><strong>East Salon</strong></td>\n          <td>11'4\" × 16'6\"</td>\n          <td class=\"price-cell\">$11,000</td>\n        </tr>\n        <tr>\n          <td><strong>North Salon</strong></td>\n          <td>15' × 26'6\"</td>\n          <td class=\"price-cell\">$9,000</td>\n        </tr>\n      </tbody>\n    </table>\n</section>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "slideshow_nqqARg": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_F8iCgT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/3264758090976836603_1.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_WTtAWC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/8958673609457126814.jpg",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_xpciaP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/8441810553860961661.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_ftKLYj": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/6948358209873822489.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_C6LMfi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/6908210118484172411.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_F8iCgT",
+        "slide_WTtAWC",
+        "slide_xpciaP",
+        "slide_ftKLYj",
+        "slide_C6LMfi"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "grid",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "rich_text_tEbpCa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_q6tQHK": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>World-Class Amenities</p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_q6tQHK"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 32
+      }
+    },
+    "multicolumn_jX3qxC": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_RLjpfx": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<h1>🪟</h1><p>New Double-Pane Windows</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qVkNjM": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<h1>❄️</h1><p>Climate Control</p><h1></h1>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kXAaXx": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<h1>💡</h1><p>Adjustable Track Lighting</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Tmgxnw": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<h1>🖼️</h1><p>Metal Hanging Rods</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QkVcCz": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<h1>📶</h1><p>High-Speed WiFi</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rJjiPM": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<h1>🛗</h1><p>Passenger & Freight Elevators</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UnBYW6": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<h1>🚻</h1><p>Two Restrooms</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MDbH3b": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<h1>📦</h1><p>Storage & Office Space</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_RLjpfx",
+        "column_qVkNjM",
+        "column_kXAaXx",
+        "column_Tmgxnw",
+        "column_QkVcCz",
+        "column_rJjiPM",
+        "column_UnBYW6",
+        "column_MDbH3b"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "inverse",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_bcefjT": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8dYhBC": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Arader Galleries",
+            "heading_size": "h1"
+          }
+        },
+        "text_6qF6dH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Since 1971, Arader Galleries has been the world's leading dealer and auction house of Rare Maps, Prints, Rare Books, Manuscripts and Watercolors of the 16th through 19th centuries.</p><p>Over our fifty-four year history, we have grown to three illustrious locations in New York, Philadelphia, and Napa Valley. We are represented at the most distinguished antiques shows in the country and are proud to buy and sell more original Audubon prints than any other firm in the United States.</p><p>This partnership opportunity allows you to establish your presence within one of the most respected galleries in the art world, at one of Manhattan's most coveted addresses.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8dYhBC",
+        "text_6qF6dH"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2026-02-02_at_3.48.14_PM.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_jww9YR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HMGhKP": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Schedule a Viewing</p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_dHKT34": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Experience this extraordinary opportunity in person. Contact us today to arrange a private tour of the available gallery spaces.</p>"
+          }
+        },
+        "button_HWNhGi": {
+          "type": "button",
+          "settings": {
+            "button_label": "Inquire Now",
+            "button_link": "mailto:josephine.arader@gmail.com",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_HMGhKP",
+        "text_dHKT34",
+        "button_HWNhGi"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_agW4MV": {
+      "type": "rich-text",
+      "blocks": {
+        "text_nHMWkD": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Email:</strong> josephine.arader@gmail.com</p><p>29 East 72nd Street, 2nd Floor<br/>New York, NY 10021</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_nHMWkD"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_QtxTFP",
+    "rich_text_AetBwe",
+    "multicolumn_zgn7fA",
+    "rich_text_mfbVdU",
+    "multicolumn_7cn9eC",
+    "custom_liquid_jagVFW",
+    "slideshow_nqqARg",
+    "rich_text_tEbpCa",
+    "multicolumn_jX3qxC",
+    "image_with_text_bcefjT",
+    "rich_text_jww9YR",
+    "rich_text_agW4MV"
+  ]
+}

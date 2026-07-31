@@ -1,0 +1,348 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_DPnT8h": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_zrW8hW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Paintings",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zrW8hW"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2024-09-30_at_2.26.17_PM.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-2",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "multicolumn_EaNyGx": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_pTnC4E": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "Botanical",
+            "link": "shopify://collections/botanical-paintings"
+          }
+        },
+        "column_j9NJ8B": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "Marine",
+            "link": "shopify://collections/marine-paintings"
+          }
+        },
+        "column_8Ffday": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "Western",
+            "link": "shopify://collections/western-paintings"
+          }
+        },
+        "column_fnEYTr": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "Landscape",
+            "link": "shopify://collections/landscape-paintings"
+          }
+        }
+      },
+      "block_order": [
+        "column_pTnC4E",
+        "column_j9NJ8B",
+        "column_8Ffday",
+        "column_fnEYTr"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_beQKfQ": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_8nLq8V": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "marine-paintings"
+          }
+        },
+        "featured_collection_jP6xpM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "western-paintings"
+          }
+        },
+        "featured_collection_gTzCCL": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "landscape-paintings"
+          }
+        },
+        "featured_collection_yb3wkC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "botanical-paintings"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_8nLq8V",
+        "featured_collection_jP6xpM",
+        "featured_collection_gTzCCL",
+        "featured_collection_yb3wkC"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_X7nqpc": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Marine Paintings",
+        "heading_size": "h1",
+        "description": "<h3><strong>Robert Salmon (Scottish American, 1775-1848)In the Wake of Genius: Exploring Robert Salmon's Maritime World</strong></h3><p>Robert Salmon, a luminary in the realm of 19th-century marine artists, possessed a rare talent for capturing the essence of maritime life with unparalleled precision and artistry. Presented here are four of Salmon's masterful marine oil paintings, offering viewers a glimpse into the dynamic interplay of light, color, and movement on the open sea.</p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "marine-paintings",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_KxWww6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Western Paintings",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "western-paintings",
+        "products_to_show": 6,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "accent-2",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_AmN4K7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gWJFTy": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Landscape Paintings</p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gWJFTy"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "featured_product_UGXgxF": {
+      "type": "featured-product",
+      "blocks": {
+        "text_YfjwGX": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_UzHGwj": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "text_8AB7TN": {
+          "type": "text",
+          "settings": {
+            "text": "A monumental canvas of Magdalena Bay, with its chain of white mountains, by French genre painter François-Auguste Biard. This is an exceptional example of Biard’s ability to portray both the dramatic landscape and beauty of meteorological events in the Arctic. The artist first exhibited this work at the 1877 Salon as Les Naufragés de la Lucie-Marguerite, Vue prise à Magdalena-Bay (Spitzberg) [The Castaways of the Lucie-Marguerite, View taken in Magdalena-Bay (Spitzbergen)]. It is a very fine example of the artist’s lasting passion for Arctic, as well as the public’s continued interest for these romantic scenes untouched by mankind.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_YfjwGX",
+        "title_UzHGwj",
+        "text_8AB7TN"
+      ],
+      "settings": {
+        "product": "franois-auguste-biard-french-1798-1882-shipwreck-victims-on-icefloe-the-castaways-of-the-lucie-marguerite-view-taken-in-magdalena-bay-spitzbergen",
+        "color_scheme": "background-2",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_BRbC4K": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "landscape-paintings",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-2",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_HhAwCA": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Botanical Paintings",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "botanical-paintings",
+        "products_to_show": 6,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "accent-2",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner_DPnT8h",
+    "main",
+    "multicolumn_EaNyGx",
+    "collection_list_beQKfQ",
+    "featured_collection_X7nqpc",
+    "featured_collection_KxWww6",
+    "rich_text_AmN4K7",
+    "featured_product_UGXgxF",
+    "featured_collection_BRbC4K",
+    "featured_collection_HhAwCA"
+  ]
+}

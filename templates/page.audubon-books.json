@@ -1,0 +1,552 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "93eec786-9ade-4ecf-935e-01d4026091e7": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/bald-eagle.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "dc7300f5-b671-4299-bdce-342c7d823704": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15288575131692__dc7300f5-b671-4299-bdce-342c7d823704-1686134866d7f7d60b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>“I opened a large store at Louisville, which went on prosperously when I attended to it; but birds were birds then as now, and my thoughts were ever and anon turning toward them as the objects of my greatest delight. I shot, I drew, I looked on nature only; my days were happy beyond human conception, and beyond this I really cared not\"<br/><br/><strong>JOHN JAMES AUDUBON, “MYSELF.”</strong></h3><h3></h3><h3></h3>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15288575131692__dc7300f5-b671-4299-bdce-342c7d823704-1686134866d7f7d60b-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "7a182b47-9922-42a8-a95d-9f86ae6cdab3": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15288575131692__7a182b47-9922-42a8-a95d-9f86ae6cdab3-1686134848ff8f8cd9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Audubon was born Jean Rabine, the natural son of Jean Audubon, a French sea captain and plantation owner, and Jeanne Rabine, a chambermaid who gave the boy her last name but who died when he was just seven months old. The boy was initially cared for by another of Captain Audubon’s mistresses, but with the threat of a slave revolt making Saint-Domingue increasingly unstable, he sent his son and one of his daughters, Rose Bouffard, to live with his wife, Anne Moynet Audubon, in Nantes (another half-sister remained in Saint-Dominigue and was killed during the slave insurrection in 1791). Audubon’s wife accepted the children as her own, and in 1794 both were formally adopted by the couple; the boy took the name Jean-Jacques Fougère Audubon.</p><p>Captain Audubon had by now returned to France, where he served in administrative roles with the French Republican Navy and, more importantly, encouraged his son’s early interests in nature and drawing. To his own sons, Audubon recalled that during his childhood “not an hour of leisure was spent elsewhere than in woods and fields, and to examine either the eggs, nest, young, or parents of any species constituted my delight.” In these hours of leisure, Audubon was frequently accompanied by this father, who, he recounts in<em>Ornithological Biography</em>, obtained specimens for him, taught him about “the departure and return of birds with the seasons, … their haunts, and, more wonderful than all, their change of livery. …”</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15288575131692__7a182b47-9922-42a8-a95d-9f86ae6cdab3-1686134848ff8f8cd9-1"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/download.webp",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c70a21ca-6620-4763-9511-7fce07c988b6": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "cover_image": "shopify://shop_images/Screen_Shot_2023-06-07_at_2.04.51_PM.png",
+        "video_url": "https://youtu.be/7_qDRpNwShI",
+        "description": "How Audubon’s Birds of America Changed Natural History",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "365d5239-b3b5-45ec-957f-a9edcac17f96": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15288575131692__365d5239-b3b5-45ec-957f-a9edcac17f96-1686134866d7f7d60b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>And, while others who saw his juvenile bird sketches “never failed to praise them to the Skies,” Captain Audubon was more circumspect. In the essay “My Style of Drawing Birds,” Audubon wrote that his father “constantly assured me that nothing in the world possessing Life and animation was easy to imitate, and that as I grew older he hoped I would become more & more assured of this. … I listened less to others, more to him and slowly improved.” In the same essay, Audubon admitted that his first attempts at drawing birds were made when “I was very far from possessing any knowledge of their Nature. … The first Collection of Drawings I made of this Sort were from European Specimen, procured by my Father or myself. … they were all represented<em>strictly ornithologically</em>, which means neither more or less than in Stiff unmeaning profiles, such as are found in all works published since the beginning of the present century.”</p><p>One of those early nineteenth-century books of ornithological illustration that Audubon politely dismissed was given to him by this father. He eagerly paged through the volume, recognizing that although “what I saw was not what I longed for, it gave me a desire to copy nature” (<em>Ornithological Biography</em>). Audubon began to truly copy nature when he arrived in the United States in 1803, dispatched by his father to manage an estate outside of Philadelphia, Mill Grove, that had been purchased in 1789 for its potential lead deposits.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15288575131692__365d5239-b3b5-45ec-957f-a9edcac17f96-1686134866d7f7d60b-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "0d3f3b19-a47d-41af-853c-afc3c9d884fd": {
+      "type": "collage",
+      "blocks": {
+        "template--15288575131692__0d3f3b19-a47d-41af-853c-afc3c9d884fd-1686139793135b7c2b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1.webp"
+          }
+        },
+        "e071931c-a7bd-447b-b31f-06708566eff0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2.webp"
+          }
+        },
+        "abb0b5a3-c1d2-4c8b-905c-3ac55be600a4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3.webp"
+          }
+        }
+      },
+      "block_order": [
+        "template--15288575131692__0d3f3b19-a47d-41af-853c-afc3c9d884fd-1686139793135b7c2b-0",
+        "e071931c-a7bd-447b-b31f-06708566eff0",
+        "abb0b5a3-c1d2-4c8b-905c-3ac55be600a4"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "351993c0-d3c7-4b82-92b9-fb3e37139795": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15288575131692__351993c0-d3c7-4b82-92b9-fb3e37139795-1686134866d7f7d60b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Audubon’s move may have been prompted partially by his failure to qualify for naval officer training, but it was more likely a ploy to avoid conscription into Napoleon’s army. He travelled on a passport that Anglicized to John James and identified him as “a native of Louisiana.” Life at Mill Grove allowed Audubon to return to the pursuits of his boyhood: “Its fine woodlands, its extensive fields, its hills crowned with evergreens, offered many subjects to my pencil. It was there that I commenced my simple and agreeable studies, with as little concern about the future as if the world had been made for me. My rambles invariably commenced at break of day; and to return wet with dew, and bearing a feathered prize, was, and ever will be, the highest enjoyment for which I have been fitted” (<em>Ornithological Biography</em>).</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15288575131692__351993c0-d3c7-4b82-92b9-fb3e37139795-1686134866d7f7d60b-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "2e3bc6a5-3946-44fd-b0ec-4da3a522018f": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/4.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "04a9cd71-8d8f-495c-83f5-3b639dffd40a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15288575131692__04a9cd71-8d8f-495c-83f5-3b639dffd40a-1686134866d7f7d60b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Mill Grove, too, Audubon first developed the techniques that would inform his drawings with such vitality and precision that could be seen, not simply as scientific representations of a species, but as revealing psychological portraits of individuals. Initially, Audubon tried suspending his subjects from string, “with the desire to shew their every portion as the wings lay loosely Spread as well as the Taile,” but finding the results fit only as “pretty fair sign Boards for Poulterers,” he soon developed an elaborate scheme of wiring the birds into natural attitudes that he had observed in the wild. He describes in “My Style of Drawing Birds” his first trying out of this method. Waking one morning with the inspiration that he had dreamt of a new discovery, Audubon, eschewing breakfast, took his gun to the Perkioming Creek, shot a kingfisher, and quickly brought it home. There he took a soft board and sharpened pieces of wire and “pierced the body of the Fishing bird and fixed it onto the board—another Wire passed above his upper Mandible was made to hold the head in a pretty fair attitude, Smaller Skewers fixed the feet according to my notions, and even common pins came to my assistance in the placing the legs and feet.—the last Wire proved a delightful elevator to the Bird’s Tail and at Last there Stood before me the Mankin of a Kings Fisher! … I sat to, outlined the bird, aided by compasses and My eyes coloured it and finished it. … this was what I Shall ever call my first attempt at Drawing actually from Nature, for then Even the eye of the Kings fisher was as if full of Life before me whenever I pressed its Lids aside with a finger.”</p><p>Audubon made modifications and improvements to his wiring scheme – he adopted uniform grids behind his tableaux and on his drawing paper to assist him in depicting proportions—but this became his standard protocol for the original drawings that were the basis for<em>The Birds of America.</em>But always and increasingly the positioning of his “mannequins” was based on field observation: “As I travelled, mostly bent on the Study of birds and with a wish to represent all those found in our Woods to [the] best of my powers, I gradually became acquainted with their forms and Habits, the use of my Wires was improved by an acquirement in the delineation connected with the Naked Eye. …The more I understood my Subjects the better I became able to represent them in what I hoped was a natural Position.” In a letter to a friend of 1828, Audubon emphasized that he never drew from stuffed specimens: “My drawings have all been made after individuals fresh killed, mostly by myself, and put up before me by means of wires, &c. in the precise attitude represented, and copied with a closeness of <em>measurement </em>that I hope will always correspond with <em>nature </em>when brought into contact.”</p><p>But while the study of the birds of America was the principal avocation of Audubon’s adult life, it was not to truly become his vocation for more than two decades after he embarked at New York. Shortly after settling into Mill Grove, Audubon fell in love with Lucy Bakewell, the daughter of his neighbor William Bakewell. In 1805, during his protracted courtship of Lucy, Audubon risked conscription and returned to France to seek his father’s permission to marry, but Captain Audubon insisted that he find a means of supporting himself before he would sanction the union. The year-long return to Nantes was not without advantage to Audubon, however; while there he met the young Charles-Marie D’Orbigny, his family’s doctor and a gifted ornithologist, who did much to school Audubon in taxidermy, and in a more scientific way of approaching and cataloguing his subjects.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15288575131692__04a9cd71-8d8f-495c-83f5-3b639dffd40a-1686134866d7f7d60b-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "caf0f0f6-ebf7-476f-a9bd-4aaa5d98257f": {
+      "type": "collage",
+      "blocks": {
+        "template--15288575131692__caf0f0f6-ebf7-476f-a9bd-4aaa5d98257f-1686139793135b7c2b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6.webp"
+          }
+        },
+        "2a9f84a0-3c43-47be-ba6d-08c71cb31b46": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/7.webp"
+          }
+        },
+        "77d6a5c6-4d69-4de0-a0d0-7c9dfdbba925": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/8.webp"
+          }
+        }
+      },
+      "block_order": [
+        "template--15288575131692__caf0f0f6-ebf7-476f-a9bd-4aaa5d98257f-1686139793135b7c2b-0",
+        "2a9f84a0-3c43-47be-ba6d-08c71cb31b46",
+        "77d6a5c6-4d69-4de0-a0d0-7c9dfdbba925"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "2cc22c95-3087-4547-9575-e93a6ed25392": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15288575131692__2cc22c95-3087-4547-9575-e93a6ed25392-1686134866d7f7d60b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>While back in France, Audubon also became acquainted with Ferdinand Rozier, who returned with him to the United States. Audubon worked briefly as a clerk for Lucy Bakewell’s uncle in New York, while Rozier took a position with a French trading house in Philadelphia. But, as Audubon freely admitted in the autobiographical reminiscence he wrote for his sons, the mercantile business did not suit him. “The very first venture which I undertook was in indigo; it cost me several hundred pounds, the whole of which was lost. Rozier was no more fortunate than I, for he shipped a cargo of hams to the West Indies, and not more than one-fifth of the cost was returned.”</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15288575131692__2cc22c95-3087-4547-9575-e93a6ed25392-1686134866d7f7d60b-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "3bd00d81-9992-452a-922c-4660f318eb5e": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15288575131692__3bd00d81-9992-452a-922c-4660f318eb5e-1686134848ff8f8cd9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Undaunted, the pair formed a mercantile partnership and opened a general store in Louisville, Kentucky, in 1807. The following year, Audubon and Lucy Bakewell were at last married, and the coupled settled into apartments at the Indian Queen Hotel. In retrospect, Audubon realized that there was an easy fortune to made in Louisville in land speculation, “But,” he related to his sons with equanimity, “young heads are on young shoulders; it was not meant to be, and who cares?”</p><p>The store itself could have provided a good living, but Audubon’s affinity for nature, rather than commerce, had not moderated with his move southward: “we had many goods, and opened a large store at Louisville, which went on prosperously when I attended to it; but birds were birds then as now, and my thoughts were ever and anon turning toward them as the objects of my greatest delight. I shot, I drew, I looked on nature only; my days were happy beyond human conception. … I seldom passed a day without drawing a bird, or noting something respecting its habits, Rozier meantime attending the counter.”</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15288575131692__3bd00d81-9992-452a-922c-4660f318eb5e-1686134848ff8f8cd9-1"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/9.webp",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c84cfd3f-9d48-4908-9f9c-ca23aea2404f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15288575131692__c84cfd3f-9d48-4908-9f9c-ca23aea2404f-1686134866d7f7d60b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>There is no indication that Audubon had given any thought up to this point of publishing his growing portfolio of ornithological drawings, but a serendipitous encounter with another naturalist-artist at his Louisville shop may have provided the initial inspiration for his <em>Birds of America</em>. Audubon relates the story at deserved length in <em>Ornithological Biography</em>.</p><p>“One fair morning, I was surprised by the sudden entrance into our counting-room of Mr Alexander Wilson, the celebrated author of the ‘American Ornithology’<em> </em>of whose existence I had never until that moment been apprised. This happened in March 1810. He had two volumes under his arm, and as he approached the table at which I was working, I thought I discovered something like astonishment in his countenance. He, however, immediately proceeded to disclose the object of his visit, which was to procure subscriptions for his work. He opened his books, explained the nature of his occupations, and requested my patronage.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15288575131692__c84cfd3f-9d48-4908-9f9c-ca23aea2404f-1686134866d7f7d60b-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "b0c7ece7-9c5c-43ca-924f-79209ce6aeaa": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/11.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "7921e6c8-35fa-47d3-a696-e628f558cdf4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15288575131692__7921e6c8-35fa-47d3-a696-e628f558cdf4-1686134866d7f7d60b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“I felt surprised and gratified at the sight of his volumes, turned over a few of the plates, and had already taken a pen to write my name in his favour, when my partner rather abruptly said to me in French, ‘My dear Audubon, what induces you to subscribe to this work? Your drawings are certainly far better, and again you must know as much of the habits of American birds as this gentleman.’ Whether Mr Wilson understood French or not, or if the suddenness with which I paused, disappointed him, I cannot tell; but I clearly perceived that he was not pleased. Vanity and the encomiums of my friend prevented me from subscribing. Mr Wilson asked me if I had many drawings of birds. I rose, took down a large portfolio, laid it on the table, and shewed him, as I would shew you, kind reader, or any other person fond of such subjects, the whole of the contents, with the same patience with which he had shewn me his own engravings.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15288575131692__7921e6c8-35fa-47d3-a696-e628f558cdf4-1686134866d7f7d60b-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "5d0eddd9-962d-434b-b35f-d37aaf7c47af": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15288575131692__5d0eddd9-962d-434b-b35f-d37aaf7c47af-1686134848ff8f8cd9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“His surprise appeared great, as he told me he never had the most distant idea that any other individual than himself had been engaged in forming such a collection. He asked me if it was my intention to publish, and when I answered in the negative, his surprise seemed to increase. And, truly, such was not my intention; for, until long after, when I met the Prince of Musignano [Charles-Lucien Bonaparte] in Philadelphia, I had not the least idea of presenting the fruits of my labours to the world. Mr Wilson now examined my drawings with care, asked if I should have any objections to lending him a few during his stay, to which I replied that I had none: he then bade me good morning, not, however, until I had made an arrangement to explore the woods in the vicinity along with him, and had promised to procure for him some birds, of which I had drawings in my collection, but which he had never seen. … We hunted together, and obtained birds which he had never before seen; but, reader, I did not subscribe to his work, for, even at that time, my collection was greater than his.”</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15288575131692__5d0eddd9-962d-434b-b35f-d37aaf7c47af-1686134848ff8f8cd9-1"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/12.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "464fd80a-feff-40c2-add8-fa0121e32b6a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15288575131692__464fd80a-feff-40c2-add8-fa0121e32b6a-1686134866d7f7d60b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Alexander Wilson, who is still remembered as one of the pioneers of American ornithological study, never wrote of meeting Audubon—not unusual, perhaps, since he died in 1813, long before the younger man’s work had become well known. But he did record his visit to Louisville in<em>American Ornithology</em>: he claimed he found not one subscriber and not one new bird while there, and that “Science or literature has not one friend in this place.\" (Although Audubon did not subscribe to Wilson’s work, he did own a copy. Lee Vedder reports that the Huntington Library owns a presentation copy of the first edition of<em>American Ornithology</em>, inscribed by Wilson to Audubon and with the latter’s holograph annotations.)</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15288575131692__464fd80a-feff-40c2-add8-fa0121e32b6a-1686134866d7f7d60b-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "b12b9e85-71c4-4958-90e7-787eeeb2aca7": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/13.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "17b2df2f-18b4-4b35-b01e-8b6dbc119adc": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15288575131692__17b2df2f-18b4-4b35-b01e-8b6dbc119adc-1686134866d7f7d60b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rozier and Audubon tried to expand their enterprise to St. Genevieve, Missouri, and Henderson, Kentucky, and but they eventually went their separate ways. Audubon then partnered with his brother-in-law, Thomas Bakewell, in various commercial ventures, including a merchandising house in New Orleans and a sawmill and gristmill in Henderson. Audubon recalled the second decade of the nineteenth century as “a succession of vicissitudes. I tried various branches of commerce, but they all proved unprofitable, doubtless because my whole mind was ever filled with my passion for rambling and admiring those objects of nature from which alone I received the purest gratification.”</p><p>Also during this period the Audubons had four children: Victor was born in 1809, John Woodhouse in 1812 (the same year Audubon became a naturalized citizen), Lucy in 1815, and Rose in 1819. The boys both grew to work with their father: Victor would act as his agent in business agent in London during the printing of <em>The Birds of America</em>, as well as in the marketing of the reduced-size “octavo” editions of that work, while John Woodhouse became an artist who closely collaborated with his father on <em>The Viviparous Quadrupeds of North America.</em> Neither of the girls would live to a second birthday.</p><p>Audubon’s commercial ventures continued to founder: the New Orleans business and Henderson mills all failed, and he lost a significant stake investing in a Mississippi River steamboat with George Keats, brother of the poet. The financial panic of 1819 undoubtedly contributed to the collapse of all of Audubon’s mercantile enterprises, but the fault finally lay in himself and his increasing ornithological obsession, not in the stars of national economic collapse. As he wrote of the Louisville store, “I could not bear to give the attention required by my business, and which, indeed, every business calls for, and, therefore, my business abandoned me. Indeed, I never thought of it beyond the ever-engaging journeys which I was in the habit of taking to Philadelphia or New York to purchase goods; these journeys I greatly enjoyed, as they afforded me ample means to study birds and their habits as I travelled through the beautiful, the darling forests of Ohio, Kentucky, and Pennsylvania. Were I to tell you that once, when travelling, and driving several horses before me laden with goods and dollars, I lost sight of the pack-saddles, and the cash they bore, to watch the motions of a warbler, I should only repeat occurrences that happened a hundred times and more in those days.”</p><p>Audubon’s father died in 1818, but his “pecuniary difficulties” prevented his return to France to help untangle an estate that was complicated by Captain Audubon’s numerous extramarital liaisons. In fact, Audubon was briefly incarcerated in debtors’ prison, but secured his release by declaring bankruptcy, after surrendering to his creditors all of his property save the clothes he was wearing, his rifle, and his portfolio of drawings. Returning to Louisville, Audubon discovered a talent for portraiture and for a time found steady work. He was particularly in demand for death-bed portraits and later wrote that “so high did my reputation suddenly rise, as the best delineator of heads in that vicinity, that a clergyman residing at Louisville … had his dead child dis interred, to procure a fac-simile of his face.”</p><p>In 1819 Audubon found employment with Western Museum Society in Cincinnati, not as an artist but as a taxidermist, no doubt employing the skills he learned from D’Orbigny in France all those years before. While Audubon benefited from working with the Museum’s valuable collection of specimens, the panic of 1819 made it difficult for its proprietor, Dr. Daniel Drake, to meet his payroll, and in April 1820, he had to let Audubon go.</p><p>With other paths closed to him, Audubon at this point resolved to pursue his passion and “Compleat a collection of the <em>Birds</em> of our Country, from <em>Nature</em>, all of Natural Size.” With Lucy contributing income as a teacher and governess, Audubon spent the next five years travelling thought the American Southeast studying and drawing birds—and, when necessarily, giving lessons in drawing, fencing, dancing, and French. But his life now had but a single purpose: in 1823 he recorded in his journal that “I have finally determined to break through all the binds and pursue my ornithological pursuits. My best friends regarded me as a madman, and my wife and family alone gave me encouragement. My wife determined that my genius should prevail, and that my final success as an ornithologist should be triumphant.”</p><p>The first collecting and painting expedition Audubon made with this goal clearly in mind was in the autumn of 1820, when he travelled down the Mississippi on a flatboat from Cincinnati to New Orleans, in company with a young assistant Joseph Mason, who would draw backgrounds. For the next five years over various excursions and expeditions, Audubon patiently gathered material, and his body of work grew rapidly.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15288575131692__17b2df2f-18b4-4b35-b01e-8b6dbc119adc-1686134866d7f7d60b-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "b4f009ef-79cf-45c6-a62b-bcf03da57c2f": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/14.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "87253ec4-be88-49fe-99f8-176e840c06e9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15288575131692__87253ec4-be88-49fe-99f8-176e840c06e9-1686134866d7f7d60b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With his portfolio of drawings of expanding rapidly, Audubon began to give serious attention to the publication of his illustrations. His great desire was that his very American work would be produced in America, but in Philadelphia and New York he was rebuffed by both naturalists and engravers who were irritated by his criticism of Alexander Wilson’s <em>American Ornithology </em>and mistrustful of his frontier mannerisms<em>.</em> George Ord, Wilson’s friend and editor, and Charles-Lucien Bonaparte, the ex-Emperor’s nephew who was at the time writing a supplement to Wilson’s earlier work, ensured that Audubon’s project was given a cool reception by the established and scientific and publishing communities in the United States. This may have been just as well, since it is likely that the American publishing industry was not yet technically advanced enough to produce and print the massive engraved plates that Audubon had in mind. So it was that in New Orleans on 27 May 1826 Audubon boarded the ship <em>Delos</em> bound for Liverpool, hoping that in Great Britain he would find an expert engraver, and abundance of copper, and, most importantly, many wealthy subscribers to finance the undertaking.</p><p>England gave Audubon the acclaim and attention that the United States withheld. His backwoods persona was seen as exotic and exciting and he was welcomed by polite society and the scientific establishment alike. Soon after his arrival, he exhibited 250 paintings at the Royal Institution at Liverpool, with similar subsequent exhibitions in Manchester and Edinburgh. He was granted an audience with the Earl of Derby at Knowsley Hall, site of a famous private menagerie that was to be recorded in lithography by Edward Lear in 1846, and, among many notables, met Sir Walter Scott and ornithologists John Gould, Prideaux John Selby, and William Jardine—the last of whom he would accuse of pirating some of his images and accuse, in a letter to John Bachman, of “encumber[ing] the Whole of God’s Creation with Stuff as little like the objects of the Creator’s formations as the Moon is unto Cheese.”</p><p>In November Audubon was introduced to the engraver who could make his grand vision a reality: William Home Lizars of Edinburgh. Within a couple of months a prospectus for the work appeared, the first subscribers were signed up (a hundred would be secured by the end of 1827), and work was well underway on the first five plates: the cock wild turkey, the yellow-billed Cuckoo, the prothonotary Warbler, the purple finch, and the Canada warbler. Audubon’s plan was to issue 80 parts or fascicles, each containing images of five birds: one large, one of medium size, and three small species. Payment from subscribers would be due on delivery of each part, the plates of which would be sent rolled in a tin tube. Based on the advice of Lizars, Audubon decided to publish any description text separately from the plates in order to circumvent British copyright-deposit laws.</p><p>In December 1826, Audubon described the fledgling publication, and his plans for promoting it, to Lucy: “it is to come out in numbers of 5 prints the size of Life and all in the same size paper of my Largest Drawings called Double Elephant paper. They will be brought up and finished in such superb style as to Eclipse all of the Kind in Existence, the price of each number is Two Guineas—and all Individuals have the privileges to subscribe for all or any portion of it … The Little Drawings in the center of these beautifull Large Sheets have a fine effect and an air of Richness & wealth that cannot but help ensure success in this Country—I cannot yet say that I will ultimately succeed, but at present all bears a better aspect than I ever expected to see. … It is not the Naturalists that I wish to please altogether I assure thee; it is the wealthy part of the community. The first can only speak well or Ill of me but the Latters will fill my pockets. … I must wait patiently until the first Number is finished and Exibit <em>that</em> for although my Drawings are much admired if the work itself was inferior nothing could be done and until I have it I cannot expect many Subscribers. As soon as it is finished I will travel with it all over England Ireland and Scotland and then over the European Continent. …”</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15288575131692__87253ec4-be88-49fe-99f8-176e840c06e9-1686134866d7f7d60b-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "f5e44ccc-d241-4df6-a6bc-284e2a7b237b": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/15.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "eb70871d-b463-4bc6-b492-309482caa4b1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15288575131692__eb70871d-b463-4bc6-b492-309482caa4b1-1686134866d7f7d60b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>While the second fascicle was being printed, the colorists who worked for Lizars—reproducing the palettes of “pattern plates” assembly-line style—went on strike. But this turned out to be good fortune disguised as calamity. Audubon quickly found a more capable and enthusiastic collaborator in Robert Havell, Jr., of London. For the next eleven years, Havell and company engraved, printed, and colored the plates for <em>The Birds of America</em>, many of which incorporated landscape and botanical backgrounds drawn by Havell himself.</p><p>While supervising the work—or leaving his son Victor to do so—Audubon made trips back to America to look for subscribers and—more significantly—to find and paint more birds. Both efforts were successful. He won subscriptions from many prominent individuals and institutions and must have been particularly pleased that Philadelphia’s Academy of Natural Sciences and American Philosophical Society both subscribed. As for his painting, he captured so many new subjects that <em>The Birds of America</em> was eventually extended to 87 parts totaling 435 engraved plates, many of which depicted more than one species. One unanticipated benefit of these later birding expeditions is that in Charleston in 1831 Audubon met the Rev. John Bachman, who would write the text for his next major project<em>, The Viviparous Quadrupeds of North America</em>—and who, in 1837, would become John Woodhouse Audubon’s father-in-law.</p><p><em>The Birds of America</em> was immediately recognized as an extraordinary achievement and perhaps the greatest contribution ever made of art in the service of science. In <em>Fine Bird Books</em>,<em> </em>Sacheverell Sitwell proclaimed that “There is nothing in the world of fine books quite like the first discovery of Audubon. The giant energy of the man, and his power of achievement and accomplishment, give to him something of the epical force of a Walt Whitman or a Herman Melville. … Audubon is the greatest of bird painters; he belongs to American history, and as a writer he described things that human eyes will never see again.”</p><p>The later lithographed “octavo” editions of <em>The Birds of America</em> and <em>The Viviparous Quadrupeds</em> <em>of North America</em> are considerable triumphs in their own right. But the name Audubon will ever conjure up images of the Double Elephant Folio: it is sole and incomparable, as much a natural wonder as the remarkable birds it depicts.</p><h3><span style=\"text-decoration:underline\"><strong>Works Consulted</strong></span></h3><p>Audubon, John James. <em>Ornithological Biography, or An Account of the Habits of the Birds of the United States of America</em>. Vol. 1. Edinburgh, 1831</p><p>Desmond, Ray. <em>Great Natural History Books and their Creators</em>. London and New Castle, Delaware, (2003)<br/>Ford, Alice. <em>John James Audubon: A Biography</em>. New York, 1988</p><p>Fries, Waldemar H. <em>The Double Elephant Folio</em>. Revised edition with update by Susanne N. Low. Amherst, Massachusetts, (2006)</p><p>Hart-Davis. <em>Audubon's Elephant: America's Greatest Naturalist and the Making of \"The Birds of America.\"</em> London, 2004</p><p>Irmscher, Christoph, ed. <em>John James Audubon: Writings and Drawings</em>. New York, (1999)</p><p>Low, Susanne N. A <em>Guide to Audubon's Birds of America</em>. New Haven and New York, 2002</p><p>Rhodes, Richard. <em>John James Audubon: The Making of an American</em>. New York, 2004</p><p>Rhodes, Richard, ed. <em>The Audubon Reader</em>. New York, 2006</p><p>Souder, William. <em>Under a Wild Sky: John James Audubon and the Making of \"The Birds of America.\"</em> New York, 2004</p><p>Vedder, Lee A. <em>John James Audubon and the Birds of America: A Visionary Achievement in Ornithological Art</em>. San Marino, California, (2006)</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15288575131692__eb70871d-b463-4bc6-b492-309482caa4b1-1686134866d7f7d60b-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "93eec786-9ade-4ecf-935e-01d4026091e7",
+    "main",
+    "dc7300f5-b671-4299-bdce-342c7d823704",
+    "7a182b47-9922-42a8-a95d-9f86ae6cdab3",
+    "c70a21ca-6620-4763-9511-7fce07c988b6",
+    "365d5239-b3b5-45ec-957f-a9edcac17f96",
+    "0d3f3b19-a47d-41af-853c-afc3c9d884fd",
+    "351993c0-d3c7-4b82-92b9-fb3e37139795",
+    "2e3bc6a5-3946-44fd-b0ec-4da3a522018f",
+    "04a9cd71-8d8f-495c-83f5-3b639dffd40a",
+    "caf0f0f6-ebf7-476f-a9bd-4aaa5d98257f",
+    "2cc22c95-3087-4547-9575-e93a6ed25392",
+    "3bd00d81-9992-452a-922c-4660f318eb5e",
+    "c84cfd3f-9d48-4908-9f9c-ca23aea2404f",
+    "b0c7ece7-9c5c-43ca-924f-79209ce6aeaa",
+    "7921e6c8-35fa-47d3-a696-e628f558cdf4",
+    "5d0eddd9-962d-434b-b35f-d37aaf7c47af",
+    "464fd80a-feff-40c2-add8-fa0121e32b6a",
+    "b12b9e85-71c4-4958-90e7-787eeeb2aca7",
+    "17b2df2f-18b4-4b35-b01e-8b6dbc119adc",
+    "b4f009ef-79cf-45c6-a62b-bcf03da57c2f",
+    "87253ec4-be88-49fe-99f8-176e840c06e9",
+    "f5e44ccc-d241-4df6-a6bc-284e2a7b237b",
+    "eb70871d-b463-4bc6-b492-309482caa4b1"
+  ]
+}

@@ -1,0 +1,89 @@
+{{ 'breadcrumbs.css' | asset_url | stylesheet_tag }}
+{% unless template == 'index' or template == 'cart' or template == 'list-collections' or template == '404' %}
+
+{% assign t = template | split: '.' | first %}
+
+<div class="page-width">
+<nav class="breadcrumbs" role="navigation" aria-label="breadcrumbs">
+  <ol>
+    <li>
+      <a href="/" title="Home" style="color: rgba(var(--color-foreground), 0.75)">Home</a>
+    </li>
+
+  {% case t %}
+  {% when 'page' %}
+
+    <li>
+      <a href="{{ page.url }}" aria-current="page" style="color: rgba(var(--color-foreground), 0.75)">{{ page.title }}</a>
+    </li>
+
+  {% when 'product' %}
+
+    {% if collection.url %}
+      <li style="color: rgba(var(--color-foreground), 0.75)">></li>
+      <li>
+        <a href="{{ collection.url }}" aria-current="page" style="color: rgba(var(--color-foreground), 0.75)">{{ collection.title }}</a>
+      </li>
+    {% endif %}
+
+    <li style="color: rgba(var(--color-foreground), 0.75)">></li>
+    <li>
+      <a href="{{ product.url }}" aria-current="page" style="color: rgba(var(--color-foreground), 0.75)">{{ product.title }}</a>
+    </li>
+
+  {% when 'collection' and collection.handle %}
+
+    {% if current_tags %}
+      <li style="color: rgba(var(--color-foreground), 0.75)">></li>
+      <li>{{ collection.title | link_to: collection.url }}</li>
+      <li style="color: rgba(var(--color-foreground), 0.75)">></li>
+      <li>
+        {% capture tag_url %}{{ collection.url }}/{{ current_tags | join: "+"}}{% endcapture %}
+        <a href="{{ tag_url }}" aria-current="page" style="color: rgba(var(--color-foreground), 0.75)">{{ current_tags | join: " + "}}</a>
+      </li>
+    {% else %}
+      <li style="color: rgba(var(--color-foreground), 0.75)">></li>
+      <li>
+        <a href="{{ collection.url }}" aria-current="page" style="color: rgba(var(--color-foreground), 0.75)">{{ collection.title }}</a>
+      </li>
+    {% endif %}
+
+  {% when 'blog' %}
+
+    {% if current_tags %}
+      <li style="color: rgba(var(--color-foreground), 0.75)">></li>
+      <li>{{ blog.title | link_to: blog.url }}</li>
+      <li style="color: rgba(var(--color-foreground), 0.75)">></li>
+      <li>
+        {% capture tag_url %}{{blog.url}}/tagged/{{ current_tags | join: "+" }}{% endcapture %}
+        <a href="{{ tag_url }}" aria-current="page" style="color: rgba(var(--color-foreground), 0.75)">{{ current_tags | join: " + " }}</a>
+      </li>
+    {% else %}
+      <li style="color: rgba(var(--color-foreground), 0.75)">></li>
+      <li>
+        <a href="{{ blog.url }}" aria-current="page" style="color: rgba(var(--color-foreground), 0.75)">{{ blog.title }}</a>
+      </li>
+    {% endif %}
+
+  {% when 'article' %}
+
+      <li style="color: rgba(var(--color-foreground), 0.75)">></li>
+    <li>{{ blog.title | link_to: blog.url }}</li>
+      <li style="color: rgba(var(--color-foreground), 0.75)">></li>
+    <li>
+      <a href="{{ article.url }}" aria-current="page" style="color: rgba(var(--color-foreground), 0.75)">{{ article.title }}</a>
+    </li>
+
+  {% else %}
+
+      <li style="color: rgba(var(--color-foreground), 0.75)">></li>
+    <li aria-current="page">
+      <a href="{{ request.path }}" aria-current="page" style="color: rgba(var(--color-foreground), 0.75)">{{ page_title }}</a>
+    </li>
+
+  {% endcase %}
+
+  </ol>
+</nav>
+{% endunless %}
+</div>

@@ -1,0 +1,135 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "collection_list_LhfmxQ": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_dfFwMr": {
+          "type": "featured_collection",
+          "name": "IMAO, Keinen (1845-1924) Keinen Kacho Gafu (trans. Keinen’s Flower-and-Bird Painting)",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_8TDwd9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_mnaVEj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_dfFwMr",
+        "featured_collection_8TDwd9",
+        "featured_collection_mnaVEj"
+      ],
+      "disabled": true,
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [],
+      "settings": {
+        "products_per_page": 20,
+        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 60
+      }
+    },
+    "collection_list_M9fUQa": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_jDc3q4": {
+          "type": "featured_collection",
+          "name": "Robert Salmon",
+          "settings": {
+            "collection": "robert-salmon"
+          }
+        },
+        "featured_collection_RKq9p7": {
+          "type": "featured_collection",
+          "name": "Thomas Birch",
+          "settings": {
+            "collection": "thomas-birch"
+          }
+        },
+        "featured_collection_zJdcci": {
+          "type": "featured_collection",
+          "name": "Eugene Vail",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_jDc3q4",
+        "featured_collection_RKq9p7",
+        "featured_collection_zJdcci"
+      ],
+      "disabled": true,
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "Martime Paintings",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "collection_list_LhfmxQ",
+    "product-grid",
+    "collection_list_M9fUQa"
+  ]
+}

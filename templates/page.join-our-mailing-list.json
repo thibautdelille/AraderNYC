@@ -1,0 +1,206 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "dc8872a8-91f4-4dc8-8c72-aeedb70fd96b": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15466799267884__dc8872a8-91f4-4dc8-8c72-aeedb70fd96b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join our Mailing List",
+            "heading_size": "h1"
+          }
+        },
+        "template--15466799267884__dc8872a8-91f4-4dc8-8c72-aeedb70fd96b-paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Access a carefully assembled collection of rare maps and natural history artwork from the 16th to 19th centuries. Our mailing list offers a thoughtful and sincere opportunity to explore and learn, connecting you with pieces that have stood the test of time.</p>"
+          }
+        },
+        "template--15466799267884__dc8872a8-91f4-4dc8-8c72-aeedb70fd96b-email_form-1": {
+          "type": "email_form",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "template--15466799267884__dc8872a8-91f4-4dc8-8c72-aeedb70fd96b-heading-1",
+        "template--15466799267884__dc8872a8-91f4-4dc8-8c72-aeedb70fd96b-paragraph-1",
+        "template--15466799267884__dc8872a8-91f4-4dc8-8c72-aeedb70fd96b-email_form-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "c4a1d356-b845-4ec4-abf7-1b2e72b807fd": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "#mc_embed_signup {text-align: center; margin: auto; background-color: transparent;}",
+        ".helper_text {display: none;}"
+      ],
+      "settings": {
+        "custom_liquid": "<!-- Begin Mailchimp Signup Form -->\n<link href=\"//cdn-images.mailchimp.com/embedcode/classic-071822.css\" rel=\"stylesheet\" type=\"text/css\">\n<style type=\"text/css\">\n\t#mc_embed_signup{  width:600px;}\n\t/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.\n\t   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */\n</style>\n<div id=\"mc_embed_signup\">\n    <form action=\"https://aradernyc.us12.list-manage.com/subscribe/post?u=0098fcf11934aa29d7f758cf7&amp;id=401b13e740&amp;f_id=006f99e0f0\" method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\" class=\"validate\" target=\"_blank\" novalidate>\n        <div id=\"mc_embed_signup_scroll\">\n        \n        <div class=\"indicates-required\"><span class=\"asterisk\">*</span> indicates required</div>\n<div class=\"mc-field-group\">\n\t<label for=\"mce-MMERGE1\">Last Name </label>\n\t<input type=\"text\" value=\"\" name=\"MMERGE1\" class=\"\" id=\"mce-MMERGE1\">\n\t<span id=\"mce-MMERGE1-HELPERTEXT\" class=\"helper_text\"></span>\n</div>\n<div class=\"mc-field-group\">\n\t<label for=\"mce-MMERGE2\">First Name </label>\n\t<input type=\"text\" value=\"\" name=\"MMERGE2\" class=\"\" id=\"mce-MMERGE2\">\n\t<span id=\"mce-MMERGE2-HELPERTEXT\" class=\"helper_text\"></span>\n</div>\n<div class=\"mc-field-group\">\n\t<label for=\"mce-EMAIL\">Email Address  <span class=\"asterisk\">*</span>\n</label>\n\t<input type=\"email\" value=\"\" name=\"EMAIL\" class=\"required email\" id=\"mce-EMAIL\" required>\n\t<span id=\"mce-EMAIL-HELPERTEXT\" class=\"helper_text\"></span>\n</div>\n\t<div id=\"mce-responses\" class=\"clear\">\n\t\t<div class=\"response\" id=\"mce-error-response\" style=\"display:none\"></div>\n\t\t<div class=\"response\" id=\"mce-success-response\" style=\"display:none\"></div>\n\t</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->\n    <div style=\"position: absolute; left: -5000px;\" aria-hidden=\"true\"><input type=\"text\" name=\"b_0098fcf11934aa29d7f758cf7_401b13e740\" tabindex=\"-1\" value=\"\"></div>\n    <div class=\"clear\"><input type=\"submit\" value=\"Subscribe\" name=\"subscribe\" id=\"mc-embedded-subscribe\" class=\"button\"></div>\n    </div>\n</form>\n</div>\n<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='MMERGE1';ftypes[1]='text';fnames[2]='MMERGE2';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "2a0fda61-05a6-421f-8e8c-18ad15ba1ccf": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15466799267884__2a0fda61-05a6-421f-8e8c-18ad15ba1ccf-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Educational Content ",
+            "text": "<p>Immerse yourself in the rich history and intricate details of rare maps and natural history artwork spanning over three centuries.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15466799267884__2a0fda61-05a6-421f-8e8c-18ad15ba1ccf-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Market Information ",
+            "text": "<p>Stay updated with the latest trends and valuations in the world of rare maps and artwork.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15466799267884__2a0fda61-05a6-421f-8e8c-18ad15ba1ccf-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Personalized Information",
+            "text": "<p>Receive tailored updates about pieces that align with your interests.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "946c07d7-eea8-4a99-8550-7571d23445a8": {
+          "type": "column",
+          "settings": {
+            "title": "Event Invitations",
+            "text": "<p>Be among the first to get invited to our exclusive events and exhibitions.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "9d41ac03-46d7-49ea-bdb4-3a4c96d23039": {
+          "type": "column",
+          "settings": {
+            "title": "Auction Notifications",
+            "text": "<p>Never miss a chance to acquire a coveted piece from our upcoming auctions.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "aff82515-cc56-4aa1-9e7a-77a3658e035b": {
+          "type": "column",
+          "settings": {
+            "title": "Exclusive Buying Opportunities",
+            "text": "<p>Enjoy the privilege of exclusive buying opportunities available only to our mailing list subscribers.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15466799267884__2a0fda61-05a6-421f-8e8c-18ad15ba1ccf-column-1",
+        "template--15466799267884__2a0fda61-05a6-421f-8e8c-18ad15ba1ccf-column-2",
+        "template--15466799267884__2a0fda61-05a6-421f-8e8c-18ad15ba1ccf-column-3",
+        "946c07d7-eea8-4a99-8550-7571d23445a8",
+        "9d41ac03-46d7-49ea-bdb4-3a4c96d23039",
+        "aff82515-cc56-4aa1-9e7a-77a3658e035b"
+      ],
+      "settings": {
+        "title": "Why Subscribe?",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b4526e7d-340b-415d-9c3b-6d2e65424a96": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15466799267884__b4526e7d-340b-415d-9c3b-6d2e65424a96-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Access to our Team of Experts:",
+            "heading_size": "h2"
+          }
+        },
+        "template--15466799267884__b4526e7d-340b-415d-9c3b-6d2e65424a96-paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>When you join our mailing list, you gain more than access to our collection. You also get the opportunity to connect with our team of expert curators. Passionate about the art and history they handle, our curators are eager to personally and thoughtfully guide collectors. Whether you're a seasoned collector or a curious beginner, our team is here to ensure you have a rich and enlightening experience.</p>"
+          }
+        },
+        "template--15466799267884__b4526e7d-340b-415d-9c3b-6d2e65424a96-email_form-1": {
+          "type": "email_form",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "template--15466799267884__b4526e7d-340b-415d-9c3b-6d2e65424a96-heading-1",
+        "template--15466799267884__b4526e7d-340b-415d-9c3b-6d2e65424a96-paragraph-1",
+        "template--15466799267884__b4526e7d-340b-415d-9c3b-6d2e65424a96-email_form-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "ab02ed32-e191-4567-824d-05bcd036ef39": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "#mc_embed_signup {text-align: center; margin: auto; background-color: transparent;}",
+        ".helper_text {display: none;}"
+      ],
+      "settings": {
+        "custom_liquid": "<!-- Begin Mailchimp Signup Form -->\n<link href=\"//cdn-images.mailchimp.com/embedcode/classic-071822.css\" rel=\"stylesheet\" type=\"text/css\">\n<style type=\"text/css\">\n\t#mc_embed_signup{  width:600px;}\n\t/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.\n\t   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */\n</style>\n<div id=\"mc_embed_signup\">\n    <form action=\"https://aradernyc.us12.list-manage.com/subscribe/post?u=0098fcf11934aa29d7f758cf7&amp;id=401b13e740&amp;f_id=006f99e0f0\" method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\" class=\"validate\" target=\"_blank\" novalidate>\n        <div id=\"mc_embed_signup_scroll\">\n        \n        <div class=\"indicates-required\"><span class=\"asterisk\">*</span> indicates required</div>\n<div class=\"mc-field-group\">\n\t<label for=\"mce-MMERGE1\">Last Name </label>\n\t<input type=\"text\" value=\"\" name=\"MMERGE1\" class=\"\" id=\"mce-MMERGE1\">\n\t<span id=\"mce-MMERGE1-HELPERTEXT\" class=\"helper_text\"></span>\n</div>\n<div class=\"mc-field-group\">\n\t<label for=\"mce-MMERGE2\">First Name </label>\n\t<input type=\"text\" value=\"\" name=\"MMERGE2\" class=\"\" id=\"mce-MMERGE2\">\n\t<span id=\"mce-MMERGE2-HELPERTEXT\" class=\"helper_text\"></span>\n</div>\n<div class=\"mc-field-group\">\n\t<label for=\"mce-EMAIL\">Email Address  <span class=\"asterisk\">*</span>\n</label>\n\t<input type=\"email\" value=\"\" name=\"EMAIL\" class=\"required email\" id=\"mce-EMAIL\" required>\n\t<span id=\"mce-EMAIL-HELPERTEXT\" class=\"helper_text\"></span>\n</div>\n\t<div id=\"mce-responses\" class=\"clear\">\n\t\t<div class=\"response\" id=\"mce-error-response\" style=\"display:none\"></div>\n\t\t<div class=\"response\" id=\"mce-success-response\" style=\"display:none\"></div>\n\t</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->\n    <div style=\"position: absolute; left: -5000px;\" aria-hidden=\"true\"><input type=\"text\" name=\"b_0098fcf11934aa29d7f758cf7_401b13e740\" tabindex=\"-1\" value=\"\"></div>\n    <div class=\"clear\"><input type=\"submit\" value=\"Subscribe\" name=\"subscribe\" id=\"mc-embedded-subscribe\" class=\"button\"></div>\n    </div>\n</form>\n</div>\n<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='MMERGE1';ftypes[1]='text';fnames[2]='MMERGE2';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dc8872a8-91f4-4dc8-8c72-aeedb70fd96b",
+    "c4a1d356-b845-4ec4-abf7-1b2e72b807fd",
+    "2a0fda61-05a6-421f-8e8c-18ad15ba1ccf",
+    "b4526e7d-340b-415d-9c3b-6d2e65424a96",
+    "ab02ed32-e191-4567-824d-05bcd036ef39"
+  ]
+}

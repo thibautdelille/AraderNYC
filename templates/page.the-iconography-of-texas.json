@@ -1,0 +1,113 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "bd858012-e0da-4f56-8476-f62df7553596": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/Screen_Shot_2023-03-10_at_2.15.32_PM.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "top-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "c999ecdf-a8d0-4233-8693-9c6e85aa33c2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15245758562348__c999ecdf-a8d0-4233-8693-9c6e85aa33c2-16784862317451c0e7-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Request a Catalog",
+            "button_link": "https://forms.gle/6nPjAQto1a8Zf8QJ7",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15245758562348__c999ecdf-a8d0-4233-8693-9c6e85aa33c2-16784862317451c0e7-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1b52a66a-74ed-4362-aa98-383c6d99ed7e": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15245758562348__1b52a66a-74ed-4362-aa98-383c6d99ed7e-16784829894dc0f301-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2023-03-10_at_1.38.52_PM.png",
+            "title": "The Roots of Texas: Historically important Maps",
+            "text": "<p>“WE GOT HERE AS SOON AS WE COULD”<br/></p><p>1650 to 1900: Two and one half centuries of unrelenting competition and conflict. The prize? Political and economic domination of North America. The principal players were England, France, Spain, their colonial subjects, and the indigenous peoples who preceded them on the continent.  The result shaped the world we live in today.</p>",
+            "link_label": "View the Maps of Texas",
+            "link": "shopify://collections/maps-geopolitics-and-the-roots-of-texas"
+          }
+        },
+        "template--15245758562348__1b52a66a-74ed-4362-aa98-383c6d99ed7e-16784829894dc0f301-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2023-03-10_at_1.22.10_PM.png",
+            "title": "The Natural History of Texas",
+            "text": "<p>John James Audubon, the renowned artist and naturalist, spent several months in Texas in the early 1830s. This was a time of great exploration and discovery for Audubon, who was eager to study the wildlife of this vast and largely uncharted region.</p>",
+            "link_label": "View Natural History of Texas",
+            "link": "shopify://pages/natural-history-of-texas"
+          }
+        }
+      },
+      "block_order": [
+        "template--15245758562348__1b52a66a-74ed-4362-aa98-383c6d99ed7e-16784829894dc0f301-0",
+        "template--15245758562348__1b52a66a-74ed-4362-aa98-383c6d99ed7e-16784829894dc0f301-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "bd858012-e0da-4f56-8476-f62df7553596",
+    "main",
+    "c999ecdf-a8d0-4233-8693-9c6e85aa33c2",
+    "1b52a66a-74ed-4362-aa98-383c6d99ed7e"
+  ]
+}
