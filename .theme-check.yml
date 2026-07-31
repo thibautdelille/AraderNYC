@@ -1,0 +1,42 @@
+# Theme Check config for Arader NYC.
+# Keeps useful storefront linting while excluding known legacy noise
+# (Mailchimp email HTML, incomplete non-English locale files).
+extends: theme-check:recommended
+
+ignore:
+  - node_modules/**
+  - layout/email.liquid
+  - sections/collection-email-*.liquid
+  - sections/main-collection-product-email.liquid
+  - snippets/product-grid-email*.liquid
+  - snippets/image-logic.liquid
+
+# Locale files are not kept in sync for every language key.
+MatchingTranslations:
+  enabled: false
+
+# Dawn-style dynamic tags (e.g. sticky-header) trip the HTML parser.
+LiquidHTMLSyntaxError:
+  ignore:
+    - sections/header.liquid
+    - layout/theme.liquid
+    - layout/password.liquid
+    - snippets/breadcrumbs.liquid
+    - snippets/cart-notification.liquid
+    - snippets/icon-account.liquid
+    - snippets/icon-checkmark.liquid
+    - snippets/icon-hamburger.liquid
+    - sections/main-article.liquid
+    - sections/main-collection-product-grid.liquid
+    - sections/main-list-collections.liquid
+    - sections/main-product.liquid
+    - sections/main-search.liquid
+
+# Legacy schema key still used by Dawn password banner.
+ValidSchema:
+  ignore:
+    - sections/email-signup-banner.liquid
+
+ImgWidthAndHeight:
+  ignore:
+    - templates/gift_card.liquid
