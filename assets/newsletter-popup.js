@@ -1,27 +1,36 @@
 class NewsletterPopup extends HTMLElement {
   constructor() {
     super();
-    this.modal = this.querySelector('modal-dialog');
     this.storageKey = 'newsletter-popup-dismissed';
-    this.closeButton = this.querySelector('[id^="ModalClose-"]');
   }
 
   connectedCallback() {
+    this.modal =
+      this.querySelector('modal-dialog') ||
+      document.querySelector(this.dataset.modal) ||
+      document.getElementById(this.dataset.modalId);
+
     if (!this.modal) return;
 
-    const originalHide = this.modal.hide.bind(this.modal);
-    this.modal.hide = () => {
-      if (!window.Shopify?.designMode) this.persistDismissal();
-      originalHide();
-    };
+    this.closeButton = this.modal.querySelector('[id^="ModalClose-"]');
 
-    const openedFromSubmit = this.querySelector(
+    if (!this.modal.dataset.newsletterHideWrapped) {
+      this.modal.dataset.newsletterHideWrapped = 'true';
+      const originalHide = this.modal.hide.bind(this.modal);
+      this.modal.hide = () => {
+        if (!window.Shopify?.designMode) this.persistDismissal();
+        originalHide();
+      };
+      this._originalHide = originalHide;
+    }
+
+    const openedFromSubmit = this.modal.querySelector(
       '[data-newsletter-popup-success], [data-newsletter-popup-error]'
     );
 
     if (openedFromSubmit) {
       this.open();
-      if (this.querySelector('[data-newsletter-popup-success]')) {
+      if (this.modal.querySelector('[data-newsletter-popup-success]')) {
         this.persistDismissal();
       }
       return;
@@ -33,14 +42,26 @@ class NewsletterPopup extends HTMLElement {
         if (event.target === section) this.open();
       });
       document.addEventListener('shopify:section:deselect', (event) => {
-        if (event.target === section) originalHide();
+        if (event.target === section && this._originalHide) this._originalHide();
       });
       return;
     }
 
-    if (this.isDismissed()) return;
+    const forceShow = new URLSearchParams(window.location.search).has(
+      'show_newsletter_popup'
+    );
 
-    const delay = Number(this.dataset.delay || 2) * 1000;
+    if (forceShow) {
+      try {
+        localStorage.removeItem(this.storageKey);
+      } catch (error) {
+        // Ignore storage errors
+      }
+    } else if (this.isDismissed()) {
+      return;
+    }
+
+    const delay = forceShow ? 0 : Number(this.dataset.delay || 2) * 1000;
     this.showTimeout = setTimeout(() => this.open(), delay);
   }
 

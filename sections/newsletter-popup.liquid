@@ -6,6 +6,8 @@
   <newsletter-popup
     data-delay="{{ section.settings.delay }}"
     data-expiry-days="{{ section.settings.expiry_days }}"
+    data-modal="#NewsletterPopup-{{ section.id }}"
+    data-modal-id="NewsletterPopup-{{ section.id }}"
   >
     <modal-dialog id="NewsletterPopup-{{ section.id }}" class="newsletter-popup-modal">
       <div
