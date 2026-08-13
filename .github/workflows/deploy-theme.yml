@@ -1,4 +1,4 @@
-# Deploy the live theme when changes land on main (e.g. merged PRs).
+# Deploy the live theme when changes land on production (e.g. merged PRs).
 # Docs: https://shopify.dev/docs/storefronts/themes/tools/cli/ci-cd
 #
 # Required repo secrets:
@@ -10,7 +10,7 @@ name: Deploy theme
 
 on:
   push:
-    branches: [main]
+    branches: [production]
 
 concurrency:
   group: deploy-live-theme
