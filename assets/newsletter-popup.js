@@ -1,7 +1,8 @@
 class NewsletterPopup extends HTMLElement {
   constructor() {
     super();
-    this.storageKey = 'newsletter-popup-dismissed';
+    this.dismissedKey = 'newsletter-popup-dismissed';
+    this.shownKey = 'newsletter-popup-shown';
   }
 
   connectedCallback() {
@@ -13,22 +14,10 @@ class NewsletterPopup extends HTMLElement {
     if (!this.modal) return;
 
     this.closeButton = this.modal.querySelector('[id^="ModalClose-"]');
+    this._onCloseClick = () => this.persistDismissal();
+    this.closeButton?.addEventListener('click', this._onCloseClick);
 
-    // Prefer the class prototype hide so reconnects never nest wraps, and always
-    // set _originalHide even when a previous host already wrapped this modal.
-    const protoHide = Object.getPrototypeOf(this.modal).hide;
-    this._originalHide =
-      typeof protoHide === 'function'
-        ? protoHide.bind(this.modal)
-        : this.modal._newsletterOriginalHide || this.modal.hide.bind(this.modal);
-    this.modal._newsletterOriginalHide = this._originalHide;
-
-    // Re-wrap on every connect so persistDismissal closes over this instance.
-    this.modal.hide = () => {
-      if (!window.Shopify?.designMode) this.persistDismissal();
-      this._originalHide();
-    };
-    this.modal.dataset.newsletterHideWrapped = 'true';
+    this.wrapHide();
 
     const openedFromSubmit = this.modal.querySelector(
       '[data-newsletter-popup-success], [data-newsletter-popup-error]'
@@ -58,12 +47,8 @@ class NewsletterPopup extends HTMLElement {
     );
 
     if (forceShow) {
-      try {
-        localStorage.removeItem(this.storageKey);
-      } catch (error) {
-        // Ignore storage errors
-      }
-    } else if (this.isDismissed()) {
+      this.clearSessionFlags();
+    } else if (this.shouldStayHidden()) {
       return;
     }
 
@@ -73,11 +58,53 @@ class NewsletterPopup extends HTMLElement {
 
   disconnectedCallback() {
     if (this.showTimeout) clearTimeout(this.showTimeout);
+    this.closeButton?.removeEventListener('click', this._onCloseClick);
+  }
+
+  wrapHide() {
+    if (this.modal.dataset.newsletterHideWrapped === 'true') {
+      this._originalHide =
+        this.modal._newsletterOriginalHide || this.modal.hide.bind(this.modal);
+      return;
+    }
+
+    const protoHide = Object.getPrototypeOf(this.modal).hide;
+    this._originalHide =
+      typeof protoHide === 'function'
+        ? protoHide.bind(this.modal)
+        : this.modal.hide.bind(this.modal);
+    this.modal._newsletterOriginalHide = this._originalHide;
+
+    this.modal.hide = () => {
+      if (!window.Shopify?.designMode) this.persistDismissal();
+      this._originalHide();
+    };
+    this.modal.dataset.newsletterHideWrapped = 'true';
+  }
+
+  shouldStayHidden() {
+    return this.wasShownThisSession() || this.isDismissed();
+  }
+
+  wasShownThisSession() {
+    try {
+      return sessionStorage.getItem(this.shownKey) === '1';
+    } catch (error) {
+      return false;
+    }
+  }
+
+  persistShownThisSession() {
+    try {
+      sessionStorage.setItem(this.shownKey, '1');
+    } catch (error) {
+      // Ignore storage errors (private browsing, etc.)
+    }
   }
 
   isDismissed() {
     try {
-      const raw = localStorage.getItem(this.storageKey);
+      const raw = localStorage.getItem(this.dismissedKey);
       if (!raw) return false;
       const data = JSON.parse(raw);
       const expiryDays = Number(this.dataset.expiryDays || 30);
@@ -90,9 +117,10 @@ class NewsletterPopup extends HTMLElement {
   }
 
   persistDismissal() {
+    this.persistShownThisSession();
     try {
       localStorage.setItem(
-        this.storageKey,
+        this.dismissedKey,
         JSON.stringify({ dismissedAt: Date.now() })
       );
     } catch (error) {
@@ -100,8 +128,18 @@ class NewsletterPopup extends HTMLElement {
     }
   }
 
+  clearSessionFlags() {
+    try {
+      sessionStorage.removeItem(this.shownKey);
+      localStorage.removeItem(this.dismissedKey);
+    } catch (error) {
+      // Ignore storage errors
+    }
+  }
+
   open() {
     if (!this.modal) return;
+    if (!window.Shopify?.designMode) this.persistShownThisSession();
     this.modal.show(this.closeButton);
   }
 }
